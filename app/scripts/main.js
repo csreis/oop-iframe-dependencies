@@ -41,7 +41,7 @@
     // load data on dom ready
     jQuery(function () {
         // load script with graph data
-        var fileName = window.location.search ? window.location.search.slice(1) : 'graph1.js';
+        var fileName = 'graph-oop-iframes.js';
         var dataScript = document.createElement('script');
         dataScript.src = fileName;
         document.body.appendChild(dataScript);
