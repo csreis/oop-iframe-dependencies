@@ -15,6 +15,31 @@
             var graphElem = svgParent.children('g').get(0);
             var svg = d3.select(graphElem);
             var renderer = new dagreD3.Renderer();
+            
+            var defaultDrawNodes = renderer._drawNode;
+            renderer._drawNode = function(graph, u, root) {
+              defaultDrawNodes(graph, u, root);
+              var milestone = graph.node(u).milestone;
+              var status = graph.node(u).status;
+              var owner = graph.node(u).owner;
+
+              if (milestone) {
+                root.attr("class", "milestone");
+              }
+              if (status == "complete") {
+                root.attr("class", "complete");
+              }
+              if (owner) {
+                root
+                  .append("text")
+                  .attr("text-anchor", "left")
+                  .attr("class", "owned")
+                  .append("tspan")
+                    .attr("dy", "1em")
+                    .text(function() { return "(" + owner + ")"; });
+              }
+            };
+
             var layout = dagreD3.layout().rankDir('LR').nodeSep(20);
             renderer.layout(layout).run(dagreD3.json.decode(nodes, links), svg.append('g'));
 
