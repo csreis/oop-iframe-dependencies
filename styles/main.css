@@ -43,3 +43,37 @@ body {
     stroke: #333;
     stroke-width: 1.5px;
 }
+
+#dag .milestone text {
+    font-weight: 400;
+}
+
+#dag .milestone rect {
+    stroke-width: 3px;
+    stroke: #333;
+    fill: #eee;
+}
+
+#dag .complete {
+    fill: #999;
+}
+
+#dag .complete text {
+    font-style: italic;
+}
+
+#dag .complete rect {
+    stroke-width: 1px;
+    stroke: #999;
+    fill: none;
+}
+
+#dag .owned {
+    fill: #696;
+}
+
+#dag .owned rect {
+    stroke-width: 2px;
+    stroke: #696;
+    fill: none;
+}
