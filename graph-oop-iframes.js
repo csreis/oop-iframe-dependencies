@@ -3,11 +3,11 @@ loadData(
         name: 'Chromium OOP iframes dependency graph',
         nodes: [
 //            { id: '', value: { label: '' } },
-            { id: 'oopiframes', value: { label: 'OOP iframes' } },
+            { id: 'oopiframes', value: { label: 'OOP iframes', milestone: true } },
 
-            { id: 'singleframe', value: { label: 'Single frame milestone [done]' } },
+            { id: 'singleframe', value: { label: 'Single frame milestone [done]', status: 'complete', milestone: true } },
 
-            { id: 'multipleframes', value: { label: 'Multiple frames milestone' } },
+            { id: 'multipleframes', value: { label: 'Multiple frames milestone', milestone: true } },
             { id: 'moveNavToRFH', value: { label: 'Navigate via RFH', owner: 'nasko' } },
             { id: 'wcToNav', value: { label: 'WebContents methods to Navigator' } },
             { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers' } },
@@ -21,7 +21,7 @@ loadData(
             { id: 'remoteFrames', value: { label: 'Create RemoteFrames in FrameLoader' } },
             { id: 'frameLoaderLifetime', value: { label: 'Make FrameLoader outlive Frame' } },
 
-            { id: 'backForward', value: { label: 'Back/Forward milestone' } },
+            { id: 'backForward', value: { label: 'Back/Forward milestone', milestone: true } },
             { id: 'sessionHistory', value: { label: 'Session History in browser' } },
             { id: 'sessionRestore', value: { label: 'Update Session Restore' } },
 
