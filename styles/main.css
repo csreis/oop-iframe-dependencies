@@ -51,7 +51,7 @@ body {
 #dag .milestone rect {
     stroke-width: 3px;
     stroke: #333;
-    fill: #eee;
+    fill: #ddd;
 }
 
 #dag .complete {
@@ -65,11 +65,12 @@ body {
 #dag .complete rect {
     stroke-width: 1px;
     stroke: #999;
-    fill: none;
+    fill: #eee;
 }
 
 #dag .owned {
     fill: #696;
+    font-size: 8pt;
 }
 
 #dag .owned rect {
