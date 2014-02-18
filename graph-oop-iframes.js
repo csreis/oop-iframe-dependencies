@@ -25,7 +25,7 @@ loadData(
             { id: 'sessionHistory', value: { label: 'Session History in browser', owner: 'creis' } },
             { id: 'sessionRestore', value: { label: 'Update Session Restore' } },
 
-            { id: 'perfTests', value: { label: 'Performance Tests' } },
+            { id: 'perfTests', value: { label: 'Performance Tests', owner: 'ncarter' } },
             { id: 'layoutTests', value: { label: 'Layout Tests' } },
 
             { id: 'singleHop', value: { label: 'Single hop painting & routing' } },
@@ -33,8 +33,8 @@ loadData(
             { id: 'focus', value: { label: 'Browser-side focus tracking', owner: 'ncarter' } },
 
 
+            { id: 'didstop', value: { label: 'DidStopLoading works', owner: 'japhet' } },
             { id: 'progressTracker', value: { label: 'ProgressTracker in browser' } },
-            { id: 'didstop', value: { label: 'DidStopLoading works' } },
 
             { id: 'removeRVH', value: { label: 'Remove RVH' } },
             { id: 'frameObservers', value: { label: 'Move to RenderFrameObservers', owner: 'mkosiba' } },
