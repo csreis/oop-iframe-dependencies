@@ -26,17 +26,18 @@
               if (milestone) {
                 root.attr("class", "milestone");
               }
-              if (status == "complete") {
-                root.attr("class", "complete");
-              }
               if (owner) {
                 root
+                  .attr("class", "owned")
                   .append("text")
                   .attr("text-anchor", "left")
                   .attr("class", "owned")
                   .append("tspan")
                     .attr("dy", "1em")
                     .text(function() { return "(" + owner + ")"; });
+              }
+              if (status == "complete") {
+                root.attr("class", "complete");
               }
             };
 
