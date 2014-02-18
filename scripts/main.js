@@ -28,7 +28,7 @@
               }
               if (owner) {
                 root
-                  .attr("class", "owned")
+                  .attr("class", "ownedrect")
                   .append("text")
                   .attr("text-anchor", "left")
                   .attr("class", "owned")
