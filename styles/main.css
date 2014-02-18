@@ -73,7 +73,7 @@ body {
     font-size: 8pt;
 }
 
-#dag .owned rect {
+#dag .ownedrect rect {
     stroke-width: 2px;
     stroke: #333;
     fill: #efe;
