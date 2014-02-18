@@ -75,6 +75,6 @@ body {
 
 #dag .owned rect {
     stroke-width: 2px;
-    stroke: #696;
-    fill: none;
+    stroke: #333;
+    fill: #efe;
 }
