@@ -2,27 +2,26 @@ loadData(
     {
         name: 'Chromium OOP iframes dependency graph',
         nodes: [
-//            { id: '', value: { label: '' } },
             { id: 'oopiframes', value: { label: 'OOP iframes', milestone: true } },
 
             { id: 'singleframe', value: { label: 'Single frame milestone [done]', status: 'complete', milestone: true } },
 
             { id: 'multipleframes', value: { label: 'Multiple frames milestone', milestone: true } },
             { id: 'moveNavToRFH', value: { label: 'Navigate via RFH', owner: 'nasko' } },
-            { id: 'wcToNav', value: { label: 'WebContents methods to Navigator' } },
+            { id: 'wcToNav', value: { label: 'WebContents methods to Navigator', owner: 'nasko' } },
             { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers' } },
-            { id: 'webFrameOwner', value: { label: 'Change WebFrame ownership' } },
-            { id: 'rvhNavToRfh', value: { label: 'RVH methods to RFH' } },
-            { id: 'moveFrameTree', value: { label: 'Move FrameTree out of Blink' } },
-            { id: 'taskManager', value: { label: 'Show frames in TaskManager' } },
+            { id: 'webFrameOwner', value: { label: 'Change WebFrame ownership', owner: 'dcheng' } },
+            { id: 'rvhNavToRfh', value: { label: 'RVH methods to RFH', owner: 'nasko' } },
+            { id: 'moveFrameTree', value: { label: 'Move FrameTree out of Blink', owner: 'dcheng' } },
+            { id: 'taskManager', value: { label: 'Show frames in TaskManager', owner: 'ncarter' } },
 
             { id: 'noswappedout', value: { label: 'Remove swappedout://' } },
-            { id: 'renderframeproxy', value: { label: 'RenderFrameProxy' } },
-            { id: 'remoteFrames', value: { label: 'Create RemoteFrames in FrameLoader' } },
-            { id: 'frameLoaderLifetime', value: { label: 'Make FrameLoader outlive Frame' } },
+            { id: 'renderframeproxy', value: { label: 'RenderFrameProxy', owner: 'kenrb' } },
+            { id: 'remoteFrames', value: { label: 'Create RemoteFrames in FrameLoader', owner: 'dcheng' } },
+            { id: 'frameLoaderLifetime', value: { label: 'Make FrameLoader outlive Frame', owner: 'dcheng' } },
 
             { id: 'backForward', value: { label: 'Back/Forward milestone', milestone: true } },
-            { id: 'sessionHistory', value: { label: 'Session History in browser' } },
+            { id: 'sessionHistory', value: { label: 'Session History in browser', owner: 'creis' } },
             { id: 'sessionRestore', value: { label: 'Update Session Restore' } },
 
             { id: 'perfTests', value: { label: 'Performance Tests' } },
@@ -30,14 +29,14 @@ loadData(
 
             { id: 'singleHop', value: { label: 'Single hop painting & routing' } },
             { id: 'surfaces', value: { label: 'Use Surfaces from jamesr' } },
-            { id: 'focus', value: { label: 'Browser-side focus tracking' } },
+            { id: 'focus', value: { label: 'Browser-side focus tracking', owner: 'ncarter' } },
 
 
             { id: 'progressTracker', value: { label: 'ProgressTracker in browser' } },
             { id: 'didstop', value: { label: 'DidStopLoading works' } },
 
             { id: 'removeRVH', value: { label: 'Remove RVH' } },
-            { id: 'frameObservers', value: { label: 'Move to RenderFrameObservers' } },
+            { id: 'frameObservers', value: { label: 'Move to RenderFrameObservers', owner: 'mkosiba' } },
 
             { id: 'removePage', value: { label: 'Remove core::Page' } },
             { id: 'accessibility', value: { label: 'Accessibility tree in browser' } },
@@ -49,7 +48,6 @@ loadData(
             { id: 'devTools', value: { label: 'Update DevTools' } },
         ],
         links: [
-//            { u: '', v: '' },
             { u: 'oopiframes', v: 'singleframe' },
 
             { u: 'oopiframes', v: 'multipleframes' },
