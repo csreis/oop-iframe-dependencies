@@ -58,6 +58,7 @@ loadData(
             { u: 'moveNavToRFH', v: 'rvhNavToRfh' },
             { u: 'moveNavToRFH', v: 'removeFrameIds' },
             { u: 'moveNavToRFH', v: 'removeNavHacks' },
+            { u: 'removeNavHacks', v: 'mirrorFrameTree' },
             { u: 'multipleframes', v: 'mirrorFrameTree' },
             { u: 'mirrorFrameTree', v: 'webFrameOwner' },
             { u: 'mirrorFrameTree', v: 'moveFrameTree' },
