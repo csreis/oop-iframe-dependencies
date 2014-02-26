@@ -64,10 +64,12 @@ loadData(
             { u: 'mirrorFrameTree', v: 'moveFrameTree' },
             { u: 'multipleframes', v: 'taskManager' },
 
-            { u: 'mirrorFrameTree', v: 'noswappedout' },
-            { u: 'noswappedout', v: 'renderframeproxy' },
+            { u: 'mirrorFrameTree', v: 'renderframeproxy' },
             { u: 'renderframeproxy', v: 'remoteFrames' },
             { u: 'remoteFrames', v: 'frameLoaderLifetime' },
+
+            { u: 'oopiframes', v: 'noswappedout' },
+            { u: 'noswappedout', v: 'renderframeproxy' },
 
             { u: 'oopiframes', v: 'backForward' },
             { u: 'backForward', v: 'sessionHistory' },
