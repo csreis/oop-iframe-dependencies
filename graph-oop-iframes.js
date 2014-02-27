@@ -19,8 +19,7 @@ loadData(
 
             { id: 'noswappedout', value: { label: 'Remove swappedout://' } },
             { id: 'renderframeproxy', value: { label: 'RenderFrameProxy', owner: 'kenrb' } },
-            { id: 'remoteFrames', value: { label: 'Create RemoteFrames in FrameLoader', owner: 'dcheng' } },
-            { id: 'frameLoaderLifetime', value: { label: 'Make FrameLoader outlive Frame', owner: 'dcheng' } },
+            { id: 'remoteFrames', value: { label: 'Create RemoteFrames in Blink', owner: 'dcheng' } },
 
             { id: 'backForward', value: { label: 'Back/Forward milestone', milestone: true } },
             { id: 'sessionHistory', value: { label: 'Session History in browser', owner: 'creis' } },
@@ -66,7 +65,6 @@ loadData(
 
             { u: 'mirrorFrameTree', v: 'renderframeproxy' },
             { u: 'renderframeproxy', v: 'remoteFrames' },
-            { u: 'remoteFrames', v: 'frameLoaderLifetime' },
 
             { u: 'oopiframes', v: 'noswappedout' },
             { u: 'noswappedout', v: 'renderframeproxy' },
