@@ -4,15 +4,15 @@ loadData(
         nodes: [
             { id: 'oopiframes', value: { label: 'OOP iframes', milestone: true } },
 
-            { id: 'singleframe', value: { label: 'Single frame milestone [done]', status: 'complete', milestone: true } },
+            { id: 'singleframe', value: { label: 'Single frame milestone', status: 'complete', milestone: true } },
 
             { id: 'multipleframes', value: { label: 'Multiple frames milestone', milestone: true } },
             { id: 'moveNavToRFH', value: { label: 'Navigate via RFH' } },
-            { id: 'wcToNav', value: { label: 'WebContents methods to Navigator', owner: 'nasko' } },
+            { id: 'wcToNav', value: { label: 'WebContents methods to Navigator', owner: 'nasko', status: 'complete' } },
             { id: 'rvhNavToRfh', value: { label: 'RVH methods to RFH', owner: 'nasko' } },
-            { id: 'removeFrameIds', value: { label: 'Replace frame IDs with routing IDs', owner: 'creis' } },
+            { id: 'removeFrameIds', value: { label: 'Replace frame IDs with routing IDs', owner: 'creis', status: 'complete' } },
             { id: 'removeNavHacks', value: { label: 'Remove single-frame hacks', owner: 'creis' } },
-            { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers' } },
+            { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers', owner: 'nasko' } },
             { id: 'webFrameOwner', value: { label: 'Change WebFrame ownership', owner: 'dcheng', status: 'complete' } },
             { id: 'moveFrameTree', value: { label: 'Move FrameTree out of Blink::core', owner: 'dcheng', status: 'complete' } },
             { id: 'taskManager', value: { label: 'Show frames in TaskManager', owner: 'ncarter' } },
@@ -22,6 +22,7 @@ loadData(
             { id: 'remoteFrames', value: { label: 'Create RemoteFrames in Blink', owner: 'dcheng' } },
 
             { id: 'backForward', value: { label: 'Back/Forward milestone', milestone: true } },
+            { id: 'navController', value: { label: 'Move NavController to Navigator', owner: 'nasko' } },
             { id: 'sessionHistory', value: { label: 'Session History in browser', owner: 'creis' } },
             { id: 'sessionRestore', value: { label: 'Update Session Restore' } },
 
@@ -70,6 +71,7 @@ loadData(
             { u: 'noswappedout', v: 'renderframeproxy' },
 
             { u: 'oopiframes', v: 'backForward' },
+            { u: 'backForward', v: 'navController' },
             { u: 'backForward', v: 'sessionHistory' },
             { u: 'backForward', v: 'sessionRestore' },
 
