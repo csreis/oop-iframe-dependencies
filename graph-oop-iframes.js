@@ -38,7 +38,7 @@ loadData(
             { id: 'didstop', value: { label: 'DidStopLoading works', owner: 'japhet' } },
             { id: 'progressTracker', value: { label: 'ProgressTracker in browser' } },
 
-            { id: 'removeRVH', value: { label: 'Remove RVH' } },
+            { id: 'removeRV', value: { label: 'Remove RV' } },
             { id: 'frameObservers', value: { label: 'Move to RenderFrameObservers', owner: 'mkosiba' } },
 
             { id: 'removePage', value: { label: 'Remove core::Page' } },
@@ -93,8 +93,8 @@ loadData(
             { u: 'accessibility', v: 'treeSplicer' },
             { u: 'printing', v: 'treeSplicer' },
 
-            { u: 'oopiframes', v: 'removeRVH' },
-            { u: 'removeRVH', v: 'frameObservers' },
+            { u: 'oopiframes', v: 'removeRV' },
+            { u: 'removeRV', v: 'frameObservers' },
 
             { u: 'oopiframes', v: 'devTools' },
         ]
