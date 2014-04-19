@@ -10,7 +10,7 @@ loadData(
             { id: 'moveNavToRFH', value: { label: 'Navigate via RFH' } },
             { id: 'wcToNav', value: { label: 'WebContents methods to Navigator', owner: 'nasko', status: 'complete' } },
             { id: 'rvhNavToRfh', value: { label: 'RVH nav methods to RFH', owner: 'nasko', status: 'complete' } },
-            { id: 'rvhStateToRfh', value: { label: 'RVH nav state to RFH', owner: 'creis' } },
+            { id: 'rvhStateToRfh', value: { label: 'RVH nav state to RFH' } },
             { id: 'removeFrameIds', value: { label: 'Replace frame IDs with routing IDs', owner: 'creis', status: 'complete' } },
             { id: 'removeNavHacks', value: { label: 'Remove single-frame hacks', owner: 'creis', status: 'complete' } },
             { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers', owner: 'nasko' } },
@@ -19,8 +19,9 @@ loadData(
             { id: 'taskManager', value: { label: 'Show frames in TaskManager', owner: 'ncarter' } },
 
             { id: 'noswappedout', value: { label: 'Remove swappedout://' } },
-            { id: 'renderframeproxy', value: { label: 'RenderFrameProxy', owner: 'kenrb' } },
-            { id: 'remoteFrames', value: { label: 'Create RemoteFrames in Blink', owner: 'dcheng' } },
+            { id: 'renderframeproxy', value: { label: 'RenderFrameProxy{Host}', owner: 'nasko' } },
+            { id: 'webRemoteFrames', value: { label: 'Create WebRemoteFrames in Blink API', owner: 'dcheng' } },
+            { id: 'remoteFrames', value: { label: 'Create RemoteFrames in Blink', owner: 'kenrb' } },
 
             { id: 'backForward', value: { label: 'Back/Forward milestone', milestone: true } },
             { id: 'navController', value: { label: 'Move NavController to Navigator', owner: 'nasko' } },
@@ -66,6 +67,7 @@ loadData(
             { u: 'multipleframes', v: 'taskManager' },
 
             { u: 'mirrorFrameTree', v: 'renderframeproxy' },
+            { u: 'renderframeproxy', v: 'webRemoteFrames' },
             { u: 'renderframeproxy', v: 'remoteFrames' },
 
             { u: 'oopiframes', v: 'noswappedout' },
