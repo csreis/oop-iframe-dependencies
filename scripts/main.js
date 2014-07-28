@@ -50,6 +50,11 @@
             var newHeight = h + 40;
             newHeight = newHeight < 80 ? 80 : newHeight;
             svgParent.height(newHeight);
+            
+            var w = main.get(0).getBoundingClientRect().width;
+            var newWidth = w + 40;
+            newWidth = newWidth < 80 ? 80 : newWidth;
+            svgParent.width(newWidth);
 
             // Zoom
             d3.select(svgParent.get(0)).call(d3.behavior.zoom().on('zoom', function() {
