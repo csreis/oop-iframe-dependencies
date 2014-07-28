@@ -16,16 +16,18 @@ loadData(
             { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers', owner: 'nasko' } },
             { id: 'webFrameOwner', value: { label: 'Change WebFrame ownership', owner: 'dcheng', status: 'complete' } },
             { id: 'moveFrameTree', value: { label: 'Move FrameTree out of Blink::core', owner: 'dcheng', status: 'complete' } },
-            { id: 'taskManager', value: { label: 'Show frames in TaskManager', owner: 'ncarter' } },
+            { id: 'taskManager', value: { label: 'Show frames in TaskManager', owner: 'ncarter', status: 'complete' } },
 
             { id: 'noswappedout', value: { label: 'Remove swappedout://' } },
-            { id: 'renderframeproxy', value: { label: 'RenderFrameProxy{Host}', owner: 'nasko' } },
-            { id: 'webRemoteFrames', value: { label: 'Create WebRemoteFrames in Blink API', owner: 'dcheng' } },
-            { id: 'remoteFrames', value: { label: 'Create RemoteFrames in Blink', owner: 'kenrb' } },
+            { id: 'renderframeproxy', value: { label: 'RenderFrameProxy{Host}', owner: 'nasko', status: 'complete' } },
+            { id: 'webRemoteFrames', value: { label: 'Create WebRemoteFrames in Blink API', owner: 'dcheng', status: 'complete' } },
+            { id: 'remoteFrames', value: { label: 'Create RemoteFrames in Blink', owner: 'kenrb', status: 'complete' } },
 
             { id: 'backForward', value: { label: 'Back/Forward milestone', milestone: true } },
             { id: 'navController', value: { label: 'Move NavController to Navigator', owner: 'nasko' } },
             { id: 'sessionHistory', value: { label: 'Session History in browser', owner: 'creis' } },
+            { id: 'historyController', value: { label: 'Move HistoryController to content', owner: 'japhet', status: 'complete' } },
+            { id: 'rvPageIDs', value: { label: 'Remove RenderView::GetPageID', owner: 'avi', status: 'complete' } },
             { id: 'sessionRestore', value: { label: 'Update Session Restore' } },
 
             { id: 'perfTests', value: { label: 'Performance Tests', owner: 'ncarter' } },
@@ -43,7 +45,7 @@ loadData(
             { id: 'frameObservers', value: { label: 'Move to RenderFrameObservers', owner: 'mkosiba' } },
 
             { id: 'removePage', value: { label: 'Remove core::Page' } },
-            { id: 'accessibility', value: { label: 'Accessibility tree in browser' } },
+            { id: 'accessibility', value: { label: 'Accessibility tree in browser', owner: 'dmazzoni' } },
             { id: 'printing', value: { label: 'Printing support' } },
             { id: 'findReplace', value: { label: 'Find/Replace support' } },
             { id: 'contentEditable', value: { label: 'Ctrl+A in contentEditable' } },
@@ -76,6 +78,8 @@ loadData(
             { u: 'oopiframes', v: 'backForward' },
             { u: 'backForward', v: 'navController' },
             { u: 'backForward', v: 'sessionHistory' },
+            { u: 'sessionHistory', v: 'historyController' },
+            { u: 'sessionHistory', v: 'rvPageIDs' },
             { u: 'backForward', v: 'sessionRestore' },
 
             { u: 'oopiframes', v: 'perfTests' },
