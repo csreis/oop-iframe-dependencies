@@ -7,10 +7,10 @@ loadData(
             { id: 'singleframe', value: { label: 'Single frame milestone', status: 'complete', milestone: true } },
 
             { id: 'multipleframes', value: { label: 'Multiple frames milestone', milestone: true } },
-            { id: 'moveNavToRFH', value: { label: 'Navigate via RFH' } },
+            { id: 'moveNavToRFH', value: { label: 'Navigate via RFH', status: 'complete' } },
             { id: 'wcToNav', value: { label: 'WebContents methods to Navigator', owner: 'nasko', status: 'complete' } },
             { id: 'rvhNavToRfh', value: { label: 'RVH nav methods to RFH', owner: 'nasko', status: 'complete' } },
-            { id: 'rvhStateToRfh', value: { label: 'RVH nav state to RFH' } },
+            { id: 'rvhStateToRfh', value: { label: 'RVH nav state to RFH', status: 'complete' } },
             { id: 'removeFrameIds', value: { label: 'Replace frame IDs with routing IDs', owner: 'creis', status: 'complete' } },
             { id: 'removeNavHacks', value: { label: 'Remove single-frame hacks', owner: 'creis', status: 'complete' } },
             { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers', owner: 'nasko' } },
@@ -22,21 +22,24 @@ loadData(
             { id: 'renderframeproxy', value: { label: 'RenderFrameProxy{Host}', owner: 'nasko', status: 'complete' } },
             { id: 'webRemoteFrames', value: { label: 'Create WebRemoteFrames in Blink API', owner: 'dcheng', status: 'complete' } },
             { id: 'remoteFrames', value: { label: 'Create RemoteFrames in Blink', owner: 'kenrb', status: 'complete' } },
+            { id: 'swapRootFrame', value: { label: 'Swap root LocalFrame/RemoteFrame', owner: 'dcheng' } },
+            { id: 'globalObject', value: { label: 'Preserve V8 global object', owner: 'dcheng' } },
 
             { id: 'backForward', value: { label: 'Back/Forward milestone', milestone: true } },
             { id: 'navController', value: { label: 'Move NavController to Navigator', owner: 'nasko' } },
-            { id: 'sessionHistory', value: { label: 'Session History in browser', owner: 'creis' } },
+            { id: 'sessionHistory', value: { label: 'Session History in browser', owner: 'avi' } },
             { id: 'historyController', value: { label: 'Move HistoryController to content', owner: 'japhet', status: 'complete' } },
             { id: 'rvPageIDs', value: { label: 'Remove RenderView::GetPageID', owner: 'avi', status: 'complete' } },
+            { id: 'browserPageIDs', value: { label: 'Allocate page IDs in browser', owner: 'avi' } },
             { id: 'sessionRestore', value: { label: 'Update Session Restore' } },
 
             { id: 'perfTests', value: { label: 'Performance Tests', owner: 'ncarter' } },
+            { id: 'fyiBot', value: { label: 'FYI Bot for testing', owner: 'ncarter' } },
             { id: 'layoutTests', value: { label: 'Layout Tests' } },
 
             { id: 'singleHop', value: { label: 'Single hop painting & routing' } },
             { id: 'surfaces', value: { label: 'Use Surfaces from jamesr' } },
-            { id: 'focus', value: { label: 'Browser-side focus tracking', owner: 'ncarter' } },
-
+            { id: 'focus', value: { label: 'Browser-side focus tracking', owner: 'creis' } },
 
             { id: 'didstop', value: { label: 'DidStopLoading works', owner: 'japhet' } },
             { id: 'progressTracker', value: { label: 'ProgressTracker in browser' } },
@@ -51,7 +54,7 @@ loadData(
             { id: 'contentEditable', value: { label: 'Ctrl+A in contentEditable' } },
             { id: 'treeSplicer', value: { label: 'Can splice together partial trees in browser' } },
 
-            { id: 'devTools', value: { label: 'Update DevTools' } },
+            { id: 'devTools', value: { label: 'Update DevTools', owner: 'kaznacheev' } },
         ],
         links: [
             { u: 'oopiframes', v: 'singleframe' },
@@ -74,15 +77,19 @@ loadData(
 
             { u: 'oopiframes', v: 'noswappedout' },
             { u: 'noswappedout', v: 'renderframeproxy' },
+            { u: 'noswappedout', v: 'swapRootFrame' },
+            { u: 'noswappedout', v: 'globalObject' },
 
             { u: 'oopiframes', v: 'backForward' },
             { u: 'backForward', v: 'navController' },
             { u: 'backForward', v: 'sessionHistory' },
             { u: 'sessionHistory', v: 'historyController' },
             { u: 'sessionHistory', v: 'rvPageIDs' },
+            { u: 'sessionHistory', v: 'browserPageIDs' },
             { u: 'backForward', v: 'sessionRestore' },
 
             { u: 'oopiframes', v: 'perfTests' },
+            { u: 'oopiframes', v: 'fyiBot' },
             { u: 'oopiframes', v: 'layoutTests' },
             { u: 'oopiframes', v: 'singleHop' },
             { u: 'singleHop', v: 'surfaces' },
