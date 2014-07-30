@@ -51,7 +51,7 @@ body {
 #dag .milestone rect {
     stroke-width: 3px;
     stroke: #333;
-    fill: #ddd;
+    fill: #acf;
 }
 
 #dag .complete {
