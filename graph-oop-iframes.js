@@ -13,7 +13,7 @@ loadData(
             { id: 'rvhStateToRfh', value: { label: 'RVH nav state to RFH', status: 'complete' } },
             { id: 'removeFrameIds', value: { label: 'Replace frame IDs with routing IDs', owner: 'creis', status: 'complete' } },
             { id: 'removeNavHacks', value: { label: 'Remove single-frame hacks', owner: 'creis', status: 'complete' } },
-            { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers', owner: 'nasko' } },
+            { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers', owner: 'nasko', status: 'complete' } },
             { id: 'webFrameOwner', value: { label: 'Change WebFrame ownership', owner: 'dcheng', status: 'complete' } },
             { id: 'moveFrameTree', value: { label: 'Move FrameTree out of Blink::core', owner: 'dcheng', status: 'complete' } },
             { id: 'webWidget', value: { label: 'WebWidgets for frame groups', owner: 'kenrb' } },
