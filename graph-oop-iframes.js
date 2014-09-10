@@ -16,6 +16,7 @@ loadData(
             { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers', owner: 'nasko' } },
             { id: 'webFrameOwner', value: { label: 'Change WebFrame ownership', owner: 'dcheng', status: 'complete' } },
             { id: 'moveFrameTree', value: { label: 'Move FrameTree out of Blink::core', owner: 'dcheng', status: 'complete' } },
+            { id: 'webWidget', value: { label: 'WebWidgets for frame groups', owner: 'kenrb' } },
             { id: 'taskManager', value: { label: 'Show frames in TaskManager', owner: 'ncarter', status: 'complete' } },
 
             { id: 'noswappedout', value: { label: 'Remove swappedout://' } },
@@ -69,6 +70,7 @@ loadData(
             { u: 'multipleframes', v: 'mirrorFrameTree' },
             { u: 'mirrorFrameTree', v: 'webFrameOwner' },
             { u: 'mirrorFrameTree', v: 'moveFrameTree' },
+            { u: 'multipleframes', v: 'webWidget' },
             { u: 'multipleframes', v: 'taskManager' },
 
             { u: 'mirrorFrameTree', v: 'renderframeproxy' },
