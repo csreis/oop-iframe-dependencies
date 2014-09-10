@@ -5,7 +5,7 @@ loadData(
             { id: 'oopiframes', value: { label: 'OOP iframes', milestone: true } },
 
             { id: 'singleframe', value: { label: 'Single frame milestone', status: 'complete', milestone: true } },
-            { id: 'transferNavs', value: { label: 'Cross-process transfer navigations', owner: 'creis', status: 'complete' } },
+            { id: 'transferNavs', value: { label: 'Cross-process transfer navigations', bug: '238331', owner: 'creis', status: 'complete' } },
             { id: 'ftn', value: { label: 'FrameTreeNodes for subframes', owner: 'nasko', status: 'complete' } },
             { id: 'rfh', value: { label: 'RenderFrame{Host}s for subframes', owner: 'nasko', status: 'complete' } },
 
