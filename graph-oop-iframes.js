@@ -35,15 +35,15 @@ loadData(
             { id: 'sessionRestore', value: { label: 'Update Session Restore' } },
 
             { id: 'perfTests', value: { label: 'Performance Tests', owner: 'ncarter' } },
-            { id: 'fyiBot', value: { label: 'FYI Bot for testing', owner: 'ncarter' } },
+            { id: 'fyiBot', value: { label: 'FYI Bot for testing', owner: 'ajwong', status: 'complete' } },
             { id: 'layoutTests', value: { label: 'Layout Tests' } },
 
             { id: 'singleHop', value: { label: 'Single hop painting & routing' } },
             { id: 'surfaces', value: { label: 'Use Surfaces from jamesr' } },
             { id: 'focus', value: { label: 'Browser-side focus tracking', owner: 'creis' } },
 
-            { id: 'didstop', value: { label: 'DidStopLoading works', owner: 'japhet' } },
-            { id: 'progressTracker', value: { label: 'ProgressTracker in browser' } },
+            { id: 'didstop', value: { label: 'DidStopLoading works', owner: 'japhet', status: 'complete' } },
+            { id: 'progressTracker', value: { label: 'ProgressTracker in browser', owner: 'avi', status: 'complete' } },
 
             { id: 'removeRV', value: { label: 'Remove RV' } },
             { id: 'frameObservers', value: { label: 'Move to RenderFrameObservers', owner: 'mkosiba' } },
