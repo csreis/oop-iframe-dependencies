@@ -27,7 +27,7 @@
               if (milestone) {
                 root.attr("class", "milestone");
               }
-              if (owner) {
+              if (owner && false) {
                 root
                   .attr("class", "ownedrect")
                   .append("text")
@@ -41,7 +41,14 @@
                 root.attr("class", "complete");
               }
               if (bugNum) {
-                root.attr("onclick", "window.open('http://crbug.com/" + bugNum + "')");
+                root
+                  .attr("onclick", "window.open('http://crbug.com/" + bugNum + "')")
+                  .append("text")
+                  .attr("text-anchor", "left")
+                  .attr("class", "owned")
+                  .append("tspan")
+                    .attr("dy", "3em")
+                    .text(function() { return bugNum; });
               }
             };
 
