@@ -22,6 +22,7 @@
               var milestone = graph.node(u).milestone;
               var status = graph.node(u).status;
               var owner = graph.node(u).owner;
+              var bugNum = graph.node(u).bug;
 
               if (milestone) {
                 root.attr("class", "milestone");
@@ -38,6 +39,9 @@
               }
               if (status == "complete") {
                 root.attr("class", "complete");
+              }
+              if (bugNum) {
+                root.attr("onclick", "alert(" + bugNum + ")");
               }
             };
 
