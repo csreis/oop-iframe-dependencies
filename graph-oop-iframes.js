@@ -5,6 +5,9 @@ loadData(
             { id: 'oopiframes', value: { label: 'OOP iframes', milestone: true } },
 
             { id: 'singleframe', value: { label: 'Single frame milestone', status: 'complete', milestone: true } },
+            { id: 'transferNavs', value: { label: 'Cross-process transfer navigations', owner: 'creis', status: 'complete' } },
+            { id: 'ftn', value: { label: 'FrameTreeNodes for subframes', owner: 'nasko', status: 'complete' } },
+            { id: 'rfh', value: { label: 'RenderFrame{Host}s for subframes', owner: 'nasko', status: 'complete' } },
 
             { id: 'multipleframes', value: { label: 'Multiple frames milestone', milestone: true } },
             { id: 'moveNavToRFH', value: { label: 'Navigate via RFH', status: 'complete' } },
@@ -49,7 +52,7 @@ loadData(
             { id: 'frameObservers', value: { label: 'Move to RenderFrameObservers', owner: 'mkosiba' } },
 
             { id: 'removePage', value: { label: 'Remove core::Page' } },
-            { id: 'accessibility', value: { label: 'Accessibility tree in browser', owner: 'dmazzoni' } },
+            { id: 'accessibility', value: { label: 'Accessibility tree in browser', owner: 'dmazzoni', status: 'complete' } },
             { id: 'printing', value: { label: 'Printing support' } },
             { id: 'findReplace', value: { label: 'Find/Replace support' } },
             { id: 'contentEditable', value: { label: 'Ctrl+A in contentEditable' } },
@@ -59,6 +62,10 @@ loadData(
         ],
         links: [
             { u: 'oopiframes', v: 'singleframe' },
+            
+            { u: 'singleframe', v: 'transferNavs' },
+            { u: 'singleframe', v: 'ftn' },
+            { u: 'singleframe', v: 'rfh' },
 
             { u: 'oopiframes', v: 'multipleframes' },
             { u: 'multipleframes', v: 'moveNavToRFH'},
