@@ -41,7 +41,7 @@
                 root.attr("class", "complete");
               }
               if (bugNum) {
-                root.attr("onclick", "alert(" + bugNum + ")");
+                root.attr("onclick", "window.open('http://crbug.com/" + bugNum + "')");
               }
             };
 
