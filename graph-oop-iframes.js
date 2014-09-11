@@ -22,7 +22,7 @@ loadData(
             { id: 'webWidget', value: { label: 'WebWidgets for frame groups', owner: 'kenrb' } },
             { id: 'taskManager', value: { label: 'Show frames in TaskManager', owner: 'ncarter', status: 'complete' } },
 
-            { id: 'noswappedout', value: { label: 'Remove swappedout://' } },
+            { id: 'noswappedout', value: { label: 'Remove swappedout://', bug: '357747' } },
             { id: 'renderframeproxy', value: { label: 'RenderFrameProxy{Host}', owner: 'nasko', status: 'complete' } },
             { id: 'webRemoteFrames', value: { label: 'Create WebRemoteFrames in Blink API', owner: 'dcheng', status: 'complete' } },
             { id: 'remoteFrames', value: { label: 'Create RemoteFrames in Blink', owner: 'kenrb', status: 'complete' } },
