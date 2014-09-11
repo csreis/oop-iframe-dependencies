@@ -27,7 +27,7 @@
               if (milestone) {
                 root.attr("class", "milestone");
               }
-              if (owner && false) {
+              if (owner) {
                 root
                   .attr("class", "ownedrect")
                   .append("text")
@@ -47,7 +47,7 @@
                   .attr("text-anchor", "left")
                   .attr("class", "owned")
                   .append("tspan")
-                    .attr("dy", "3em")
+                    .attr("dy", "-1em")
                     .text(function() { return bugNum; });
               }
             };
