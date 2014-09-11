@@ -45,9 +45,10 @@
                   .attr("onclick", "window.open('http://crbug.com/" + bugNum + "')")
                   .append("text")
                   .attr("text-anchor", "left")
-                  .attr("class", "owned")
+                  .attr("class", "bug")
                   .append("tspan")
-                    .attr("dy", "-1em")
+                    .attr("dx", "1em")
+                    .attr("dy", "-0.9em")
                     .text(function() { return bugNum; });
               }
             };
