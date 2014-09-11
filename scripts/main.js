@@ -34,7 +34,7 @@
                   .attr("text-anchor", "left")
                   .attr("class", "owned")
                   .append("tspan")
-                    .attr("dy", "1.5em")
+                    .attr("dy", "1.4em")
                     .text(function() { return "(" + owner + ")"; });
               }
               if (status == "complete") {
@@ -48,7 +48,7 @@
                   .attr("class", "bug")
                   .append("tspan")
                     .attr("dx", "-5em")
-                    .attr("dy", "1.5em")
+                    .attr("dy", "1.4em")
                     .text(function() { return bugNum; });
               }
             };
