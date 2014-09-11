@@ -78,3 +78,8 @@ body {
     stroke: #333;
     fill: #efe;
 }
+
+#dag .bug {
+    fill: #333;
+    font-size: 8pt;
+}
