@@ -47,8 +47,8 @@
                   .attr("text-anchor", "left")
                   .attr("class", "bug")
                   .append("tspan")
-                    .attr("dx", "1em")
-                    .attr("dy", "-0.9em")
+                    .attr("dx", "-2em")
+                    .attr("dy", "-0.5em")
                     .text(function() { return bugNum; });
               }
             };
