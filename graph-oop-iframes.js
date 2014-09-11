@@ -2,7 +2,7 @@ loadData(
     {
         name: 'Chromium OOP iframes dependency graph',
         nodes: [
-            { id: 'oopiframes', value: { label: 'OOP iframes', milestone: true } },
+            { id: 'oopiframes', value: { label: 'OOP iframes', bug: '99379', milestone: true } },
 
             { id: 'singleframe', value: { label: 'Single frame milestone', status: 'complete', milestone: true } },
             { id: 'transferNavs', value: { label: 'Cross-process transfer navigations', bug: '238331', owner: 'creis', status: 'complete' } },
