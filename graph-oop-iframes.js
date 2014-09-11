@@ -6,8 +6,10 @@ loadData(
 
             { id: 'singleframe', value: { label: 'Single frame milestone', status: 'complete', milestone: true } },
             { id: 'transferNavs', value: { label: 'Cross-process transfer navigations', bug: '238331', owner: 'creis', status: 'complete' } },
-            { id: 'ftn', value: { label: 'FrameTreeNodes for subframes', owner: 'nasko', status: 'complete' } },
-            { id: 'rfh', value: { label: 'RenderFrame{Host}s for subframes', owner: 'nasko', status: 'complete' } },
+            { id: 'ftn', value: { label: 'FrameTreeNodes for subframes', bug: '235879', owner: 'nasko', status: 'complete' } },
+            { id: 'rfh', value: { label: 'RenderFrame{Host}s for subframes', bug: '245126', owner: 'nasko', status: 'complete' } },
+            { id: 'frameSwaps', value: { label: 'Subframe process swaps', bug: '314791', owner: 'creis', status: 'complete' } },
+            { id: 'paintSubframe', value: { label: 'Paint one OOPIF', bug: '325803', owner: 'kenrb', status: 'complete' } },
 
             { id: 'multipleframes', value: { label: 'Multiple frames milestone', milestone: true } },
             { id: 'moveNavToRFH', value: { label: 'Navigate via RFH', status: 'complete' } },
@@ -34,7 +36,7 @@ loadData(
             { id: 'sessionHistory', value: { label: 'Session History in browser', owner: 'avi' } },
             { id: 'historyController', value: { label: 'Move HistoryController to content', owner: 'japhet', status: 'complete' } },
             { id: 'rvPageIDs', value: { label: 'Remove RenderView::GetPageID', owner: 'avi', status: 'complete' } },
-            { id: 'browserPageIDs', value: { label: 'Allocate page IDs in browser', owner: 'avi' } },
+            { id: 'browserPageIDs', value: { label: 'Allocate page IDs in browser', bug: '369661', owner: 'avi' } },
             { id: 'sessionRestore', value: { label: 'Update Session Restore' } },
 
             { id: 'perfTests', value: { label: 'Performance Tests', owner: 'ncarter' } },
@@ -66,6 +68,8 @@ loadData(
             { u: 'singleframe', v: 'transferNavs' },
             { u: 'singleframe', v: 'ftn' },
             { u: 'singleframe', v: 'rfh' },
+            { u: 'singleframe', v: 'frameSwaps' },
+            { u: 'singleframe', v: 'paintSubframe' },
 
             { u: 'oopiframes', v: 'multipleframes' },
             { u: 'multipleframes', v: 'moveNavToRFH'},
