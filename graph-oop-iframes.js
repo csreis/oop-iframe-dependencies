@@ -56,7 +56,7 @@ loadData(
             { u: 'sessionHistory', v: 'backForwardSubtree' },
             { u: 'sessionHistory', v: 'sessionRestoreFNEs' },
             
-            { u: 'mostInputEvents', v: 'contextMenu' },
+            { u: 'mostInputEvents', v: 'contextMenus' },
             { u: 'mostInputEvents', v: 'scrolling' },
             { u: 'mostInputEvents', v: 'mouseCursor' },
             
