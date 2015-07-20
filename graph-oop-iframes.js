@@ -24,6 +24,7 @@ loadData(
             { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb' } },
             
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
+            { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', owner: 'dcheng' } },
             { id: 'focusController', value: { label: 'Focus controller' } },
             { id: 'editStack', value: { label: 'Edit stack' } },
             { id: 'findReplace', value: { label: 'Find/replace' } },
@@ -87,6 +88,7 @@ loadData(
             { u: 'mostInputEvents', v: 'scrolling' },
             { u: 'mostInputEvents', v: 'mouseCursor' },
             
+            { u: 'blinkSupport', v: 'webFrameWidget' },
             { u: 'blinkSupport', v: 'focusController' },
             { u: 'blinkSupport', v: 'editStack' },
             { u: 'blinkSupport', v: 'findReplace' },
