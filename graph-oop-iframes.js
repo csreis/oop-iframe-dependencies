@@ -43,6 +43,7 @@ loadData(
             // extensionDevLaunch
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
             { id: 'frameOpeners', value: { label: 'Updatable frame openers', owner: 'alexmos' } },
+            { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
             
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
@@ -110,6 +111,7 @@ loadData(
 
             { u: 'crossFrameScripting', v: 'frameOpeners' },
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
+            { u: 'crossFrameScripting', v: 'extBrowsingInstance' },
 
 
             { u: 'siteSubsetLaunch', v: 'extensionDevLaunch' },
