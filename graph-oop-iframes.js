@@ -17,11 +17,18 @@ loadData(
             { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis' } },
             { id: 'backForwardSubtree', value: { label: 'Back/forward with subtree', owner: 'creis' } },
             { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'avi' } },
+            
+            { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work', owner: 'kenrb' } },
+            { id: 'contextMenus', value: { label: 'OOPIF context menus', owner: 'kenrb' } },
+            { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb' } },
+            { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb' } },
 
             // extensionDevLaunch
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
             { id: 'frameOpeners', value: { label: 'Updatable frame openers', owner: 'alexmos' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
+            
+            { id: 'hitTesting', value: { label: 'Browser-side hit testing', owner: 'kenrb' } },
 
             // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate' } },
@@ -39,6 +46,7 @@ loadData(
         links: [
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
             { u: 'extensionTrialLaunch', v: 'sessionHistory' },
+            { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'blockCookies' },
@@ -48,11 +56,16 @@ loadData(
             { u: 'sessionHistory', v: 'backForwardSubtree' },
             { u: 'sessionHistory', v: 'sessionRestoreFNEs' },
             
+            { u: 'mostInputEvents', v: 'contextMenu' },
+            { u: 'mostInputEvents', v: 'scrolling' },
+            { u: 'mostInputEvents', v: 'mouseCursor' },
+            
             { u: 'crossFrameScripting', v: 'frameOpeners' },
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
+            { u: 'extensionDevLaunch', v: 'hitTesting' },
 
             { u: 'siteSubsetLaunch', v: 'extensionDevLaunch' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
