@@ -31,6 +31,12 @@ loadData(
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
             
+            { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
+            { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', owner: 'nasko' } },
+            { id: 'umaProcessCount', value: { label: 'UMA stats for process count', owner: 'creis' } },
+            { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots' } },
+            { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs' } },
+            
 
             // extensionDevLaunch
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
@@ -41,6 +47,7 @@ loadData(
             
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
+            { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
             
 
             // siteSubsetLaunch
@@ -79,15 +86,23 @@ loadData(
             { u: 'blinkSupport', v: 'focusController' },
             { u: 'blinkSupport', v: 'editStack' },
             { u: 'blinkSupport', v: 'mixedContent' },
+            
+            { u: 'launchMetrics', v: 'telemetry' },
+            { u: 'launchMetrics', v: 'umaProcessCount' },
+            { u: 'launchMetrics', v: 'fyiBotTests' },
+            { u: 'launchMetrics', v: 'layoutTests' },
 
-            { u: 'crossFrameScripting', v: 'frameOpeners' },
-            { u: 'crossFrameScripting', v: 'crossProcessJS' },
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
             { u: 'extensionDevLaunch', v: 'hitTesting' },
             { u: 'extensionDevLaunch', v: 'printing' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
+            { u: 'extensionDevLaunch', v: 'testsOnWaterfall' },
+
+            { u: 'crossFrameScripting', v: 'frameOpeners' },
+            { u: 'crossFrameScripting', v: 'crossProcessJS' },
+
 
             { u: 'siteSubsetLaunch', v: 'extensionDevLaunch' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
@@ -97,7 +112,8 @@ loadData(
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
             { u: 'enforceSiteSec', v: 'blockCrossSiteDocs' },
-            
+
+
             { u: 'miscCleanup', v: 'removeSwappedout' },
             { u: 'miscCleanup', v: 'shareFNEs' },
         ]
