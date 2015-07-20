@@ -35,10 +35,6 @@ loadData(
             { id: 'editStack', value: { label: 'Edit stack' } },
             { id: 'findReplace', value: { label: 'Find/replace' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
-            
-            { id: 'ntp', value: { label: 'OOPIF NTP support' } },
-            { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
-            
 
             // extensionDevLaunch
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
@@ -66,6 +62,9 @@ loadData(
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
 
+            { id: 'ntp', value: { label: 'OOPIF NTP support' } },
+            { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
+
             // miscCleanup
             { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
             { id: 'messagePorts', value: { label: 'Update MessagePorts', owner: 'nasko' } },
@@ -80,8 +79,6 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'sessionHistory' },
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'blinkSupport' },
-            { u: 'extensionTrialLaunch', v: 'ntp' },
-            { u: 'extensionTrialLaunch', v: 'chromeUrls' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'blockCookies' },
@@ -124,6 +121,8 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec' },
             { u: 'siteSubsetLaunch', v: 'allInputEvents' },
+            { u: 'siteSubsetLaunch', v: 'ntp' },
+            { u: 'siteSubsetLaunch', v: 'chromeUrls' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
