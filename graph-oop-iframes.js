@@ -21,19 +21,19 @@ loadData(
             { id: 'mirrorFrameTree', value: { label: 'Mirror frame tree across renderers', owner: 'nasko', status: 'complete' } },
             { id: 'webFrameOwner', value: { label: 'Change WebFrame ownership', owner: 'dcheng', status: 'complete' } },
             { id: 'moveFrameTree', value: { label: 'Move FrameTree out of Blink::core', owner: 'dcheng', status: 'complete' } },
-            { id: 'webWidget', value: { label: 'WebWidgets for frame groups', owner: 'kenrb' } },
+            { id: 'webWidget', value: { label: 'WebWidgets for frame groups', owner: 'kenrb', status: 'complete' } },
             { id: 'taskManager', value: { label: 'Show frames in TaskManager', owner: 'ncarter', status: 'complete' } },
 
             { id: 'noswappedout', value: { label: 'Remove swappedout://', bug: '357747' } },
             { id: 'renderframeproxy', value: { label: 'RenderFrameProxy{Host}', owner: 'nasko', status: 'complete' } },
             { id: 'webRemoteFrames', value: { label: 'Create WebRemoteFrames in Blink API', owner: 'dcheng', status: 'complete' } },
             { id: 'remoteFrames', value: { label: 'Create RemoteFrames in Blink', owner: 'kenrb', status: 'complete' } },
-            { id: 'swapRootFrame', value: { label: 'Swap root LocalFrame/RemoteFrame', owner: 'dcheng' } },
-            { id: 'globalObject', value: { label: 'Preserve V8 global object', owner: 'dcheng' } },
+            { id: 'swapRootFrame', value: { label: 'Swap root LocalFrame/RemoteFrame', owner: 'dcheng', status: 'complete' } },
+            { id: 'globalObject', value: { label: 'Preserve V8 global object', owner: 'dcheng', status: 'complete' } },
 
             { id: 'backForward', value: { label: 'Back/Forward milestone', milestone: true } },
             { id: 'navController', value: { label: 'Move NavController to Navigator', owner: 'nasko' } },
-            { id: 'sessionHistory', value: { label: 'Session History in browser', owner: 'avi' } },
+            { id: 'sessionHistory', value: { label: 'Session History in browser', owner: 'creis' } },
             { id: 'historyController', value: { label: 'Move HistoryController to content', owner: 'japhet', status: 'complete' } },
             { id: 'rvPageIDs', value: { label: 'Remove RenderView::GetPageID', owner: 'avi', status: 'complete' } },
             { id: 'browserPageIDs', value: { label: 'Allocate page IDs in browser', bug: '369661', owner: 'avi' } },
@@ -44,7 +44,7 @@ loadData(
             { id: 'layoutTests', value: { label: 'Layout Tests' } },
 
             { id: 'singleHop', value: { label: 'Single hop painting & routing' } },
-            { id: 'surfaces', value: { label: 'Use Surfaces from jamesr' } },
+            { id: 'surfaces', value: { label: 'Use Surfaces', owner: 'kenrb' } },
             { id: 'focus', value: { label: 'Browser-side focus tracking', owner: 'creis' } },
 
             { id: 'didstop', value: { label: 'DidStopLoading works', owner: 'japhet', status: 'complete' } },
@@ -60,7 +60,7 @@ loadData(
             { id: 'contentEditable', value: { label: 'Ctrl+A in contentEditable' } },
             { id: 'treeSplicer', value: { label: 'Can splice together partial trees in browser' } },
 
-            { id: 'devTools', value: { label: 'Update DevTools', owner: 'kaznacheev' } },
+            { id: 'devTools', value: { label: 'Update DevTools', owner: 'dgozman', status: 'complete' } },
         ],
         links: [
             { u: 'oopiframes', v: 'singleframe' },
