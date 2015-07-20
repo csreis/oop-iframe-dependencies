@@ -70,6 +70,7 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'blinkSupport' },
             { u: 'extensionTrialLaunch', v: 'ntp' },
             { u: 'extensionTrialLaunch', v: 'chromeUrls' },
+            { u: 'extensionTrialLaunch', v: 'launchMetrics' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'blockCookies' },
