@@ -5,6 +5,7 @@ loadData(
             { id: 'extensionTrialLaunch', value: { label: 'Extension trial launch', milestone: true } },
             { id: 'extensionDevLaunch', value: { label: 'Extension Dev channel launch', milestone: true } },
             { id: 'siteSubsetLaunch', value: { label: 'Isolate subset of sites launch', milestone: true } },
+            { id: 'miscCleanup', value: { label: 'Cleanup Milestone', milestone: true } },
 
             { id: 'enforceExtSec', value: { label: 'Enforce extension security', owner: 'nick' } },
             { id: 'isolateExtensions', value: { label: 'Isolate extensions, not all sites', bug: '481066', owner: 'nick' } },
@@ -16,10 +17,16 @@ loadData(
             { id: 'backForwardSubtree', value: { label: 'Back/forward with subtree', owner: 'creis' } },
             { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'avi' } },
 
+
+            { id: 'selectSiteSubset', value: { label: 'Select sites to isolate' } },
             { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'nick' } },
             { id: 'isolateSiteSubset', value: { label: 'Isolate subset of sites', owner: 'nick' } },
-            { id: 'blockPasswords', value: { label: 'Block unauthorized passwords', owner: 'lfg', status: 'complete' } },
-            { id: 'blockCrossSiteDocs', value: { label: 'Block Cross-Site Documents', owner: 'alexmos' } },
+            { id: 'blockPasswords', value: { label: 'Block unauthorized passwords', bug: '467150', owner: 'lfg', status: 'complete' } },
+            { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
+
+
+            { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
+            { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
         ],
         links: [
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
@@ -36,11 +43,15 @@ loadData(
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
 
             { u: 'siteSubsetLaunch', v: 'extensionDevLaunch' },
+            { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
             { u: 'enforceSiteSec', v: 'blockCrossSiteDocs' },
+            
+            { u: 'miscCleanup', v: 'removeSwappedout' },
+            { u: 'miscCleanup', v: 'shareFNEs' },
         ]
     }
 );
