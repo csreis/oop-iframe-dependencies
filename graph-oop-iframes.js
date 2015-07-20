@@ -16,7 +16,7 @@ loadData(
             { id: 'backForwardSubtree', value: { label: 'Back/forward with subtree', owner: 'creis' } },
             { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'avi' } },
 
-            { id: 'enforceExtSec', value: { label: 'Enforce site isolation', owner: 'nick' } },
+            { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'nick' } },
             { id: 'isolateSiteSubset', value: { label: 'Isolate subset of sites', owner: 'nick' } },
             { id: 'blockPasswords', value: { label: 'Block unauthorized passwords', owner: 'lfg', status: 'complete' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block Cross-Site Documents', owner: 'alexmos' } },
