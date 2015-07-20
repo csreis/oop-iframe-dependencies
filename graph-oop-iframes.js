@@ -60,6 +60,8 @@ loadData(
             { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'nick' } },
             { id: 'isolateSiteSubset', value: { label: 'Isolate subset of sites', owner: 'nick' } },
             { id: 'blockPasswords', value: { label: 'Block unauthorized passwords', bug: '467150', owner: 'lfg', status: 'complete' } },
+            { id: 'blockPermissions', value: { label: 'Block unauthorized site permissions', bug: '467150' } },
+            { id: 'blockHTML5Storage', value: { label: 'Block unauthorized HTML5 storage', bug: '467150' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
@@ -121,6 +123,8 @@ loadData(
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
+            { u: 'enforceSiteSec', v: 'blockPermissions' },
+            { u: 'enforceSiteSec', v: 'blockHTML5Storage' },
             { u: 'enforceSiteSec', v: 'blockCrossSiteDocs' },
 
 
