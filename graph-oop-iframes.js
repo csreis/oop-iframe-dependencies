@@ -26,6 +26,7 @@ loadData(
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'focusController', value: { label: 'Focus controller' } },
             { id: 'editStack', value: { label: 'Edit stack' } },
+            { id: 'findReplace', value: { label: 'Find/replace' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
             
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
@@ -42,6 +43,8 @@ loadData(
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
             { id: 'frameOpeners', value: { label: 'Updatable frame openers', owner: 'alexmos' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
+            
+            { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
             
             { id: 'hitTesting', value: { label: 'Browser-side hit testing', owner: 'kenrb' } },
             
@@ -86,6 +89,7 @@ loadData(
             
             { u: 'blinkSupport', v: 'focusController' },
             { u: 'blinkSupport', v: 'editStack' },
+            { u: 'blinkSupport', v: 'findReplace' },
             { u: 'blinkSupport', v: 'mixedContent' },
             
             { u: 'launchMetrics', v: 'telemetry' },
@@ -96,6 +100,7 @@ loadData(
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
+            { u: 'extensionDevLaunch', v: 'crossProcessPost' },
             { u: 'extensionDevLaunch', v: 'hitTesting' },
             { u: 'extensionDevLaunch', v: 'printing' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
