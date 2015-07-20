@@ -5,12 +5,10 @@ loadData(
             { id: 'oopiframes', value: { label: 'Out-of-process iframes', bug: '99379', milestone: true } },
 
             { id: 'extensionLaunch', value: { label: 'Extension milestone', milestone: true } },
-			
-			{ id: '', value: { label: '', bug: '', owner: '' } },
-			
-			{ id: 'enforceExtSec', value: { label: 'Enforce extension security', owner: 'nick' } },
-			{ id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
-			{ id: 'isolateExtensions', value: { label: 'Isolate extensions, not all sites', bug: '481066', owner: 'nick' } },
+
+            { id: 'enforceExtSec', value: { label: 'Enforce extension security', owner: 'nick' } },
+            { id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
+            { id: 'isolateExtensions', value: { label: 'Isolate extensions, not all sites', bug: '481066', owner: 'nick' } },
 			
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
