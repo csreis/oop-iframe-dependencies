@@ -72,7 +72,7 @@ loadData(
             { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko' } },
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
-            { id: 'restoreWithSharing', value: { label: 'Session restore with shared FNEs' owner: 'avi' } },
+            { id: 'restoreWithSharing', value: { label: 'Session restore with shared FNEs', owner: 'avi' } },
         ],
         links: [
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
