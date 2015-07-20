@@ -22,6 +22,15 @@ loadData(
             { id: 'contextMenus', value: { label: 'OOPIF context menus', owner: 'kenrb' } },
             { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb' } },
             { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb' } },
+            
+            { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
+            { id: 'focusController', value: { label: 'Focus controller' } },
+            { id: 'editStack', value: { label: 'Edit stack' } },
+            { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
+            
+            { id: 'ntp', value: { label: 'OOPIF NTP support' } },
+            { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
+            
 
             // extensionDevLaunch
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
@@ -29,6 +38,10 @@ loadData(
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
             
             { id: 'hitTesting', value: { label: 'Browser-side hit testing', owner: 'kenrb' } },
+            
+            { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
+            { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
+            
 
             // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate' } },
@@ -47,6 +60,9 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
             { u: 'extensionTrialLaunch', v: 'sessionHistory' },
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
+            { u: 'extensionTrialLaunch', v: 'blinkSupport' },
+            { u: 'extensionTrialLaunch', v: 'ntp' },
+            { u: 'extensionTrialLaunch', v: 'chromeUrls' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'blockCookies' },
@@ -60,12 +76,18 @@ loadData(
             { u: 'mostInputEvents', v: 'scrolling' },
             { u: 'mostInputEvents', v: 'mouseCursor' },
             
+            { u: 'blinkSupport', v: 'focusController' },
+            { u: 'blinkSupport', v: 'editStack' },
+            { u: 'blinkSupport', v: 'mixedContent' },
+
             { u: 'crossFrameScripting', v: 'frameOpeners' },
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
             { u: 'extensionDevLaunch', v: 'hitTesting' },
+            { u: 'extensionDevLaunch', v: 'printing' },
+            { u: 'extensionDevLaunch', v: 'accessibility' },
 
             { u: 'siteSubsetLaunch', v: 'extensionDevLaunch' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
