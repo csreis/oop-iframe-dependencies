@@ -12,6 +12,12 @@ loadData(
             { id: 'isolateExtensions', value: { label: 'Isolate extensions, not all sites', bug: '481066', owner: 'nick' } },
             { id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
 
+            { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
+            { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', owner: 'nasko' } },
+            { id: 'umaProcessCount', value: { label: 'UMA stats for process count', owner: 'creis' } },
+            { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots' } },
+            { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs' } },
+
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
             { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis' } },
@@ -32,12 +38,6 @@ loadData(
             
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
-            
-            { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
-            { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', owner: 'nasko' } },
-            { id: 'umaProcessCount', value: { label: 'UMA stats for process count', owner: 'creis' } },
-            { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots' } },
-            { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs' } },
             
 
             // extensionDevLaunch
@@ -69,12 +69,12 @@ loadData(
         ],
         links: [
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
+            { u: 'extensionTrialLaunch', v: 'launchMetrics' },
             { u: 'extensionTrialLaunch', v: 'sessionHistory' },
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'blinkSupport' },
             { u: 'extensionTrialLaunch', v: 'ntp' },
             { u: 'extensionTrialLaunch', v: 'chromeUrls' },
-            { u: 'extensionTrialLaunch', v: 'launchMetrics' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'blockCookies' },
