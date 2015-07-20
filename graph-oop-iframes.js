@@ -68,7 +68,11 @@ loadData(
 
             // miscCleanup
             { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
+            { id: 'messagePorts', value: { label: 'Update MessagePorts', owner: 'nasko' } },
+            { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko' } },
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
+            { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
+            { id: 'restoreWithSharing', value: { label: 'Session restore with shared FNEs' owner: 'avi' } },
         ],
         links: [
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
@@ -129,7 +133,11 @@ loadData(
 
 
             { u: 'miscCleanup', v: 'removeSwappedout' },
+            { u: 'removeSwappedout', v: 'messagePorts' },
+            { u: 'removeSwappedout', v: 'webviewSwappedOut' },
             { u: 'miscCleanup', v: 'shareFNEs' },
+            { u: 'shareFNEs', v: 'shareFNEsUnlessCloning' },
+            { u: 'shareFNEs', v: 'restoreWithSharing' },
         ]
     }
 );
