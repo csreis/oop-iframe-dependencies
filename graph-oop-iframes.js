@@ -43,10 +43,12 @@ loadData(
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440' } },
             { id: 'editStack', value: { label: 'Edit stack' } },
+            { id: 'contentEditable', value: { label: 'Ctrl+A in contentEditable' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
+            { id: 'zoom', value: { label: 'Zoom level' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', owner: 'mlamouri' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
-
+            
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
 
@@ -69,6 +71,8 @@ loadData(
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
+            { id: 'dragNDrop', value: { label: 'Drag n Drop' } },
+            { id: 'gestures', value: { label: 'Gesture support' } },
 
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
@@ -126,7 +130,9 @@ loadData(
 
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'editStack' },
+            { u: 'blinkSupport', v: 'contentEditable' },
             { u: 'blinkSupport', v: 'mixedContent' },
+            { u: 'blinkSupport', v: 'zoom' },
             { u: 'blinkSupport', v: 'fullscreen' },
             { u: 'blinkSupport', v: 'screenOrientation' },
 
@@ -146,6 +152,9 @@ loadData(
             { u: 'enforceSiteSec', v: 'blockPermissions' },
             { u: 'enforceSiteSec', v: 'blockHTML5Storage' },
             { u: 'enforceSiteSec', v: 'blockCrossSiteDocs' },
+
+            { u: 'allInputEvents', v: 'dragNDrop' },
+            { u: 'allInputEvents', v: 'gestures' },
 
 
             { u: 'miscCleanup', v: 'removeSwappedout' },
