@@ -46,6 +46,7 @@ loadData(
             { id: 'contentEditable', value: { label: 'Ctrl+A in contentEditable' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
             { id: 'zoom', value: { label: 'Zoom level' } },
+            { id: 'textAutosizing', value: { label: 'Text autosizing' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', owner: 'mlamouri' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
             
@@ -76,6 +77,7 @@ loadData(
 
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
+            { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544' } },
 
             // miscCleanup
             { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
@@ -133,6 +135,7 @@ loadData(
             { u: 'blinkSupport', v: 'contentEditable' },
             { u: 'blinkSupport', v: 'mixedContent' },
             { u: 'blinkSupport', v: 'zoom' },
+            { u: 'blinkSupport', v: 'textAutosizing' },
             { u: 'blinkSupport', v: 'fullscreen' },
             { u: 'blinkSupport', v: 'screenOrientation' },
 
@@ -146,6 +149,7 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'allInputEvents' },
             { u: 'siteSubsetLaunch', v: 'ntp' },
             { u: 'siteSubsetLaunch', v: 'chromeUrls' },
+            { u: 'siteSubsetLaunch', v: 'prerendering' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
