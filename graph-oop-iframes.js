@@ -78,6 +78,7 @@ loadData(
 
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
+            { id: 'spellcheck', value: { label: 'OOPIF spellcheck support' } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544' } },
             { id: 'domDistiller', value: { label: 'DOM Distiller' } },
 
@@ -140,7 +141,7 @@ loadData(
             { u: 'blinkSupport', v: 'textAutosizing' },
             { u: 'blinkSupport', v: 'fullscreen' },
             { u: 'blinkSupport', v: 'screenOrientation' },
-            { u: 'blinkSupport', v: 'pageSerializiation' },
+            { u: 'blinkSupport', v: 'pageSerialization' },
 
             { u: 'testsOnWaterfall', v: 'runAllTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
@@ -152,6 +153,7 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'allInputEvents' },
             { u: 'siteSubsetLaunch', v: 'ntp' },
             { u: 'siteSubsetLaunch', v: 'chromeUrls' },
+            { u: 'siteSubsetLaunch', v: 'spellcheck' },
             { u: 'siteSubsetLaunch', v: 'prerendering' },
             { u: 'siteSubsetLaunch', v: 'domDistiller' },
 
