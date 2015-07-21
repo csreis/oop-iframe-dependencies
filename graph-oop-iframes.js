@@ -101,7 +101,7 @@ loadData(
 
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
-            { u: 'extensionTrialLaunch', v: 'sessionHistory' },
+            { u: 'extensionDevLaunch', v: 'sessionHistory' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
