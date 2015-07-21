@@ -27,7 +27,7 @@ loadData(
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', owner: 'dcheng' } },
             { id: 'focusController', value: { label: 'Focus controller' } },
             { id: 'editStack', value: { label: 'Edit stack' } },
-            { id: 'findReplace', value: { label: 'Find/replace' } },
+            { id: 'find', value: { label: 'Find-in-page', bug: '457440' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
 
             // extensionDevLaunch
@@ -78,12 +78,13 @@ loadData(
         links: [
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
             { u: 'extensionTrialLaunch', v: 'launchMetrics' },
-            { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
+            { u: 'extensionTrialLaunch', v: 'hitTesting' },
             { u: 'extensionTrialLaunch', v: 'blinkSupport' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'blockCookies' },
 
+            { u: 'hitTesting', v: 'mostInputEvents' },
             { u: 'mostInputEvents', v: 'contextMenus' },
             { u: 'mostInputEvents', v: 'scrolling' },
             { u: 'mostInputEvents', v: 'mouseCursor' },
@@ -91,7 +92,7 @@ loadData(
             { u: 'blinkSupport', v: 'webFrameWidget' },
             { u: 'blinkSupport', v: 'focusController' },
             { u: 'blinkSupport', v: 'editStack' },
-            { u: 'blinkSupport', v: 'findReplace' },
+            { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'mixedContent' },
             
             { u: 'launchMetrics', v: 'telemetry' },
@@ -105,7 +106,6 @@ loadData(
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
-            { u: 'extensionDevLaunch', v: 'hitTesting' },
             { u: 'extensionDevLaunch', v: 'printing' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
             { u: 'extensionDevLaunch', v: 'netStack' },
