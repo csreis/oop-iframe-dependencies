@@ -36,7 +36,7 @@ loadData(
             { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'avi' } },
 
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
-            { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '339659', owner: 'alexmos' } },
+            { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '225940', owner: 'alexmos' } },
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
 
