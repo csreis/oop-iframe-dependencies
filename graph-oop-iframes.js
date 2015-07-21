@@ -45,11 +45,13 @@ loadData(
             { id: 'editStack', value: { label: 'Edit stack' } },
             { id: 'contentEditable', value: { label: 'Ctrl+A in contentEditable' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
+            { id: 'userGesture', value: { label: 'UserGestureIndicator', owner: 'jochen' } },
             { id: 'zoom', value: { label: 'Zoom level' } },
             { id: 'textAutosizing', value: { label: 'Text autosizing' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', owner: 'mlamouri' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)' } },
+            { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'mvanouwerkerk' } },
             
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
@@ -78,7 +80,7 @@ loadData(
 
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
-            { id: 'spellcheck', value: { label: 'OOPIF spellcheck support' } },
+            { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', owner: 'groby' } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544' } },
             { id: 'domDistiller', value: { label: 'DOM Distiller' } },
 
@@ -137,11 +139,13 @@ loadData(
             { u: 'blinkSupport', v: 'editStack' },
             { u: 'blinkSupport', v: 'contentEditable' },
             { u: 'blinkSupport', v: 'mixedContent' },
+            { u: 'blinkSupport', v: 'userGesture' },
             { u: 'blinkSupport', v: 'zoom' },
             { u: 'blinkSupport', v: 'textAutosizing' },
             { u: 'blinkSupport', v: 'fullscreen' },
             { u: 'blinkSupport', v: 'screenOrientation' },
             { u: 'blinkSupport', v: 'pageSerialization' },
+            { u: 'blinkSupport', v: 'pushMessaging' },
 
             { u: 'testsOnWaterfall', v: 'runAllTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
