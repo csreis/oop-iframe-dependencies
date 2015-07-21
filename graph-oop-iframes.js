@@ -18,12 +18,6 @@ loadData(
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots' } },
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs' } },
 
-            { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
-            { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
-            { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis' } },
-            { id: 'backForwardSubtree', value: { label: 'Back/forward with subtree', owner: 'creis' } },
-            { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'avi' } },
-            
             { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work', owner: 'kenrb' } },
             { id: 'contextMenus', value: { label: 'OOPIF context menus', owner: 'kenrb' } },
             { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb' } },
@@ -37,6 +31,12 @@ loadData(
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
 
             // extensionDevLaunch
+            { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
+            { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
+            { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis' } },
+            { id: 'backForwardSubtree', value: { label: 'Back/forward with subtree', owner: 'creis' } },
+            { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'avi' } },
+
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
             { id: 'frameOpeners', value: { label: 'Updatable frame openers', owner: 'alexmos' } },
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions' } },
@@ -78,18 +78,12 @@ loadData(
         links: [
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
             { u: 'extensionTrialLaunch', v: 'launchMetrics' },
-            { u: 'extensionTrialLaunch', v: 'sessionHistory' },
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'blinkSupport' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'blockCookies' },
 
-            { u: 'sessionHistory', v: 'backForwardBasic' },
-            { u: 'sessionHistory', v: 'backForwardFTNs' },
-            { u: 'sessionHistory', v: 'backForwardSubtree' },
-            { u: 'sessionHistory', v: 'sessionRestoreFNEs' },
-            
             { u: 'mostInputEvents', v: 'contextMenus' },
             { u: 'mostInputEvents', v: 'scrolling' },
             { u: 'mostInputEvents', v: 'mouseCursor' },
@@ -107,6 +101,7 @@ loadData(
 
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
+            { u: 'extensionTrialLaunch', v: 'sessionHistory' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
@@ -115,6 +110,11 @@ loadData(
             { u: 'extensionDevLaunch', v: 'accessibility' },
             { u: 'extensionDevLaunch', v: 'netStack' },
             { u: 'extensionDevLaunch', v: 'testsOnWaterfall' },
+
+            { u: 'sessionHistory', v: 'backForwardBasic' },
+            { u: 'sessionHistory', v: 'backForwardFTNs' },
+            { u: 'sessionHistory', v: 'backForwardSubtree' },
+            { u: 'sessionHistory', v: 'sessionRestoreFNEs' },
 
             { u: 'crossFrameScripting', v: 'frameOpeners' },
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
