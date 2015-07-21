@@ -44,6 +44,8 @@ loadData(
             { id: 'find', value: { label: 'Find-in-page', bug: '457440' } },
             { id: 'editStack', value: { label: 'Edit stack' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
+            { id: 'fullscreen', value: { label: 'Fullscreen', owner: 'mlamouri' } },
+            { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
 
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
