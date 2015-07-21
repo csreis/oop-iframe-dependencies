@@ -49,7 +49,10 @@ loadData(
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
             { id: 'netStack', value: { label: 'Downloads and net stack updated', bug: '482049', owner: 'rdsmith' } },
+            
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
+            { id: 'runAllTests', value: { label: 'Site Isolation bots run all tests' } },
+            { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default' } },
             
 
             // siteSubsetLaunch
@@ -118,6 +121,9 @@ loadData(
             { u: 'crossFrameScripting', v: 'frameOpeners' },
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
             { u: 'crossFrameScripting', v: 'extBrowsingInstance' },
+
+            { u: 'testsOnWaterfall', v: 'runAllTests' },
+            { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
 
 
             { u: 'siteSubsetLaunch', v: 'extensionDevLaunch' },
