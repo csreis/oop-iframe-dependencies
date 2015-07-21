@@ -27,9 +27,6 @@ loadData(
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
             { id: 'focusController', value: { label: 'Focus controller', bug: '339659' } },
-            { id: 'editStack', value: { label: 'Edit stack' } },
-            { id: 'find', value: { label: 'Find-in-page', bug: '457440' } },
-            { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
 
             // extensionDevLaunch
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
@@ -39,13 +36,16 @@ loadData(
             { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'avi' } },
 
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
-            { id: 'frameOpeners', value: { label: 'Updatable frame openers', owner: 'alexmos' } },
+            { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '339659', owner: 'alexmos' } },
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
+            { id: 'find', value: { label: 'Find-in-page', bug: '457440' } },
+            { id: 'editStack', value: { label: 'Edit stack' } },
+            { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
 
-            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes' } },
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
 
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
@@ -122,8 +122,8 @@ loadData(
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
             { u: 'crossFrameScripting', v: 'extBrowsingInstance' },
 
-            { u: 'blinkSupport', v: 'editStack' },
             { u: 'blinkSupport', v: 'find' },
+            { u: 'blinkSupport', v: 'editStack' },
             { u: 'blinkSupport', v: 'mixedContent' },
 
             { u: 'testsOnWaterfall', v: 'runAllTests' },
