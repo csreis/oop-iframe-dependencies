@@ -127,6 +127,8 @@ loadData(
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'editStack' },
             { u: 'blinkSupport', v: 'mixedContent' },
+            { u: 'blinkSupport', v: 'fullscreen' },
+            { u: 'blinkSupport', v: 'screenOrientation' },
 
             { u: 'testsOnWaterfall', v: 'runAllTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
