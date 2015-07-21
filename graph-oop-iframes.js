@@ -78,16 +78,16 @@ loadData(
         links: [
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
             { u: 'extensionTrialLaunch', v: 'launchMetrics' },
-            { u: 'extensionTrialLaunch', v: 'hitTesting' },
+            { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'blinkSupport' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'blockCookies' },
 
-            { u: 'hitTesting', v: 'mostInputEvents' },
             { u: 'mostInputEvents', v: 'contextMenus' },
             { u: 'mostInputEvents', v: 'scrolling' },
             { u: 'mostInputEvents', v: 'mouseCursor' },
+            { u: 'mostInputEvents', v: 'hitTesting' },
             
             { u: 'blinkSupport', v: 'webFrameWidget' },
             { u: 'blinkSupport', v: 'focusController' },
