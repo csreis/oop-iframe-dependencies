@@ -42,6 +42,7 @@ loadData(
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
             
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
             
             { id: 'hitTesting', value: { label: 'Browser-side hit testing', owner: 'kenrb' } },
@@ -68,7 +69,7 @@ loadData(
 
             // miscCleanup
             { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
-            { id: 'messagePorts', value: { label: 'Update MessagePorts', owner: 'nasko' } },
+            { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '334408', owner: 'nasko' } },
             { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko' } },
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
@@ -107,6 +108,7 @@ loadData(
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
+            { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
             { u: 'extensionDevLaunch', v: 'hitTesting' },
             { u: 'extensionDevLaunch', v: 'printing' },
