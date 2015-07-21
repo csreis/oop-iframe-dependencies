@@ -23,8 +23,8 @@ loadData(
             { id: 'contextMenus', value: { label: 'OOPIF context menus', owner: 'kenrb' } },
             { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb' } },
             { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb' } },
-            
-            { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
+
+            { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', owner: 'dcheng' } },
             { id: 'focusController', value: { label: 'Focus controller' } },
             { id: 'editStack', value: { label: 'Edit stack' } },
@@ -42,7 +42,9 @@ loadData(
             { id: 'frameOpeners', value: { label: 'Updatable frame openers', owner: 'alexmos' } },
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
-            
+
+            { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
+
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
 
@@ -81,7 +83,7 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
             { u: 'extensionTrialLaunch', v: 'launchMetrics' },
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
-            { u: 'extensionTrialLaunch', v: 'blinkSupport' },
+            { u: 'extensionTrialLaunch', v: 'basicBlinkSupport' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'blockCookies' },
@@ -91,11 +93,8 @@ loadData(
             { u: 'mostInputEvents', v: 'scrolling' },
             { u: 'mostInputEvents', v: 'mouseCursor' },
 
-            { u: 'blinkSupport', v: 'webFrameWidget' },
-            { u: 'blinkSupport', v: 'focusController' },
-            { u: 'blinkSupport', v: 'editStack' },
-            { u: 'blinkSupport', v: 'find' },
-            { u: 'blinkSupport', v: 'mixedContent' },
+            { u: 'basicBlinkSupport', v: 'webFrameWidget' },
+            { u: 'basicBlinkSupport', v: 'focusController' },
             
             { u: 'launchMetrics', v: 'telemetry' },
             { u: 'launchMetrics', v: 'umaProcessCount' },
@@ -106,6 +105,7 @@ loadData(
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
             { u: 'extensionDevLaunch', v: 'sessionHistory' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
+            { u: 'extensionDevLaunch', v: 'blinkSupport' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
             { u: 'extensionDevLaunch', v: 'printing' },
@@ -121,6 +121,10 @@ loadData(
             { u: 'crossFrameScripting', v: 'frameOpeners' },
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
             { u: 'crossFrameScripting', v: 'extBrowsingInstance' },
+
+            { u: 'blinkSupport', v: 'editStack' },
+            { u: 'blinkSupport', v: 'find' },
+            { u: 'blinkSupport', v: 'mixedContent' },
 
             { u: 'testsOnWaterfall', v: 'runAllTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
