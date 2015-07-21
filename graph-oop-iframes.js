@@ -49,6 +49,7 @@ loadData(
             { id: 'textAutosizing', value: { label: 'Text autosizing' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', owner: 'mlamouri' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
+            { id: 'pageSerialization', value: { label: 'Page serialization (saving)' } },
             
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
@@ -78,6 +79,7 @@ loadData(
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544' } },
+            { id: 'domDistiller', value: { label: 'DOM Distiller' } },
 
             // miscCleanup
             { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
@@ -138,6 +140,7 @@ loadData(
             { u: 'blinkSupport', v: 'textAutosizing' },
             { u: 'blinkSupport', v: 'fullscreen' },
             { u: 'blinkSupport', v: 'screenOrientation' },
+            { u: 'blinkSupport', v: 'pageSerializiation' },
 
             { u: 'testsOnWaterfall', v: 'runAllTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
@@ -150,6 +153,7 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'ntp' },
             { u: 'siteSubsetLaunch', v: 'chromeUrls' },
             { u: 'siteSubsetLaunch', v: 'prerendering' },
+            { u: 'siteSubsetLaunch', v: 'domDistiller' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
