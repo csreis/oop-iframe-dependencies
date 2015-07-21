@@ -19,6 +19,7 @@ loadData(
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs' } },
 
             { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work', owner: 'kenrb' } },
+            { id: 'hitTesting', value: { label: 'Browser-side hit testing', owner: 'kenrb' } },
             { id: 'contextMenus', value: { label: 'OOPIF context menus', owner: 'kenrb' } },
             { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb' } },
             { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb' } },
@@ -44,9 +45,7 @@ loadData(
             
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
-            
-            { id: 'hitTesting', value: { label: 'Browser-side hit testing', owner: 'kenrb' } },
-            
+
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
             { id: 'netStack', value: { label: 'Downloads and net stack updated', bug: '482049', owner: 'rdsmith' } },
@@ -84,11 +83,11 @@ loadData(
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'blockCookies' },
 
+            { u: 'mostInputEvents', v: 'hitTesting' },
             { u: 'mostInputEvents', v: 'contextMenus' },
             { u: 'mostInputEvents', v: 'scrolling' },
             { u: 'mostInputEvents', v: 'mouseCursor' },
-            { u: 'mostInputEvents', v: 'hitTesting' },
-            
+
             { u: 'blinkSupport', v: 'webFrameWidget' },
             { u: 'blinkSupport', v: 'focusController' },
             { u: 'blinkSupport', v: 'editStack' },
