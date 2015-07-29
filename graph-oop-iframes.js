@@ -91,6 +91,7 @@ loadData(
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
             { id: 'restoreWithSharing', value: { label: 'Session restore with shared FNEs', owner: 'avi' } },
+            { id: 'removeRVH', value: { label: 'Remove RenderViewHost' } },
         ],
         links: [
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
@@ -177,6 +178,7 @@ loadData(
             { u: 'miscCleanup', v: 'shareFNEs' },
             { u: 'shareFNEs', v: 'shareFNEsUnlessCloning' },
             { u: 'shareFNEs', v: 'restoreWithSharing' },
+            { u: 'miscCleanup', v: 'removeRVH' },
         ]
     }
 );
