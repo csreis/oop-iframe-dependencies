@@ -43,7 +43,6 @@ loadData(
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440' } },
             { id: 'editStack', value: { label: 'Edit stack' } },
-            { id: 'contentEditable', value: { label: 'Ctrl+A in contentEditable' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', owner: 'jochen' } },
             { id: 'zoom', value: { label: 'Zoom level' } },
