@@ -137,7 +137,6 @@ loadData(
 
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'editStack' },
-            { u: 'blinkSupport', v: 'contentEditable' },
             { u: 'blinkSupport', v: 'mixedContent' },
             { u: 'blinkSupport', v: 'userGesture' },
             { u: 'blinkSupport', v: 'zoom' },
