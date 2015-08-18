@@ -26,14 +26,14 @@ loadData(
 
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
-            { id: 'focusController', value: { label: 'Focus controller', bug: '339659' } },
+            { id: 'focusController', value: { label: 'Focus controller', bug: '339659', owner: 'alexmos' } },
 
             // extensionDevLaunch
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
             { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis' } },
             { id: 'backForwardSubtree', value: { label: 'Back/forward with subtree', owner: 'creis' } },
-            { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'avi' } },
+            { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'creis' } },
 
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
             { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '225940', owner: 'alexmos' } },
@@ -85,7 +85,7 @@ loadData(
 
             // miscCleanup
             { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
-            { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '334408', owner: 'nasko' } },
+            { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun' } },
             { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko' } },
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
