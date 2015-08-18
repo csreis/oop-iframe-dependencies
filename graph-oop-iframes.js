@@ -14,7 +14,7 @@ loadData(
 
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko' } },
-            { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'creis' } },
+            { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick' } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
 
@@ -26,6 +26,7 @@ loadData(
 
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
+            { id: 'renderWidgetSplit', value: { label: 'Split RenderView/RenderWidget', bug: '419087', owner: 'avi' } },
             { id: 'focusController', value: { label: 'Focus controller', bug: '339659', owner: 'alexmos' } },
 
             // extensionDevLaunch
@@ -107,6 +108,7 @@ loadData(
             { u: 'mostInputEvents', v: 'mouseCursor' },
 
             { u: 'basicBlinkSupport', v: 'webFrameWidget' },
+            { u: 'basicBlinkSupport', v: 'renderWidgetSplit' },
             { u: 'basicBlinkSupport', v: 'focusController' },
             
             { u: 'launchMetrics', v: 'telemetry' },
