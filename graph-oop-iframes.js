@@ -86,7 +86,7 @@ loadData(
 
             // miscCleanup
             { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
-            { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun' } },
+            { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun', status: 'complete' } },
             { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko' } },
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
