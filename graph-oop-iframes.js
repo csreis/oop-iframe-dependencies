@@ -50,7 +50,7 @@ loadData(
             { id: 'textAutosizing', value: { label: 'Text autosizing' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', owner: 'mlamouri' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
-            { id: 'pageSerialization', value: { label: 'Page serialization (saving)' } },
+            { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'mvanouwerkerk' } },
             
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
