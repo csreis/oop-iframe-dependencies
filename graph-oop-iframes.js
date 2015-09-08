@@ -46,7 +46,7 @@ loadData(
             { id: 'editStack', value: { label: 'Edit stack' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', owner: 'jochen' } },
-            { id: 'zoom', value: { label: 'Zoom level' } },
+            { id: 'zoom', value: { label: 'Zoom level', bug: '528407' } },
             { id: 'textAutosizing', value: { label: 'Text autosizing' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', owner: 'mlamouri' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
