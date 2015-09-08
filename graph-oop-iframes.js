@@ -37,12 +37,12 @@ loadData(
             { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'creis' } },
 
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
-            { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '225940', owner: 'alexmos' } },
+            { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '225940', owner: 'alexmos', status: 'complete' } },
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions', bug: '522302' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
-            { id: 'find', value: { label: 'Find-in-page', bug: '457440' } },
+            { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'editStack', value: { label: 'Edit stack' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', owner: 'jochen' } },
