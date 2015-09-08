@@ -19,9 +19,9 @@ loadData(
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
 
             { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work' } },
-            { id: 'hitTesting', value: { label: 'Browser-side hit testing', bug: '491334', owner: 'kenrb' } },
+            { id: 'hitTesting', value: { label: 'Browser-side hit testing', bug: '491334', owner: 'kenrb', status: 'complete' } },
             { id: 'contextMenus', value: { label: 'OOPIF context menus', owner: 'kenrb' } },
-            { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb' } },
+            { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb', status: 'complete' } },
             { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb' } },
 
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
