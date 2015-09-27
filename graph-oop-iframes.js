@@ -10,17 +10,18 @@ loadData(
             // extensionTrialLaunch
             { id: 'enforceExtSec', value: { label: 'Enforce extension security' } },
             { id: 'isolateExtensions', value: { label: 'Isolate extensions, not all sites', bug: '481066', owner: 'nick' } },
+            { id: 'dontIsolatedHostedApps', value: { label: 'Don\'t isolate hosted apps', bug: '535073', owner: 'nick' } },
             { id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
 
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko' } },
-            { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick' } },
+            { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick', status: 'complete' } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
 
             { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work' } },
             { id: 'hitTesting', value: { label: 'Browser-side hit testing', bug: '491334', owner: 'kenrb', status: 'complete' } },
-            { id: 'contextMenus', value: { label: 'OOPIF context menus', owner: 'kenrb' } },
+            { id: 'contextMenus', value: { label: 'OOPIF context menus', owner: 'kenrb', status: 'complete' } },
             { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb', status: 'complete' } },
             { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb' } },
 
@@ -100,6 +101,7 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'basicBlinkSupport' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
+            { u: 'enforceExtSec', v: 'dontIsolatedHostedApps' },
             { u: 'enforceExtSec', v: 'blockCookies' },
 
             { u: 'mostInputEvents', v: 'hitTesting' },
