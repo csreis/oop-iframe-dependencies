@@ -9,7 +9,7 @@ loadData(
 
             // extensionTrialLaunch
             { id: 'enforceExtSec', value: { label: 'Enforce extension security' } },
-            { id: 'isolateExtensions', value: { label: 'Isolate extensions, not all sites', bug: '481066', owner: 'nick' } },
+            { id: 'isolateExtensions', value: { label: 'Isolate extensions, not all sites', bug: '481066', owner: 'nick', status: 'complete' } },
             { id: 'dontIsolatedHostedApps', value: { label: 'Don\'t isolate hosted apps', bug: '535073', owner: 'nick' } },
             { id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
 
@@ -87,7 +87,7 @@ loadData(
             // miscCleanup
             { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
             { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun', status: 'complete' } },
-            { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko' } },
+            { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko', status: 'complete' } },
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
             { id: 'restoreWithSharing', value: { label: 'Session restore with shared FNEs', owner: 'avi' } },
