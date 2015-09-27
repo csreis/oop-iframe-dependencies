@@ -27,7 +27,6 @@ loadData(
 
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
-            { id: 'renderWidgetSplit', value: { label: 'Split RenderView/RenderWidget', bug: '419087', owner: 'avi' } },
             { id: 'focusController', value: { label: 'Focus controller', bug: '339659', owner: 'alexmos' } },
 
             // extensionDevLaunch
@@ -92,6 +91,7 @@ loadData(
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
             { id: 'restoreWithSharing', value: { label: 'Session restore with shared FNEs', owner: 'avi' } },
+            { id: 'renderWidgetSplit', value: { label: 'Split RenderView/RenderWidget', bug: '419087', owner: 'avi' } },
             { id: 'removeRVH', value: { label: 'Remove RenderViewHost' } },
         ],
         links: [
@@ -110,7 +110,6 @@ loadData(
             { u: 'mostInputEvents', v: 'mouseCursor' },
 
             { u: 'basicBlinkSupport', v: 'webFrameWidget' },
-            { u: 'basicBlinkSupport', v: 'renderWidgetSplit' },
             { u: 'basicBlinkSupport', v: 'focusController' },
             
             { u: 'launchMetrics', v: 'telemetry' },
@@ -180,6 +179,7 @@ loadData(
             { u: 'miscCleanup', v: 'shareFNEs' },
             { u: 'shareFNEs', v: 'shareFNEsUnlessCloning' },
             { u: 'shareFNEs', v: 'restoreWithSharing' },
+            { u: 'miscCleanup', v: 'renderWidgetSplit' },
             { u: 'miscCleanup', v: 'removeRVH' },
         ]
     }
