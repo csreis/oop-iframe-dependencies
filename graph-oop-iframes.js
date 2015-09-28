@@ -16,8 +16,8 @@ loadData(
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko' } },
             { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick', status: 'complete' } },
+            { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'nick' } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
-            { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
 
             { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work' } },
             { id: 'hitTesting', value: { label: 'Browser-side hit testing', bug: '491334', owner: 'kenrb', status: 'complete' } },
@@ -62,6 +62,7 @@ loadData(
             
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
             { id: 'runAllTests', value: { label: 'Site Isolation bots run all tests' } },
+            { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
             { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default' } },
             
 
@@ -114,8 +115,8 @@ loadData(
             
             { u: 'launchMetrics', v: 'telemetry' },
             { u: 'launchMetrics', v: 'umaProcessCount' },
+            { u: 'launchMetrics', v: 'extensionTests' },
             { u: 'launchMetrics', v: 'fyiBotTests' },
-            { u: 'launchMetrics', v: 'layoutTests' },
 
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
@@ -150,6 +151,7 @@ loadData(
             { u: 'blinkSupport', v: 'pushMessaging' },
 
             { u: 'testsOnWaterfall', v: 'runAllTests' },
+            { u: 'testsOnWaterfall', v: 'layoutTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
 
 
