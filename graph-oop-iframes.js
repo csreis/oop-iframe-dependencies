@@ -54,6 +54,7 @@ loadData(
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'mvanouwerkerk' } },
             
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
+            { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
 
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
@@ -124,6 +125,7 @@ loadData(
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
             { u: 'extensionDevLaunch', v: 'blinkSupport' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
+            { u: 'extensionDevLaunch', v: 'enableProcessReuse' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
             { u: 'extensionDevLaunch', v: 'printing' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
