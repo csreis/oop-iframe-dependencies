@@ -8,16 +8,15 @@ loadData(
             { id: 'miscCleanup', value: { label: 'Cleanup Milestone', milestone: true } },
 
             // extensionTrialLaunch
-            { id: 'enforceExtSec', value: { label: 'Enforce extension security' } },
+            { id: 'enforceExtSec', value: { label: 'Enforce extension security', status: 'complete' } },
             { id: 'isolateExtensions', value: { label: 'Isolate extensions, not all sites', bug: '481066', owner: 'nick', status: 'complete' } },
-            { id: 'dontIsolatedHostedApps', value: { label: 'Don\'t isolate hosted apps', bug: '535073', owner: 'nick' } },
+            { id: 'dontIsolatedHostedApps', value: { label: 'Don\'t isolate hosted apps', bug: '535073', owner: 'nick', status: 'complete' } },
             { id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
 
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko' } },
             { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick', status: 'complete' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'nick' } },
-            { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
 
             { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work' } },
             { id: 'hitTesting', value: { label: 'Browser-side hit testing', bug: '491334', owner: 'kenrb', status: 'complete' } },
@@ -26,7 +25,6 @@ loadData(
             { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb' } },
 
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
-            { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
             { id: 'focusController', value: { label: 'Focus controller', bug: '339659', owner: 'alexmos' } },
 
             // extensionDevLaunch
@@ -43,6 +41,7 @@ loadData(
             { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu' } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
+            { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'editStack', value: { label: 'Edit stack' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
@@ -64,7 +63,7 @@ loadData(
             { id: 'netStack', value: { label: 'Downloads and net stack updated', bug: '482049', owner: 'rdsmith' } },
             
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
-            { id: 'runAllTests', value: { label: 'Site Isolation bots run all tests' } },
+            { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
             { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default' } },
             
@@ -113,13 +112,11 @@ loadData(
             { u: 'mostInputEvents', v: 'scrolling' },
             { u: 'mostInputEvents', v: 'mouseCursor' },
 
-            { u: 'basicBlinkSupport', v: 'webFrameWidget' },
             { u: 'basicBlinkSupport', v: 'focusController' },
             
             { u: 'launchMetrics', v: 'telemetry' },
             { u: 'launchMetrics', v: 'umaProcessCount' },
             { u: 'launchMetrics', v: 'extensionTests' },
-            { u: 'launchMetrics', v: 'fyiBotTests' },
 
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
@@ -145,6 +142,7 @@ loadData(
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
             { u: 'crossFrameScripting', v: 'extBrowsingInstance' },
 
+            { u: 'blinkSupport', v: 'webFrameWidget' },
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'editStack' },
             { u: 'blinkSupport', v: 'mixedContent' },
@@ -156,7 +154,7 @@ loadData(
             { u: 'blinkSupport', v: 'pageSerialization' },
             { u: 'blinkSupport', v: 'pushMessaging' },
 
-            { u: 'testsOnWaterfall', v: 'runAllTests' },
+            { u: 'testsOnWaterfall', v: 'fyiBotTests' },
             { u: 'testsOnWaterfall', v: 'layoutTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
 
