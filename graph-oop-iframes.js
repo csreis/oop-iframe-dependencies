@@ -16,7 +16,7 @@ loadData(
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko' } },
             { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick', status: 'complete' } },
-            { id: 'umaProcessCount', value: { label: 'UMA stats for actual OOPIFs', bug: '542921', owner: 'nasko' } },
+            { id: 'umaOOPIFCount', value: { label: 'UMA stats for actual OOPIFs', bug: '542921', owner: 'nasko' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'nick' } },
 
             { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work' } },
@@ -117,6 +117,7 @@ loadData(
             
             { u: 'launchMetrics', v: 'telemetry' },
             { u: 'launchMetrics', v: 'umaProcessCount' },
+            { u: 'launchMetrics', v: 'umaOOPIFCount' },
             { u: 'launchMetrics', v: 'extensionTests' },
 
 
