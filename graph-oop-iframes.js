@@ -48,7 +48,6 @@ loadData(
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', owner: 'jochen' } },
             { id: 'zoom', value: { label: 'Zoom level', bug: '528407' } },
-            { id: 'textAutosizing', value: { label: 'Text autosizing' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', owner: 'mlamouri' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza' } },
@@ -87,6 +86,7 @@ loadData(
             { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', owner: 'groby' } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544' } },
             { id: 'domDistiller', value: { label: 'DOM Distiller' } },
+            { id: 'textAutosizing', value: { label: 'Text autosizing' } },
 
             // miscCleanup
             { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
@@ -149,7 +149,6 @@ loadData(
             { u: 'blinkSupport', v: 'mixedContent' },
             { u: 'blinkSupport', v: 'userGesture' },
             { u: 'blinkSupport', v: 'zoom' },
-            { u: 'blinkSupport', v: 'textAutosizing' },
             { u: 'blinkSupport', v: 'fullscreen' },
             { u: 'blinkSupport', v: 'screenOrientation' },
             { u: 'blinkSupport', v: 'pageSerialization' },
@@ -169,6 +168,7 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'spellcheck' },
             { u: 'siteSubsetLaunch', v: 'prerendering' },
             { u: 'siteSubsetLaunch', v: 'domDistiller' },
+            { u: 'siteSubsetLaunch', v: 'textAutosizing' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
