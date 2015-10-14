@@ -16,6 +16,7 @@ loadData(
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko' } },
             { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick', status: 'complete' } },
+            { id: 'umaProcessCount', value: { label: 'UMA stats for actual OOPIFs', bug: '542921', owner: 'nasko' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'nick' } },
 
             { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work' } },
@@ -25,7 +26,7 @@ loadData(
             { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb' } },
 
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
-            { id: 'focusController', value: { label: 'Focus controller', bug: '339659', owner: 'alexmos' } },
+            { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos' } },
 
             // extensionDevLaunch
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
@@ -44,7 +45,7 @@ loadData(
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'editStack', value: { label: 'Edit stack' } },
-            { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936' } },
+            { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', owner: 'jochen' } },
             { id: 'zoom', value: { label: 'Zoom level', bug: '528407' } },
             { id: 'textAutosizing', value: { label: 'Text autosizing' } },
