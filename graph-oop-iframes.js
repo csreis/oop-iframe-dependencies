@@ -31,6 +31,7 @@ loadData(
             // extensionDevLaunch
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
+            { id: 'transferCrash', value: { label: 'Fix subframe transfer crash', bug: '536145', owner: 'creis' } },
             { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis' } },
             { id: 'backForwardSubtree', value: { label: 'Back/forward with subtree', owner: 'creis' } },
             { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'creis' } },
@@ -136,6 +137,7 @@ loadData(
             { u: 'extensionDevLaunch', v: 'testsOnWaterfall' },
 
             { u: 'sessionHistory', v: 'backForwardBasic' },
+            { u: 'sessionHistory', v: 'transferCrash' },
             { u: 'sessionHistory', v: 'backForwardFTNs' },
             { u: 'sessionHistory', v: 'backForwardSubtree' },
             { u: 'sessionHistory', v: 'sessionRestoreFNEs' },
