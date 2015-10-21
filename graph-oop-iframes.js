@@ -23,7 +23,7 @@ loadData(
             { id: 'hitTesting', value: { label: 'Browser-side hit testing', bug: '491334', owner: 'kenrb', status: 'complete' } },
             { id: 'contextMenus', value: { label: 'OOPIF context menus', owner: 'kenrb', status: 'complete' } },
             { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb', status: 'complete' } },
-            { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb' } },
+            { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb', status: 'complete' } },
 
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos' } },
@@ -135,6 +135,9 @@ loadData(
             { u: 'extensionDevLaunch', v: 'accessibility' },
             { u: 'extensionDevLaunch', v: 'netStack' },
             { u: 'extensionDevLaunch', v: 'testsOnWaterfall' },
+            { u: 'extensionDevLaunch', v: 'removeSwappedout' },
+            { u: 'removeSwappedout', v: 'messagePorts' },
+            { u: 'removeSwappedout', v: 'webviewSwappedOut' },
 
             { u: 'sessionHistory', v: 'backForwardBasic' },
             { u: 'sessionHistory', v: 'transferCrash' },
@@ -183,9 +186,6 @@ loadData(
             { u: 'allInputEvents', v: 'gestures' },
 
 
-            { u: 'miscCleanup', v: 'removeSwappedout' },
-            { u: 'removeSwappedout', v: 'messagePorts' },
-            { u: 'removeSwappedout', v: 'webviewSwappedOut' },
             { u: 'miscCleanup', v: 'shareFNEs' },
             { u: 'shareFNEs', v: 'shareFNEsUnlessCloning' },
             { u: 'shareFNEs', v: 'restoreWithSharing' },
