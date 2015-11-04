@@ -141,7 +141,6 @@ loadData(
             { u: 'sessionHistory', v: 'backForwardBasic' },
             { u: 'sessionHistory', v: 'transferCrash' },
             { u: 'sessionHistory', v: 'backForwardFTNs' },
-            { u: 'sessionHistory', v: 'backForwardSubtree' },
             { u: 'sessionHistory', v: 'sessionRestoreFNEs' },
 
             { u: 'crossFrameScripting', v: 'frameOpeners' },
