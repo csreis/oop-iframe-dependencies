@@ -33,8 +33,7 @@ loadData(
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
             { id: 'transferCrash', value: { label: 'Fix subframe transfer crash', bug: '536145', owner: 'creis', status: 'complete' } },
             { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis' } },
-            { id: 'backForwardSubtree', value: { label: 'Back/forward with subtree', owner: 'creis' } },
-            { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', owner: 'creis' } },
+            { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', bug: '545219', owner: 'creis' } },
 
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
             { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '225940', owner: 'alexmos', status: 'complete' } },
