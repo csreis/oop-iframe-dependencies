@@ -14,12 +14,11 @@ loadData(
             { id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
 
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
-            { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko' } },
             { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick', status: 'complete' } },
             { id: 'umaOOPIFCount', value: { label: 'UMA stats for actual OOPIFs', bug: '542921', owner: 'nasko' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'nick' } },
 
-            { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work' } },
+            { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work', status: 'complete' } },
             { id: 'hitTesting', value: { label: 'Browser-side hit testing', bug: '491334', owner: 'kenrb', status: 'complete' } },
             { id: 'contextMenus', value: { label: 'OOPIF context menus', owner: 'kenrb', status: 'complete' } },
             { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb', status: 'complete' } },
@@ -27,6 +26,8 @@ loadData(
 
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos' } },
+
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', owner: 'nick', bug: '512560' } },
 
             // extensionDevLaunch
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
@@ -54,7 +55,6 @@ loadData(
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'mvanouwerkerk' } },
             
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906' } },
-            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
             { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
 
@@ -62,6 +62,7 @@ loadData(
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
             { id: 'netStack', value: { label: 'Downloads and net stack updated', bug: '482049', owner: 'rdsmith' } },
             
+            { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko' } },
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
@@ -103,6 +104,7 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'launchMetrics' },
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'basicBlinkSupport' },
+            { u: 'extensionTrialLaunch', v: 'consolidateProcesses' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'dontIsolatedHostedApps' },
@@ -115,7 +117,6 @@ loadData(
 
             { u: 'basicBlinkSupport', v: 'focusController' },
             
-            { u: 'launchMetrics', v: 'telemetry' },
             { u: 'launchMetrics', v: 'umaProcessCount' },
             { u: 'launchMetrics', v: 'umaOOPIFCount' },
             { u: 'launchMetrics', v: 'extensionTests' },
@@ -127,12 +128,12 @@ loadData(
             { u: 'extensionDevLaunch', v: 'extensionFTNIds' },
             { u: 'extensionDevLaunch', v: 'blinkSupport' },
             { u: 'extensionDevLaunch', v: 'determineSiteInstance' },
-            { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'enableProcessReuse' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
             { u: 'extensionDevLaunch', v: 'printing' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
             { u: 'extensionDevLaunch', v: 'netStack' },
+            { u: 'extensionDevLaunch', v: 'telemetry' },
             { u: 'extensionDevLaunch', v: 'testsOnWaterfall' },
             { u: 'extensionDevLaunch', v: 'removeSwappedout' },
             { u: 'removeSwappedout', v: 'messagePorts' },
