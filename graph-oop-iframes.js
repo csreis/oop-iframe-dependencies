@@ -13,10 +13,13 @@ loadData(
             { id: 'dontIsolatedHostedApps', value: { label: 'Don\'t isolate hosted apps', bug: '535073', owner: 'nick', status: 'complete' } },
             { id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
 
+            { id: 'extensionSupport', value: { label: 'Basic extension support' } },
+            { id: 'browserActions', value: { label: 'OOPIFs in browser actions', bug: '546267', owner: 'nick' } },
+            { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'nick' } },
+
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
             { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick', status: 'complete' } },
             { id: 'umaOOPIFCount', value: { label: 'UMA stats for actual OOPIFs', bug: '542921', owner: 'nasko' } },
-            { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'nick' } },
 
             { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work', status: 'complete' } },
             { id: 'hitTesting', value: { label: 'Browser-side hit testing', bug: '491334', owner: 'kenrb', status: 'complete' } },
@@ -101,6 +104,7 @@ loadData(
         ],
         links: [
             { u: 'extensionTrialLaunch', v: 'enforceExtSec' },
+            { u: 'extensionTrialLaunch', v: 'extensionSupport' },
             { u: 'extensionTrialLaunch', v: 'launchMetrics' },
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'basicBlinkSupport' },
@@ -117,6 +121,9 @@ loadData(
 
             { u: 'basicBlinkSupport', v: 'focusController' },
             
+            { u: 'extensionSupport', v: 'browserActions' },
+            { u: 'extensionSupport', v: 'extensionTests' },
+
             { u: 'launchMetrics', v: 'umaProcessCount' },
             { u: 'launchMetrics', v: 'umaOOPIFCount' },
             { u: 'launchMetrics', v: 'extensionTests' },
