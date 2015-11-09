@@ -30,13 +30,13 @@ loadData(
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos' } },
 
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', owner: 'nick', bug: '512560' } },
+
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
             { id: 'transferCrash', value: { label: 'Fix subframe transfer crash', bug: '536145', owner: 'creis', status: 'complete' } },
             { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis' } },
             { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', bug: '545219', owner: 'creis' } },
-
-            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', owner: 'nick', bug: '512560' } },
 
             // extensionDevLaunch
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
@@ -108,8 +108,8 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'launchMetrics' },
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'basicBlinkSupport' },
-            { u: 'extensionTrialLaunch', v: 'sessionHistory' },
             { u: 'extensionTrialLaunch', v: 'consolidateProcesses' },
+            { u: 'extensionTrialLaunch', v: 'sessionHistory' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
             { u: 'enforceExtSec', v: 'dontIsolatedHostedApps' },
@@ -127,7 +127,6 @@ loadData(
 
             { u: 'launchMetrics', v: 'umaProcessCount' },
             { u: 'launchMetrics', v: 'umaOOPIFCount' },
-            { u: 'launchMetrics', v: 'extensionTests' },
 
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
