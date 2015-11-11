@@ -30,7 +30,7 @@ loadData(
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos' } },
 
-            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', owner: 'nick', bug: '512560' } },
+            { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
 
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
@@ -58,7 +58,7 @@ loadData(
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'mvanouwerkerk' } },
             
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906' } },
-            { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036' } },
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
 
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
