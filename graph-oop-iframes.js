@@ -108,7 +108,7 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'launchMetrics' },
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'basicBlinkSupport' },
-            { u: 'extensionTrialLaunch', v: 'consolidateProcesses' },
+            { u: 'extensionTrialLaunch', v: 'enableProcessReuse' },
             { u: 'extensionTrialLaunch', v: 'sessionHistory' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
@@ -134,7 +134,7 @@ loadData(
             { u: 'extensionDevLaunch', v: 'extensionFTNIds' },
             { u: 'extensionDevLaunch', v: 'blinkSupport' },
             { u: 'extensionDevLaunch', v: 'determineSiteInstance' },
-            { u: 'extensionDevLaunch', v: 'enableProcessReuse' },
+            { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
             { u: 'extensionDevLaunch', v: 'printing' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
