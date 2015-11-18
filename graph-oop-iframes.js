@@ -14,8 +14,8 @@ loadData(
             { id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
 
             { id: 'extensionSupport', value: { label: 'Basic extension support' } },
-            { id: 'browserActions', value: { label: 'OOPIFs in browser actions', bug: '546267', owner: 'nick' } },
-            { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'nick' } },
+            { id: 'browserActions', value: { label: 'OOPIFs in browser actions', bug: '546267', owner: 'alexmos' } },
+            { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos' } },
 
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
             { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick', status: 'complete' } },
@@ -31,6 +31,7 @@ loadData(
             { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos' } },
 
             { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
+            { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
 
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
@@ -109,6 +110,7 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'basicBlinkSupport' },
             { u: 'extensionTrialLaunch', v: 'enableProcessReuse' },
+            { u: 'extensionTrialLaunch', v: 'taskManagerOrder' },
             { u: 'extensionTrialLaunch', v: 'sessionHistory' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
