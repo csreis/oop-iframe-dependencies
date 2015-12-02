@@ -30,7 +30,7 @@ loadData(
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos' } },
 
-            { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
+            { id: 'enableProcessReuseExtensions', value: { label: 'Allow process reuse in --isolate-extensions', bug: '513036', owner: 'nick' } },
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
 
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
@@ -87,6 +87,7 @@ loadData(
             { id: 'dragNDrop', value: { label: 'Drag n Drop' } },
             { id: 'gestures', value: { label: 'Gesture support' } },
 
+            { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
             { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', owner: 'groby' } },
@@ -110,7 +111,7 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'launchMetrics' },
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'basicBlinkSupport' },
-            { u: 'extensionTrialLaunch', v: 'enableProcessReuse' },
+            { u: 'extensionTrialLaunch', v: 'enableProcessReuseExtensions' },
             { u: 'extensionTrialLaunch', v: 'taskManagerOrder' },
             { u: 'extensionTrialLaunch', v: 'sessionHistory' },
 
@@ -178,6 +179,7 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec' },
             { u: 'siteSubsetLaunch', v: 'allInputEvents' },
+            { u: 'siteSubsetLaunch', v: 'enableProcessReuse' },
             { u: 'siteSubsetLaunch', v: 'ntp' },
             { u: 'siteSubsetLaunch', v: 'chromeUrls' },
             { u: 'siteSubsetLaunch', v: 'spellcheck' },
