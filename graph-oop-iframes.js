@@ -14,7 +14,7 @@ loadData(
             { id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
 
             { id: 'extensionSupport', value: { label: 'Basic extension support' } },
-            { id: 'browserActions', value: { label: 'OOPIFs in browser actions', bug: '546267', owner: 'alexmos' } },
+            { id: 'browserActions', value: { label: 'OOPIFs in browser actions', bug: '546267', owner: 'alexmos', status: 'complete' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos' } },
 
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
@@ -36,7 +36,7 @@ loadData(
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
             { id: 'transferCrash', value: { label: 'Fix subframe transfer crash', bug: '536145', owner: 'creis', status: 'complete' } },
-            { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis' } },
+            { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis', status: 'complete' } },
             { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', bug: '545219', owner: 'creis' } },
 
             // extensionDevLaunch
