@@ -31,7 +31,6 @@ loadData(
             { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos' } },
 
             { id: 'enableProcessReuseExtensions', value: { label: 'Allow process reuse in --isolate-extensions', bug: '513036', owner: 'nick' } },
-            { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
 
             { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
@@ -45,6 +44,7 @@ loadData(
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions', bug: '522302' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
             { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu' } },
+            { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
@@ -112,7 +112,6 @@ loadData(
             { u: 'extensionTrialLaunch', v: 'mostInputEvents' },
             { u: 'extensionTrialLaunch', v: 'basicBlinkSupport' },
             { u: 'extensionTrialLaunch', v: 'enableProcessReuseExtensions' },
-            { u: 'extensionTrialLaunch', v: 'taskManagerOrder' },
             { u: 'extensionTrialLaunch', v: 'sessionHistory' },
 
             { u: 'enforceExtSec', v: 'isolateExtensions' },
@@ -136,6 +135,7 @@ loadData(
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
             { u: 'extensionDevLaunch', v: 'extensionFTNIds' },
+            { u: 'extensionDevLaunch', v: 'taskManagerOrder' },
             { u: 'extensionDevLaunch', v: 'blinkSupport' },
             { u: 'extensionDevLaunch', v: 'determineSiteInstance' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
