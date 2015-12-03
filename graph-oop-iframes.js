@@ -17,7 +17,7 @@ loadData(
             { id: 'browserActions', value: { label: 'OOPIFs in browser actions', bug: '546267', owner: 'alexmos', status: 'complete' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos' } },
 
-            { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
+            { id: 'launchMetrics', value: { label: 'Metrics for launch', status: 'complete' } },
             { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick', status: 'complete' } },
             { id: 'umaOOPIFCount', value: { label: 'UMA stats for actual OOPIFs', bug: '542921', owner: 'nasko', status: 'complete' } },
 
