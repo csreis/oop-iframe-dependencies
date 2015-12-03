@@ -19,7 +19,7 @@ loadData(
 
             { id: 'launchMetrics', value: { label: 'Metrics for launch' } },
             { id: 'umaProcessCount', value: { label: 'UMA stats for process count', bug: '248299', owner: 'nick', status: 'complete' } },
-            { id: 'umaOOPIFCount', value: { label: 'UMA stats for actual OOPIFs', bug: '542921', owner: 'nasko' } },
+            { id: 'umaOOPIFCount', value: { label: 'UMA stats for actual OOPIFs', bug: '542921', owner: 'nasko', status: 'complete' } },
 
             { id: 'mostInputEvents', value: { label: 'Most OOPIF input events work', status: 'complete' } },
             { id: 'hitTesting', value: { label: 'Browser-side hit testing', bug: '491334', owner: 'kenrb', status: 'complete' } },
