@@ -32,11 +32,11 @@ loadData(
 
             { id: 'enableProcessReuseExtensions', value: { label: 'Allow process reuse in --isolate-extensions', bug: '513036', owner: 'nick', status: 'complete' } },
 
-            { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis' } },
+            { id: 'sessionHistory', value: { label: 'Session History updated', bug: '236848', owner: 'creis', status: 'complete' } },
             { id: 'backForwardBasic', value: { label: 'Basic OOPIF back/forward', bug: '236848', owner: 'creis', status: 'complete' } },
             { id: 'transferCrash', value: { label: 'Fix subframe transfer crash', bug: '536145', owner: 'creis', status: 'complete' } },
             { id: 'backForwardFTNs', value: { label: 'Recreate FTNs in back/forward', bug: '502317', owner: 'creis', status: 'complete' } },
-            { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', bug: '545219', owner: 'creis' } },
+            { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', bug: '545219', owner: 'creis', status: 'complete' } },
 
             // extensionDevLaunch
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
