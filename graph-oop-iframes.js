@@ -28,7 +28,8 @@ loadData(
             { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb', status: 'complete' } },
 
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
-            { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos' } },
+            { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos', status: 'complete' } },
+            { id: 'animation', value: { label: 'requestAnimationFrame', bug: '529785', owner: 'lfg' } },
 
             { id: 'enableProcessReuseExtensions', value: { label: 'Allow process reuse in --isolate-extensions', bug: '513036', owner: 'nick', status: 'complete' } },
 
@@ -48,7 +49,6 @@ loadData(
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
-            { id: 'animation', value: { label: 'requestAnimationFrame', bug: '529785', owner: 'lfg' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'lukasza' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark' } },
@@ -124,6 +124,7 @@ loadData(
             { u: 'mostInputEvents', v: 'mouseCursor' },
 
             { u: 'basicBlinkSupport', v: 'focusController' },
+            { u: 'basicBlinkSupport', v: 'animation' },
             
             { u: 'extensionSupport', v: 'browserActions' },
             { u: 'extensionSupport', v: 'extensionTests' },
@@ -159,7 +160,6 @@ loadData(
             { u: 'crossFrameScripting', v: 'extBrowsingInstance' },
 
             { u: 'blinkSupport', v: 'webFrameWidget' },
-            { u: 'blinkSupport', v: 'animation' },
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'editStack' },
             { u: 'blinkSupport', v: 'mixedContent' },
