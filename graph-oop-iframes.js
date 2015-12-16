@@ -73,6 +73,14 @@ loadData(
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
             { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default' } },
             
+            { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
+            { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun', status: 'complete' } },
+            { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko', status: 'complete' } },
+
+            { id: 'enableFNEs', value: { label: 'Enable subframe FrameNavEntries on trunk', bug: '236848', owner: 'creis' } },
+            { id: 'locationReplace', value: { label: 'Update location.replace', bug: '373041', owner: 'creis' } },
+            { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208' owner: 'creis' } },
+            { id: 'transferShortcut', value: { label: 'Shorcut the transfer logic', bug: '495161' owner: 'creis' } },
 
             // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate' } },
@@ -96,9 +104,6 @@ loadData(
             { id: 'textAutosizing', value: { label: 'Text autosizing' } },
 
             // miscCleanup
-            { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
-            { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun', status: 'complete' } },
-            { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko', status: 'complete' } },
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
             { id: 'restoreWithSharing', value: { label: 'Session restore with shared FNEs', owner: 'avi' } },
@@ -147,8 +152,7 @@ loadData(
             { u: 'extensionDevLaunch', v: 'telemetry' },
             { u: 'extensionDevLaunch', v: 'testsOnWaterfall' },
             { u: 'extensionDevLaunch', v: 'removeSwappedout' },
-            { u: 'removeSwappedout', v: 'messagePorts' },
-            { u: 'removeSwappedout', v: 'webviewSwappedOut' },
+            { u: 'extensionDevLaunch', v: 'enableFNEs' },
 
             { u: 'sessionHistory', v: 'backForwardBasic' },
             { u: 'sessionHistory', v: 'transferCrash' },
@@ -173,6 +177,13 @@ loadData(
             { u: 'testsOnWaterfall', v: 'fyiBotTests' },
             { u: 'testsOnWaterfall', v: 'layoutTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
+
+            { u: 'removeSwappedout', v: 'messagePorts' },
+            { u: 'removeSwappedout', v: 'webviewSwappedOut' },
+
+            { u: 'enableFNEs', v: 'locationReplace' },
+            { u: 'enableFNEs', v: 'initialNavEntry' },
+            { u: 'enableFNEs', v: 'transferShortcut' },
 
 
             { u: 'siteSubsetLaunch', v: 'extensionDevLaunch' },
