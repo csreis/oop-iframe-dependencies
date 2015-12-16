@@ -29,7 +29,7 @@ loadData(
 
             { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
             { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos', status: 'complete' } },
-            { id: 'animation', value: { label: 'requestAnimationFrame', bug: '529785', owner: 'lfg' } },
+            { id: 'animation', value: { label: 'requestAnimationFrame', bug: '529785', owner: 'lfg', status: 'complete' } },
 
             { id: 'enableProcessReuseExtensions', value: { label: 'Allow process reuse in --isolate-extensions', bug: '513036', owner: 'nick', status: 'complete' } },
 
