@@ -27,7 +27,7 @@ loadData(
             { id: 'scrolling', value: { label: 'OOPIF scrolling works', owner: 'kenrb', status: 'complete' } },
             { id: 'mouseCursor', value: { label: 'OOPIF mouse cursor updates', owner: 'kenrb', status: 'complete' } },
 
-            { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support' } },
+            { id: 'basicBlinkSupport', value: { label: 'Basic Blink OOPIF support', status: 'complete' } },
             { id: 'focusController', value: { label: 'Focus controller and keyboard', bug: '339659', owner: 'alexmos', status: 'complete' } },
             { id: 'animation', value: { label: 'requestAnimationFrame', bug: '529785', owner: 'lfg', status: 'complete' } },
 
