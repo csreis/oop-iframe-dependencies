@@ -77,7 +77,7 @@ loadData(
             { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun', status: 'complete' } },
             { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko', status: 'complete' } },
 
-            { id: 'enableFNEs', value: { label: 'Enable subframe FrameNavEntries on trunk', bug: '236848', owner: 'creis' } },
+            { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '373041', owner: 'creis' } },
             { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
             { id: 'transferShortcut', value: { label: 'Shorcut the transfer logic', bug: '495161', owner: 'creis' } },
