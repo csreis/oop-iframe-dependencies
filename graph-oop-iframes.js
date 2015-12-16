@@ -79,8 +79,8 @@ loadData(
 
             { id: 'enableFNEs', value: { label: 'Enable subframe FrameNavEntries on trunk', bug: '236848', owner: 'creis' } },
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '373041', owner: 'creis' } },
-            { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208' owner: 'creis' } },
-            { id: 'transferShortcut', value: { label: 'Shorcut the transfer logic', bug: '495161' owner: 'creis' } },
+            { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
+            { id: 'transferShortcut', value: { label: 'Shorcut the transfer logic', bug: '495161', owner: 'creis' } },
 
             // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate' } },
