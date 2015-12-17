@@ -54,7 +54,7 @@ loadData(
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator' } },
             { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean' } },
-            { id: 'fullscreen', value: { label: 'Fullscreen', owner: 'mlamouri' } },
+            { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'mlamouri' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging' } },
