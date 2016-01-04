@@ -56,7 +56,7 @@ loadData(
             { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'mlamouri' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
-            { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza' } },
+            { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging' } },
             
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906' } },
