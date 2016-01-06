@@ -61,7 +61,6 @@ loadData(
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging' } },
             
-            { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906' } },
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
 
@@ -83,6 +82,7 @@ loadData(
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '373041', owner: 'creis' } },
             { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
             { id: 'transferShortcut', value: { label: 'Shorcut the transfer logic', bug: '495161', owner: 'creis' } },
+            { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906' } },
 
             // extensionBetaLaunch
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
@@ -149,7 +149,6 @@ loadData(
             { u: 'extensionDevLaunch', v: 'extensionFTNIds' },
             { u: 'extensionDevLaunch', v: 'taskManagerOrder' },
             { u: 'extensionDevLaunch', v: 'blinkSupport' },
-            { u: 'extensionDevLaunch', v: 'determineSiteInstance' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
             { u: 'extensionDevLaunch', v: 'printing' },
@@ -191,6 +190,7 @@ loadData(
             { u: 'enableFNEs', v: 'locationReplace' },
             { u: 'enableFNEs', v: 'initialNavEntry' },
             { u: 'enableFNEs', v: 'transferShortcut' },
+            { u: 'enableFNEs', v: 'determineSiteInstance' },
 
 
             { u: 'extensionBetaLaunch', v: 'extensionDevLaunch' },
