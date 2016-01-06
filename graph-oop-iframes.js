@@ -4,6 +4,7 @@ loadData(
         nodes: [
             { id: 'extensionTrialLaunch', value: { label: 'Extension trial launch', milestone: true, bug: '546050' } },
             { id: 'extensionDevLaunch', value: { label: 'Extension Dev channel launch', milestone: true, bug: '545200' } },
+            { id: 'extensionBetaLaunch', value: { label: 'Extension Beta channel launch', milestone: true, bug: '545200' } },
             { id: 'siteSubsetLaunch', value: { label: 'Isolate subset of sites launch', milestone: true } },
             { id: 'miscCleanup', value: { label: 'Ongoing Cleanup', milestone: true } },
 
@@ -82,6 +83,9 @@ loadData(
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '373041', owner: 'creis' } },
             { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
             { id: 'transferShortcut', value: { label: 'Shorcut the transfer logic', bug: '495161', owner: 'creis' } },
+
+            // extensionBetaLaunch
+            { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
 
             // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate' } },
@@ -187,6 +191,9 @@ loadData(
             { u: 'enableFNEs', v: 'locationReplace' },
             { u: 'enableFNEs', v: 'initialNavEntry' },
             { u: 'enableFNEs', v: 'transferShortcut' },
+
+
+            { u: 'extensionBetaLaunch', v: 'devToolsWebIframes' },
 
 
             { u: 'siteSubsetLaunch', v: 'extensionDevLaunch' },
