@@ -82,7 +82,7 @@ loadData(
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '373041', owner: 'creis' } },
             { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
             { id: 'transferShortcut', value: { label: 'Shorcut the transfer logic', bug: '495161', owner: 'creis' } },
-            { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906' } },
+            { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis' } },
 
             // extensionBetaLaunch
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
