@@ -193,6 +193,7 @@ loadData(
             { u: 'enableFNEs', v: 'transferShortcut' },
 
 
+            { u: 'extensionBetaLaunch', v: 'extensionDevLaunch' },
             { u: 'extensionBetaLaunch', v: 'devToolsWebIframes' },
 
 
