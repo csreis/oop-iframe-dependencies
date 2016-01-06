@@ -41,10 +41,10 @@ loadData(
             { id: 'sessionRestoreFNEs', value: { label: 'Restore FNEs in Session Restore', bug: '545219', owner: 'creis', status: 'complete' } },
 
             // extensionDevLaunch
-            { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting' } },
+            { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting', status: 'complete' } },
             { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '225940', owner: 'alexmos', status: 'complete' } },
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions', bug: '522302', owner: 'nasko', status: 'complete' } },
-            { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768' } },
+            { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768', status: 'complete' } },
             { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu' } },
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
 
