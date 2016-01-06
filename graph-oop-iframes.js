@@ -197,7 +197,7 @@ loadData(
             { u: 'extensionBetaLaunch', v: 'devToolsWebIframes' },
 
 
-            { u: 'siteSubsetLaunch', v: 'extensionBetaLaunch' },
+            { u: 'siteSubsetLaunch', v: 'extensionDevLaunch' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec' },
             { u: 'siteSubsetLaunch', v: 'allInputEvents' },
