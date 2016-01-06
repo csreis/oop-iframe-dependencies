@@ -5,7 +5,7 @@ loadData(
             { id: 'extensionTrialLaunch', value: { label: 'Extension trial launch', milestone: true, bug: '546050' } },
             { id: 'extensionDevLaunch', value: { label: 'Extension Dev channel launch', milestone: true, bug: '545200' } },
             { id: 'siteSubsetLaunch', value: { label: 'Isolate subset of sites launch', milestone: true } },
-            { id: 'miscCleanup', value: { label: 'Cleanup Milestone', milestone: true } },
+            { id: 'miscCleanup', value: { label: 'Ongoing Cleanup', milestone: true } },
 
             // extensionTrialLaunch
             { id: 'enforceExtSec', value: { label: 'Enforce extension security', status: 'complete' } },
@@ -51,6 +51,8 @@ loadData(
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark' } },
+            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
+            { id: 'csp', value: { label: 'Fix CSP regression', bug: '376522' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator' } },
             { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'mlamouri' } },
@@ -166,6 +168,8 @@ loadData(
             { u: 'blinkSupport', v: 'webFrameWidget' },
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'mixedContent' },
+            { u: 'blinkSupport', v: 'xfo' },
+            { u: 'blinkSupport', v: 'csp' },
             { u: 'blinkSupport', v: 'userGesture' },
             { u: 'blinkSupport', v: 'zoom' },
             { u: 'blinkSupport', v: 'fullscreen' },
