@@ -45,7 +45,9 @@ loadData(
             { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '225940', owner: 'alexmos', status: 'complete' } },
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions', bug: '522302', owner: 'nasko', status: 'complete' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768', status: 'complete' } },
-            { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu' } },
+            
+            { id: 'beginFrame', value: { label: 'Unified BeginFrame' } },
+            { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu', status: 'complete' } },
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
@@ -146,6 +148,7 @@ loadData(
 
             { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
+            { u: 'extensionDevLaunch', v: 'beginFrame' },
             { u: 'extensionDevLaunch', v: 'extensionFTNIds' },
             { u: 'extensionDevLaunch', v: 'taskManagerOrder' },
             { u: 'extensionDevLaunch', v: 'blinkSupport' },
