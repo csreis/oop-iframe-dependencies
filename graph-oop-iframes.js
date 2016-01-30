@@ -53,7 +53,7 @@ loadData(
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
-            { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark' } },
+            { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark', status: 'complete' } },
             { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
             { id: 'csp', value: { label: 'Fix CSP regression', bug: '376522' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator' } },
