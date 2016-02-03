@@ -61,19 +61,19 @@ loadData(
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging' } },
             
-            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
-            { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick' } },
+            { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
             { id: 'beginFrame', value: { label: 'Unified BeginFrame' } },
 
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
-            { id: 'netStack', value: { label: 'Downloads and net stack', bug: '482049', owner: 'rdsmith' } },
+            { id: 'netStack', value: { label: 'Downloads and net stack', bug: '482049', owner: 'csharrison' } },
             
-            { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko' } },
+            { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko', status: 'complete' } },
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
-            { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default' } },
+            { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default', bug: '579704', owner: 'nasko' } },
             
             { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
             { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun', status: 'complete' } },
