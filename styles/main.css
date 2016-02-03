@@ -31,7 +31,6 @@ body {
 #dag .node rect {
     stroke-width: 2px;
     stroke: #333;
-    fill: none;
 }
 
 #dag .edge rect {
