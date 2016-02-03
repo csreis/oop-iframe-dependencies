@@ -58,7 +58,7 @@ loadData(
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
 
             // siteSubsetLaunch
-            { id: 'selectSiteSubset', value: { label: 'Select sites to isolate' } },
+            { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'nick' } },
             { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'nick' } },
             { id: 'isolateSiteSubset', value: { label: 'Isolate subset of sites', owner: 'nick' } },
             { id: 'blockPasswords', value: { label: 'Block unauthorized passwords', bug: '467150', owner: 'lfg', status: 'complete' } },
@@ -119,9 +119,9 @@ loadData(
             { u: 'blinkSupport', v: 'pushMessaging' },
 
             { u: 'enableFNEs', v: 'locationReplace' },
-            { u: 'enableFNEs', v: 'initialNavEntry' },
             { u: 'enableFNEs', v: 'transferShortcut' },
             { u: 'enableFNEs', v: 'determineSiteInstance' },
+            { u: 'enableFNEs', v: 'initialNavEntry' },
 
             { u: 'netStack', v: 'frameIOData' },
 
