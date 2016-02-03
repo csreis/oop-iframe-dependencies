@@ -63,6 +63,10 @@ loadData(
             { u: 'launchMetrics', v: 'umaProcessCount' },
             { u: 'launchMetrics', v: 'umaOOPIFCount' },
 
+            { u: 'sessionHistory', v: 'backForwardBasic' },
+            { u: 'sessionHistory', v: 'transferCrash' },
+            { u: 'sessionHistory', v: 'backForwardFTNs' },
+            { u: 'sessionHistory', v: 'sessionRestoreFNEs' },
         ]
     }
 );
