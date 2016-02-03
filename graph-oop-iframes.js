@@ -65,7 +65,6 @@ loadData(
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
             { id: 'beginFrame', value: { label: 'Unified BeginFrame' } },
 
-            { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '482049', owner: 'csharrison' } },
             
@@ -75,7 +74,7 @@ loadData(
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
             { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default', bug: '579704', owner: 'nasko' } },
             
-            { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
+            { id: 'disableSwappedout', value: { label: 'Disable swappedout://', bug: '357747', owner: 'nasko', status: 'complete' } },
             { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun', status: 'complete' } },
             { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko', status: 'complete' } },
 
@@ -86,6 +85,7 @@ loadData(
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis' } },
 
             // extensionBetaLaunch
+            { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
 
             // siteSubsetLaunch
@@ -113,6 +113,7 @@ loadData(
             // miscCleanup
             { id: 'renderWidgetSplit', value: { label: 'Split RenderView/RenderWidget', bug: '419087', owner: 'avi' } },
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in main frame', bug: '419087', owner: 'dcheng' } },
+            { id: 'removeSwappedout', value: { label: 'Remove swappedout://', bug: '357747', owner: 'nasko' } },
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
             { id: 'restoreWithSharing', value: { label: 'Session restore with shared FNEs', owner: 'avi' } },
@@ -153,7 +154,6 @@ loadData(
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
             { u: 'extensionDevLaunch', v: 'beginFrame' },
-            { u: 'extensionDevLaunch', v: 'printing' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
             { u: 'extensionDevLaunch', v: 'netStack' },
             { u: 'extensionDevLaunch', v: 'telemetry' },
@@ -195,10 +195,11 @@ loadData(
 
 
             { u: 'extensionBetaLaunch', v: 'extensionDevLaunch' },
+            { u: 'extensionBetaLaunch', v: 'printing' },
             { u: 'extensionBetaLaunch', v: 'devToolsWebIframes' },
 
 
-            { u: 'siteSubsetLaunch', v: 'extensionDevLaunch' },
+            { u: 'siteSubsetLaunch', v: 'extensionBetaLaunch' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec' },
             { u: 'siteSubsetLaunch', v: 'allInputEvents' },
