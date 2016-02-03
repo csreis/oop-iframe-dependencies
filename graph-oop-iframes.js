@@ -34,6 +34,7 @@ loadData(
 
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '482049', owner: 'csharrison' } },
+            { id: 'frameIOData', value: { label: 'FrameIOData', owner: 'nick' } },
             
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko', status: 'complete' } },
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
@@ -115,6 +116,8 @@ loadData(
             { u: 'blinkSupport', v: 'fullscreen' },
             { u: 'blinkSupport', v: 'screenOrientation' },
             { u: 'blinkSupport', v: 'pushMessaging' },
+
+            { u: 'netStack', v: 'frameIOData' },
 
             { u: 'testsOnWaterfall', v: 'fyiBotTests' },
             { u: 'testsOnWaterfall', v: 'layoutTests' },
