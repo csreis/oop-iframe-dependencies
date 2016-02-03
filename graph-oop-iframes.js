@@ -14,7 +14,6 @@ loadData(
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768', status: 'complete' } },
             
             { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu', status: 'complete' } },
-            { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
@@ -35,6 +34,7 @@ loadData(
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '482049', owner: 'csharrison' } },
             { id: 'frameIOData', value: { label: 'FrameIOData', owner: 'nick' } },
+            { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
             
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko', status: 'complete' } },
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
@@ -90,13 +90,13 @@ loadData(
         links: [
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
             { u: 'extensionDevLaunch', v: 'extensionFTNIds' },
-            { u: 'extensionDevLaunch', v: 'taskManagerOrder' },
             { u: 'extensionDevLaunch', v: 'blinkSupport' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
             { u: 'extensionDevLaunch', v: 'beginFrame' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
             { u: 'extensionDevLaunch', v: 'netStack' },
+            { u: 'extensionDevLaunch', v: 'taskManagerOrder' },
             { u: 'extensionDevLaunch', v: 'telemetry' },
             { u: 'extensionDevLaunch', v: 'testsOnWaterfall' },
             { u: 'extensionDevLaunch', v: 'disableSwappedout' },
