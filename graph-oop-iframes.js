@@ -46,24 +46,24 @@ loadData(
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions', bug: '522302', owner: 'nasko', status: 'complete' } },
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768', status: 'complete' } },
             
-            { id: 'beginFrame', value: { label: 'Unified BeginFrame' } },
             { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu', status: 'complete' } },
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
+            { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark', status: 'complete' } },
             { id: 'csp', value: { label: 'Fix CSP regression', bug: '376522' } },
             { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator' } },
-            { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean' } },
-            { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'mlamouri' } },
-            { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
+            { id: 'zoom', value: { label: 'Zoom level', bug: '528407' } },
+            { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497' } },
+            { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging' } },
-            { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
+            { id: 'beginFrame', value: { label: 'Unified BeginFrame' } },
 
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
@@ -147,12 +147,12 @@ loadData(
 
 
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
-            { u: 'extensionDevLaunch', v: 'beginFrame' },
             { u: 'extensionDevLaunch', v: 'extensionFTNIds' },
             { u: 'extensionDevLaunch', v: 'taskManagerOrder' },
             { u: 'extensionDevLaunch', v: 'blinkSupport' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
+            { u: 'extensionDevLaunch', v: 'beginFrame' },
             { u: 'extensionDevLaunch', v: 'printing' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
             { u: 'extensionDevLaunch', v: 'netStack' },
@@ -170,6 +170,7 @@ loadData(
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
             { u: 'crossFrameScripting', v: 'extBrowsingInstance' },
 
+            { u: 'blinkSupport', v: 'pageSerialization' },
             { u: 'blinkSupport', v: 'mixedContent' },
             { u: 'blinkSupport', v: 'csp' },
             { u: 'blinkSupport', v: 'xfo' },
@@ -179,7 +180,6 @@ loadData(
             { u: 'blinkSupport', v: 'fullscreen' },
             { u: 'blinkSupport', v: 'screenOrientation' },
             { u: 'blinkSupport', v: 'pushMessaging' },
-            { u: 'blinkSupport', v: 'pageSerialization' },
 
             { u: 'testsOnWaterfall', v: 'fyiBotTests' },
             { u: 'testsOnWaterfall', v: 'layoutTests' },
