@@ -158,7 +158,7 @@ loadData(
             { u: 'extensionDevLaunch', v: 'netStack' },
             { u: 'extensionDevLaunch', v: 'telemetry' },
             { u: 'extensionDevLaunch', v: 'testsOnWaterfall' },
-            { u: 'extensionDevLaunch', v: 'removeSwappedout' },
+            { u: 'extensionDevLaunch', v: 'disableSwappedout' },
             { u: 'extensionDevLaunch', v: 'enableFNEs' },
 
             { u: 'sessionHistory', v: 'backForwardBasic' },
@@ -185,8 +185,8 @@ loadData(
             { u: 'testsOnWaterfall', v: 'layoutTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
 
-            { u: 'removeSwappedout', v: 'messagePorts' },
-            { u: 'removeSwappedout', v: 'webviewSwappedOut' },
+            { u: 'disableSwappedout', v: 'messagePorts' },
+            { u: 'disableSwappedout', v: 'webviewSwappedOut' },
 
             { u: 'enableFNEs', v: 'locationReplace' },
             { u: 'enableFNEs', v: 'initialNavEntry' },
@@ -224,6 +224,7 @@ loadData(
 
             { u: 'miscCleanup', v: 'renderWidgetSplit' },
             { u: 'miscCleanup', v: 'webFrameWidget' },
+            { u: 'miscCleanup', v: 'removeSwappedout' },
             { u: 'miscCleanup', v: 'shareFNEs' },
             { u: 'shareFNEs', v: 'shareFNEsUnlessCloning' },
             { u: 'shareFNEs', v: 'restoreWithSharing' },
