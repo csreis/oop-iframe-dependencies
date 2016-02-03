@@ -44,6 +44,7 @@ loadData(
             
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko', status: 'complete' } },
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
+            { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos' } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
             { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
             { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default', bug: '579704', owner: 'nasko' } },
@@ -125,6 +126,7 @@ loadData(
 
             { u: 'netStack', v: 'frameIOData' },
 
+            { u: 'testsOnWaterfall', v: 'extensionTests' },
             { u: 'testsOnWaterfall', v: 'fyiBotTests' },
             { u: 'testsOnWaterfall', v: 'layoutTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
