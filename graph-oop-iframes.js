@@ -14,7 +14,7 @@ loadData(
             { id: 'dontIsolatedHostedApps', value: { label: 'Don\'t isolate hosted apps', bug: '535073', owner: 'nick', status: 'complete' } },
             { id: 'blockCookies', value: { label: 'Block unauthorized cookies', bug: '467150', owner: 'nick', status: 'complete' } },
 
-            { id: 'extensionSupport', value: { label: 'Basic extension support' } },
+            { id: 'extensionSupport', value: { label: 'Basic extension support', status: 'complete' } },
             { id: 'browserActions', value: { label: 'OOPIFs in browser actions', bug: '546267', owner: 'alexmos', status: 'complete' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos' } },
 
@@ -51,17 +51,16 @@ loadData(
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
-            { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in all frames', bug: '419087', owner: 'dcheng' } },
-            { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark', status: 'complete' } },
-            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
             { id: 'csp', value: { label: 'Fix CSP regression', bug: '376522' } },
+            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
+            { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator' } },
             { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'mlamouri' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'mlamouri' } },
-            { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging' } },
+            { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395' } },
@@ -112,10 +111,11 @@ loadData(
             { id: 'textAutosizing', value: { label: 'Text autosizing' } },
 
             // miscCleanup
+            { id: 'renderWidgetSplit', value: { label: 'Split RenderView/RenderWidget', bug: '419087', owner: 'avi' } },
+            { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in main frame', bug: '419087', owner: 'dcheng' } },
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
             { id: 'restoreWithSharing', value: { label: 'Session restore with shared FNEs', owner: 'avi' } },
-            { id: 'renderWidgetSplit', value: { label: 'Split RenderView/RenderWidget', bug: '419087', owner: 'avi' } },
             { id: 'removeRVH', value: { label: 'Remove RenderViewHost' } },
         ],
         links: [
@@ -170,17 +170,16 @@ loadData(
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
             { u: 'crossFrameScripting', v: 'extBrowsingInstance' },
 
-            { u: 'blinkSupport', v: 'webFrameWidget' },
-            { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'mixedContent' },
-            { u: 'blinkSupport', v: 'xfo' },
             { u: 'blinkSupport', v: 'csp' },
+            { u: 'blinkSupport', v: 'xfo' },
+            { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'userGesture' },
             { u: 'blinkSupport', v: 'zoom' },
             { u: 'blinkSupport', v: 'fullscreen' },
             { u: 'blinkSupport', v: 'screenOrientation' },
-            { u: 'blinkSupport', v: 'pageSerialization' },
             { u: 'blinkSupport', v: 'pushMessaging' },
+            { u: 'blinkSupport', v: 'pageSerialization' },
 
             { u: 'testsOnWaterfall', v: 'fyiBotTests' },
             { u: 'testsOnWaterfall', v: 'layoutTests' },
@@ -222,10 +221,11 @@ loadData(
             { u: 'allInputEvents', v: 'gestures' },
 
 
+            { u: 'miscCleanup', v: 'renderWidgetSplit' },
+            { u: 'miscCleanup', v: 'webFrameWidget' },
             { u: 'miscCleanup', v: 'shareFNEs' },
             { u: 'shareFNEs', v: 'shareFNEsUnlessCloning' },
             { u: 'shareFNEs', v: 'restoreWithSharing' },
-            { u: 'miscCleanup', v: 'renderWidgetSplit' },
             { u: 'miscCleanup', v: 'removeRVH' },
         ]
     }
