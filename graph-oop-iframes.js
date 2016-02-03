@@ -54,6 +54,7 @@ loadData(
 
             // extensionBetaLaunch
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
+            { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
 
             // siteSubsetLaunch
@@ -135,6 +136,8 @@ loadData(
             { u: 'extensionBetaLaunch', v: 'extensionDevLaunch' },
             { u: 'extensionBetaLaunch', v: 'printing' },
             { u: 'extensionBetaLaunch', v: 'devToolsWebIframes' },
+
+            { u: 'printing', v: 'pdfUtility' },
 
 
             { u: 'siteSubsetLaunch', v: 'extensionBetaLaunch' },
