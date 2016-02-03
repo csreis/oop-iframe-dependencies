@@ -2,7 +2,7 @@ loadData(
     {
         name: 'Chromium OOP iframes dependency graph',
         nodes: [
-            { id: 'extensionTrialLaunch', value: { label: 'Extension trial launch', milestone: true, bug: '546050' } },
+            { id: 'extensionTrialLaunch', value: { label: 'Extension trial launch', milestone: true, bug: '546050', status: 'complete' } },
             { id: 'extensionDevLaunch', value: { label: 'Extension Dev channel launch', milestone: true, bug: '545200' } },
             { id: 'extensionBetaLaunch', value: { label: 'Extension Beta channel launch', milestone: true, bug: '545200' } },
             { id: 'siteSubsetLaunch', value: { label: 'Isolate subset of sites launch', milestone: true } },
@@ -146,7 +146,6 @@ loadData(
             { u: 'launchMetrics', v: 'umaOOPIFCount' },
 
 
-            { u: 'extensionDevLaunch', v: 'extensionTrialLaunch' },
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
             { u: 'extensionDevLaunch', v: 'beginFrame' },
             { u: 'extensionDevLaunch', v: 'extensionFTNIds' },
