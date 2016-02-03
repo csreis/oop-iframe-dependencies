@@ -26,6 +26,12 @@ loadData(
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging' } },
+
+            { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
+            { id: 'locationReplace', value: { label: 'Update location.replace', bug: '373041', owner: 'creis' } },
+            { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis' } },
+            { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis' } },
+            { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
             
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '482049', owner: 'csharrison' } },
             { id: 'frameIOData', value: { label: 'FrameIOData', owner: 'nick' } },
@@ -45,12 +51,6 @@ loadData(
             { id: 'disableSwappedout', value: { label: 'Disable swappedout://', bug: '357747', owner: 'nasko', status: 'complete' } },
             { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun', status: 'complete' } },
             { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko', status: 'complete' } },
-
-            { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
-            { id: 'locationReplace', value: { label: 'Update location.replace', bug: '373041', owner: 'creis' } },
-            { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
-            { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis' } },
-            { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis' } },
 
             // extensionBetaLaunch
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
@@ -92,6 +92,7 @@ loadData(
             { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
             { u: 'extensionDevLaunch', v: 'extensionFTNIds' },
             { u: 'extensionDevLaunch', v: 'blinkSupport' },
+            { u: 'extensionDevLaunch', v: 'enableFNEs' },
             { u: 'extensionDevLaunch', v: 'netStack' },
             { u: 'extensionDevLaunch', v: 'taskManagerOrder' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
@@ -101,7 +102,6 @@ loadData(
             { u: 'extensionDevLaunch', v: 'telemetry' },
             { u: 'extensionDevLaunch', v: 'testsOnWaterfall' },
             { u: 'extensionDevLaunch', v: 'disableSwappedout' },
-            { u: 'extensionDevLaunch', v: 'enableFNEs' },
 
             { u: 'crossFrameScripting', v: 'frameOpeners' },
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
@@ -118,6 +118,11 @@ loadData(
             { u: 'blinkSupport', v: 'screenOrientation' },
             { u: 'blinkSupport', v: 'pushMessaging' },
 
+            { u: 'enableFNEs', v: 'locationReplace' },
+            { u: 'enableFNEs', v: 'initialNavEntry' },
+            { u: 'enableFNEs', v: 'transferShortcut' },
+            { u: 'enableFNEs', v: 'determineSiteInstance' },
+
             { u: 'netStack', v: 'frameIOData' },
 
             { u: 'testsOnWaterfall', v: 'fyiBotTests' },
@@ -126,11 +131,6 @@ loadData(
 
             { u: 'disableSwappedout', v: 'messagePorts' },
             { u: 'disableSwappedout', v: 'webviewSwappedOut' },
-
-            { u: 'enableFNEs', v: 'locationReplace' },
-            { u: 'enableFNEs', v: 'initialNavEntry' },
-            { u: 'enableFNEs', v: 'transferShortcut' },
-            { u: 'enableFNEs', v: 'determineSiteInstance' },
 
 
             { u: 'extensionBetaLaunch', v: 'extensionDevLaunch' },
