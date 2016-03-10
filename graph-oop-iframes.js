@@ -40,7 +40,7 @@ loadData(
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
             { id: 'beginFrame', value: { label: 'Unified BeginFrame' } },
 
-            { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni' } },
+            { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni', status: 'complete' } },
             
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko', status: 'complete' } },
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
