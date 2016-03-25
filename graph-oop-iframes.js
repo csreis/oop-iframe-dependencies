@@ -18,17 +18,18 @@ loadData(
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark', status: 'complete' } },
-            { id: 'csp', value: { label: 'Fix CSP regression', bug: '376522' } },
+            { id: 'cspBug', value: { label: 'Fix CSP regression', bug: '585501', owner: 'alexmos' } },
+            { id: 'csp', value: { label: 'Move CSP to browser', bug: '376522', owner: 'mkwst' } },
             { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
-            { id: 'userGesture', value: { label: 'UserGestureIndicator' } },
-            { id: 'zoom', value: { label: 'Zoom level', bug: '528407' } },
+            { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894' } },
+            { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'alexmos' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging' } },
 
             { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
-            { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis' } },
+            { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
             { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis' } },
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis' } },
             { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
@@ -46,7 +47,7 @@ loadData(
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos' } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
-            { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'alexmos' } },
+            { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'lukasza' } },
             { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default', bug: '579704', owner: 'nasko', status: 'complete' } },
             
             { id: 'disableSwappedout', value: { label: 'Disable swappedout://', bug: '357747', owner: 'nasko', status: 'complete' } },
@@ -69,7 +70,7 @@ loadData(
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop' } },
-            { id: 'gestures', value: { label: 'Gesture support' } },
+            { id: 'gestures', value: { label: 'Gesture support', owner: 'wjmaclean' } },
 
             { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
@@ -110,6 +111,7 @@ loadData(
 
             { u: 'blinkSupport', v: 'pageSerialization' },
             { u: 'blinkSupport', v: 'mixedContent' },
+            { u: 'blinkSupport', v: 'cspBug' },
             { u: 'blinkSupport', v: 'csp' },
             { u: 'blinkSupport', v: 'xfo' },
             { u: 'blinkSupport', v: 'find' },
