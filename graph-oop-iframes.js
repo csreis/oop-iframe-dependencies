@@ -57,9 +57,9 @@ loadData(
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
 
             // siteSubsetLaunch
-            { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'nick' } },
-            { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'nick' } },
-            { id: 'isolateSiteSubset', value: { label: 'Isolate subset of sites', owner: 'nick' } },
+            { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
+            { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'creis' } },
+            { id: 'isolateSiteSubset', value: { label: 'Isolate subset of sites', owner: 'creis' } },
             { id: 'blockPasswords', value: { label: 'Block unauthorized passwords', bug: '467150', owner: 'lfg', status: 'complete' } },
             { id: 'blockPermissions', value: { label: 'Block unauthorized site permissions', bug: '467150' } },
             { id: 'blockHTML5Storage', value: { label: 'Block unauthorized HTML5 storage', bug: '467150' } },
