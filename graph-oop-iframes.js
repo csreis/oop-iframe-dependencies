@@ -102,6 +102,7 @@ loadData(
             { u: 'extensionDevLaunch', v: 'taskManagerOrder' },
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
+            { u: 'extensionDevLaunch', v: 'dialogs' },
             { u: 'extensionDevLaunch', v: 'beginFrame' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
             { u: 'extensionDevLaunch', v: 'telemetry' },
