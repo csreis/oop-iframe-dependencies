@@ -24,6 +24,8 @@ loadData(
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
+            { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad' } },
+            { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'ekaramad' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng' } },
 
             { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
