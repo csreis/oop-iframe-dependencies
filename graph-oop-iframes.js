@@ -120,6 +120,8 @@ loadData(
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'userGesture' },
             { u: 'blinkSupport', v: 'screenOrientation' },
+            { u: 'blinkSupport', v: 'ime' },
+            { u: 'blinkSupport', v: 'visibility' },
             { u: 'blinkSupport', v: 'pushMessaging' },
 
             { u: 'enableFNEs', v: 'locationReplace' },
