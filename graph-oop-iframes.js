@@ -55,7 +55,6 @@ loadData(
             // extensionBetaLaunch
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
-            { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
 
             // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'nick' } },
@@ -66,6 +65,7 @@ loadData(
             { id: 'blockHTML5Storage', value: { label: 'Block unauthorized HTML5 storage', bug: '467150' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
             { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
+            { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop' } },
@@ -136,7 +136,6 @@ loadData(
 
             { u: 'extensionBetaLaunch', v: 'extensionDevLaunch' },
             { u: 'extensionBetaLaunch', v: 'printing' },
-            { u: 'extensionBetaLaunch', v: 'devToolsWebIframes' },
 
             { u: 'printing', v: 'pdfUtility' },
 
@@ -160,6 +159,7 @@ loadData(
             { u: 'enforceSiteSec', v: 'blockHTML5Storage' },
             { u: 'enforceSiteSec', v: 'blockCrossSiteDocs' },
             { u: 'enforceSiteSec', v: 'xfo' },
+            { u: 'enforceSiteSec', v: 'devToolsWebIframes' },
 
             { u: 'allInputEvents', v: 'dragNDrop' },
             { u: 'allInputEvents', v: 'gestures' },
