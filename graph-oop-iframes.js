@@ -24,7 +24,7 @@ loadData(
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
-            { id: 'pushMessaging', value: { label: 'Push Messaging' } },
+            { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng' } },
 
             { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
