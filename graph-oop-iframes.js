@@ -179,8 +179,8 @@ loadData(
             { u: 'miscCleanup', v: 'shareFNEs' },
             { u: 'shareFNEs', v: 'shareFNEsUnlessCloning' },
             { u: 'shareFNEs', v: 'restoreWithSharing' },
-            { u: 'miscCleanup', v: 'removeRVH' },
             { u: 'miscCleanup', v: 'auditGetRPH' },
+            { u: 'miscCleanup', v: 'removeRVH' },
         ]
     }
 );
