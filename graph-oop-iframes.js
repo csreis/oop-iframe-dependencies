@@ -19,7 +19,6 @@ loadData(
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark', status: 'complete' } },
             { id: 'cspBug', value: { label: 'Fix CSP regression', bug: '585501', owner: 'alexmos' } },
-            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894' } },
             { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean' } },
@@ -66,6 +65,7 @@ loadData(
             { id: 'blockPermissions', value: { label: 'Block unauthorized site permissions', bug: '467150' } },
             { id: 'blockHTML5Storage', value: { label: 'Block unauthorized HTML5 storage', bug: '467150' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
+            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop' } },
@@ -111,7 +111,6 @@ loadData(
             { u: 'blinkSupport', v: 'pageSerialization' },
             { u: 'blinkSupport', v: 'mixedContent' },
             { u: 'blinkSupport', v: 'cspBug' },
-            { u: 'blinkSupport', v: 'xfo' },
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'userGesture' },
             { u: 'blinkSupport', v: 'zoom' },
@@ -160,6 +159,7 @@ loadData(
             { u: 'enforceSiteSec', v: 'blockPermissions' },
             { u: 'enforceSiteSec', v: 'blockHTML5Storage' },
             { u: 'enforceSiteSec', v: 'blockCrossSiteDocs' },
+            { u: 'enforceSiteSec', v: 'xfo' },
 
             { u: 'allInputEvents', v: 'dragNDrop' },
             { u: 'allInputEvents', v: 'gestures' },
