@@ -37,6 +37,7 @@ loadData(
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
+            { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
             { id: 'beginFrame', value: { label: 'Unified BeginFrame', bug: '471411', owner: 'enne' } },
 
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni', status: 'complete' } },
@@ -57,6 +58,11 @@ loadData(
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
 
             // siteSubsetLaunch
+            { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
+            { id: 'dragNDrop', value: { label: 'Drag n Drop' } },
+            { id: 'gestures', value: { label: 'Gesture support', owner: 'wjmaclean' } },
+            { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926' } },
+
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
             { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'creis' } },
             { id: 'isolateSiteSubset', value: { label: 'Isolate subset of sites', owner: 'creis' } },
@@ -66,10 +72,6 @@ loadData(
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
             { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
-
-            { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
-            { id: 'dragNDrop', value: { label: 'Drag n Drop' } },
-            { id: 'gestures', value: { label: 'Gesture support', owner: 'wjmaclean' } },
 
             { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
             { id: 'ntp', value: { label: 'OOPIF NTP support' } },
@@ -141,9 +143,9 @@ loadData(
 
 
             { u: 'siteSubsetLaunch', v: 'extensionBetaLaunch' },
+            { u: 'siteSubsetLaunch', v: 'allInputEvents' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec' },
-            { u: 'siteSubsetLaunch', v: 'allInputEvents' },
             { u: 'siteSubsetLaunch', v: 'enableProcessReuse' },
             { u: 'siteSubsetLaunch', v: 'ntp' },
             { u: 'siteSubsetLaunch', v: 'chromeUrls' },
@@ -153,6 +155,10 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'domDistiller' },
             { u: 'siteSubsetLaunch', v: 'textAutosizing' },
 
+            { u: 'allInputEvents', v: 'dragNDrop' },
+            { u: 'allInputEvents', v: 'gestures' },
+            { u: 'allInputEvents', v: 'pointerLock' },
+
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
             { u: 'enforceSiteSec', v: 'blockPermissions' },
@@ -160,10 +166,6 @@ loadData(
             { u: 'enforceSiteSec', v: 'blockCrossSiteDocs' },
             { u: 'enforceSiteSec', v: 'xfo' },
             { u: 'enforceSiteSec', v: 'devToolsWebIframes' },
-
-            { u: 'allInputEvents', v: 'dragNDrop' },
-            { u: 'allInputEvents', v: 'gestures' },
-
 
             { u: 'miscCleanup', v: 'renderWidgetSplit' },
             { u: 'miscCleanup', v: 'webFrameWidget' },
