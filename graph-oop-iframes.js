@@ -30,7 +30,7 @@ loadData(
 
             { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
-            { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis' } },
+            { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis', status: 'complete' } },
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis' } },
             { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
             
@@ -61,7 +61,7 @@ loadData(
 
             // siteSubsetLaunch
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
-            { id: 'dragNDrop', value: { label: 'Drag n Drop' } },
+            { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236' } },
             { id: 'gestures', value: { label: 'Gesture support', owner: 'wjmaclean' } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926' } },
 
