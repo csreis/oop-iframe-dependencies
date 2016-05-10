@@ -62,7 +62,7 @@ loadData(
             // siteSubsetLaunch
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236' } },
-            { id: 'gestures', value: { label: 'Gesture support', owner: 'wjmaclean' } },
+            { id: 'gestures', value: { label: 'Gesture support', owner: 'kenrb' } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926' } },
 
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
