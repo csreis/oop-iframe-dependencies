@@ -76,7 +76,7 @@ loadData(
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
 
             { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
-            { id: 'ntp', value: { label: 'OOPIF NTP support' } },
+            { id: 'ntp', value: { label: 'OOPIF NTP support', bug: '566091' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
             { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'lukasza' } },
             { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', owner: 'groby' } },
