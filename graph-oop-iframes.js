@@ -39,6 +39,7 @@ loadData(
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
+            { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg' } },
             { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
             { id: 'beginFrame', value: { label: 'Unified BeginFrame', bug: '471411', owner: 'enne', status: 'complete' } },
 
@@ -104,6 +105,7 @@ loadData(
             { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
             { u: 'extensionDevLaunch', v: 'crossProcessPost' },
             { u: 'extensionDevLaunch', v: 'dialogs' },
+            { u: 'extensionDevLaunch', v: 'flashAnimation' },
             { u: 'extensionDevLaunch', v: 'beginFrame' },
             { u: 'extensionDevLaunch', v: 'accessibility' },
             { u: 'extensionDevLaunch', v: 'telemetry' },
