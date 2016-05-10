@@ -18,9 +18,9 @@ loadData(
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark', status: 'complete' } },
-            { id: 'cspBug', value: { label: 'Fix CSP regression', bug: '585501', owner: 'alexmos' } },
+            { id: 'cspBug', value: { label: 'Fix CSP regression', bug: '585501', owner: 'lukasza' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'alexmos' } },
-            { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean' } },
+            { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean', status: 'complete' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
@@ -40,7 +40,7 @@ loadData(
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
             { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
-            { id: 'beginFrame', value: { label: 'Unified BeginFrame', bug: '471411', owner: 'enne' } },
+            { id: 'beginFrame', value: { label: 'Unified BeginFrame', bug: '471411', owner: 'enne', status: 'complete' } },
 
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni', status: 'complete' } },
             
@@ -72,7 +72,7 @@ loadData(
             { id: 'blockPermissions', value: { label: 'Block unauthorized site permissions', bug: '467150' } },
             { id: 'blockHTML5Storage', value: { label: 'Block unauthorized HTML5 storage', bug: '467150' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
-            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst' } },
+            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst', status: 'complete' } },
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
 
             { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
