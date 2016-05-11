@@ -40,7 +40,6 @@ loadData(
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
             
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
-            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick' } },
             { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg' } },
             { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
             { id: 'beginFrame', value: { label: 'Unified BeginFrame', bug: '471411', owner: 'enne', status: 'complete' } },
@@ -60,9 +59,11 @@ loadData(
 
             // tdiLaunch
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison' } },
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick' } },
+            { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
-            { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
+            { id: 'tdiTests', value: { label: 'TDI test coverage', owner: 'nick' } },
 
             // siteSubsetLaunch
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
@@ -108,7 +109,6 @@ loadData(
             { u: 'extensionLaunch', v: 'determineSiteInstance' },
             { u: 'extensionLaunch', v: 'crossProcessPost' },
             { u: 'extensionLaunch', v: 'taskManagerOrder' },
-            { u: 'extensionLaunch', v: 'consolidateProcesses' },
             { u: 'extensionLaunch', v: 'flashAnimation' },
             { u: 'extensionLaunch', v: 'dialogs' },
             { u: 'extensionLaunch', v: 'beginFrame' },
@@ -151,8 +151,10 @@ loadData(
 
             { u: 'tdiLaunch', v: 'extensionLaunch' },
             { u: 'tdiLaunch', v: 'netStack' },
-            { u: 'tdiLaunch', v: 'printing' },
+            { u: 'tdiLaunch', v: 'consolidateProcesses' },
             { u: 'tdiLaunch', v: 'screenOrientation' },
+            { u: 'tdiLaunch', v: 'printing' },
+            { u: 'tdiLaunch', v: 'tdiTests' },
 
             { u: 'printing', v: 'pdfUtility' },
 
