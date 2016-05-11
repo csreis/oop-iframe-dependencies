@@ -2,8 +2,8 @@ loadData(
     {
         name: 'Chromium OOP iframes dependency graph',
         nodes: [
-            { id: 'extensionDevLaunch', value: { label: 'Extension Dev channel launch', milestone: true, bug: '545200' } },
-            { id: 'extensionBetaLaunch', value: { label: 'Extension Beta channel launch', milestone: true, bug: '545200' } },
+            { id: 'extensionLaunch', value: { label: '--isolate-extensions launch', milestone: true, bug: '545200' } },
+            { id: 'tdiLaunch', value: { label: '--top-document-isolation launch', milestone: true } },
             { id: 'siteSubsetLaunch', value: { label: 'Isolate subset of sites launch', milestone: true } },
             { id: 'miscCleanup', value: { label: 'Ongoing Cleanup', milestone: true } },
 
@@ -56,7 +56,7 @@ loadData(
             { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun', status: 'complete' } },
             { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko', status: 'complete' } },
 
-            // extensionBetaLaunch
+            // tdiLaunch
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
 
@@ -96,21 +96,21 @@ loadData(
             { id: 'removeRVH', value: { label: 'Remove RenderViewHost' } },
         ],
         links: [
-            { u: 'extensionDevLaunch', v: 'crossFrameScripting' },
-            { u: 'extensionDevLaunch', v: 'extensionFTNIds' },
-            { u: 'extensionDevLaunch', v: 'blinkSupport' },
-            { u: 'extensionDevLaunch', v: 'enableFNEs' },
-            { u: 'extensionDevLaunch', v: 'netStack' },
-            { u: 'extensionDevLaunch', v: 'taskManagerOrder' },
-            { u: 'extensionDevLaunch', v: 'consolidateProcesses' },
-            { u: 'extensionDevLaunch', v: 'crossProcessPost' },
-            { u: 'extensionDevLaunch', v: 'dialogs' },
-            { u: 'extensionDevLaunch', v: 'flashAnimation' },
-            { u: 'extensionDevLaunch', v: 'beginFrame' },
-            { u: 'extensionDevLaunch', v: 'accessibility' },
-            { u: 'extensionDevLaunch', v: 'telemetry' },
-            { u: 'extensionDevLaunch', v: 'testsOnWaterfall' },
-            { u: 'extensionDevLaunch', v: 'disableSwappedout' },
+            { u: 'extensionLaunch', v: 'crossFrameScripting' },
+            { u: 'extensionLaunch', v: 'extensionFTNIds' },
+            { u: 'extensionLaunch', v: 'blinkSupport' },
+            { u: 'extensionLaunch', v: 'enableFNEs' },
+            { u: 'extensionLaunch', v: 'netStack' },
+            { u: 'extensionLaunch', v: 'taskManagerOrder' },
+            { u: 'extensionLaunch', v: 'consolidateProcesses' },
+            { u: 'extensionLaunch', v: 'crossProcessPost' },
+            { u: 'extensionLaunch', v: 'dialogs' },
+            { u: 'extensionLaunch', v: 'flashAnimation' },
+            { u: 'extensionLaunch', v: 'beginFrame' },
+            { u: 'extensionLaunch', v: 'accessibility' },
+            { u: 'extensionLaunch', v: 'telemetry' },
+            { u: 'extensionLaunch', v: 'testsOnWaterfall' },
+            { u: 'extensionLaunch', v: 'disableSwappedout' },
 
             { u: 'crossFrameScripting', v: 'frameOpeners' },
             { u: 'crossFrameScripting', v: 'crossProcessJS' },
@@ -144,8 +144,8 @@ loadData(
             { u: 'disableSwappedout', v: 'webviewSwappedOut' },
 
 
-            { u: 'extensionBetaLaunch', v: 'extensionDevLaunch' },
-            { u: 'extensionBetaLaunch', v: 'printing' },
+            { u: 'tdiLaunch', v: 'extensionDevLaunch' },
+            { u: 'tdiLaunch', v: 'printing' },
 
             { u: 'printing', v: 'pdfUtility' },
 
