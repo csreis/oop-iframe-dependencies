@@ -26,6 +26,7 @@ loadData(
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb' } },
             { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'ekaramad' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng' } },
+            { id: 'gestures', value: { label: 'Gesture support', owner: 'kenrb' } },
 
             { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
@@ -66,7 +67,6 @@ loadData(
             // siteSubsetLaunch
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236' } },
-            { id: 'gestures', value: { label: 'Gesture support', owner: 'kenrb' } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926' } },
 
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
@@ -131,6 +131,7 @@ loadData(
             { u: 'blinkSupport', v: 'userGesture' },
             { u: 'blinkSupport', v: 'visibility' },
             { u: 'blinkSupport', v: 'pushMessaging' },
+            { u: 'blinkSupport', v: 'gestures' },
 
             { u: 'enableFNEs', v: 'locationReplace' },
             { u: 'enableFNEs', v: 'transferShortcut' },
@@ -170,7 +171,6 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'textAutosizing' },
 
             { u: 'allInputEvents', v: 'dragNDrop' },
-            { u: 'allInputEvents', v: 'gestures' },
             { u: 'allInputEvents', v: 'pointerLock' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
