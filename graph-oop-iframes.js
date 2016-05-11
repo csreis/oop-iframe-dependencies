@@ -38,8 +38,6 @@ loadData(
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
             
-            { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison' } },
-            { id: 'frameIOData', value: { label: 'FrameIOData', owner: 'nick' } },
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick' } },
             { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg' } },
@@ -60,6 +58,7 @@ loadData(
             { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko', status: 'complete' } },
 
             // tdiLaunch
+            { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison' } },
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
@@ -79,6 +78,7 @@ loadData(
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
             { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst', status: 'complete' } },
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
+            { id: 'frameIOData', value: { label: 'FrameIOData', owner: 'nick' } },
 
             { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
             { id: 'ntp', value: { label: 'OOPIF NTP support', bug: '566091' } },
@@ -107,11 +107,10 @@ loadData(
             { u: 'extensionLaunch', v: 'enableFNEs' },
             { u: 'extensionLaunch', v: 'determineSiteInstance' },
             { u: 'extensionLaunch', v: 'crossProcessPost' },
-            { u: 'extensionLaunch', v: 'netStack' },
             { u: 'extensionLaunch', v: 'taskManagerOrder' },
             { u: 'extensionLaunch', v: 'consolidateProcesses' },
-            { u: 'extensionLaunch', v: 'dialogs' },
             { u: 'extensionLaunch', v: 'flashAnimation' },
+            { u: 'extensionLaunch', v: 'dialogs' },
             { u: 'extensionLaunch', v: 'beginFrame' },
             { u: 'extensionLaunch', v: 'accessibility' },
             { u: 'extensionLaunch', v: 'telemetry' },
@@ -140,8 +139,6 @@ loadData(
             { u: 'enableFNEs', v: 'pendingDeleteFTNs' },
             { u: 'enableFNEs', v: 'loadDataBaseURL' },
 
-            { u: 'netStack', v: 'frameIOData' },
-
             { u: 'testsOnWaterfall', v: 'extensionTests' },
             { u: 'testsOnWaterfall', v: 'fyiBotTests' },
             { u: 'testsOnWaterfall', v: 'layoutTests' },
@@ -152,6 +149,7 @@ loadData(
 
 
             { u: 'tdiLaunch', v: 'extensionLaunch' },
+            { u: 'tdiLaunch', v: 'netStack' },
             { u: 'tdiLaunch', v: 'printing' },
             { u: 'tdiLaunch', v: 'screenOrientation' },
 
