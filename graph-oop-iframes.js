@@ -30,13 +30,14 @@ loadData(
             { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
             { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis', status: 'complete' } },
+
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis' } },
+            { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
             
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison' } },
             { id: 'frameIOData', value: { label: 'FrameIOData', owner: 'nick' } },
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick' } },
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick' } },
-            { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
             { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg' } },
             { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
             { id: 'beginFrame', value: { label: 'Unified BeginFrame', bug: '471411', owner: 'enne', status: 'complete' } },
@@ -100,10 +101,11 @@ loadData(
             { u: 'extensionLaunch', v: 'extensionFTNIds' },
             { u: 'extensionLaunch', v: 'blinkSupport' },
             { u: 'extensionLaunch', v: 'enableFNEs' },
+            { u: 'extensionLaunch', v: 'determineSiteInstance' },
+            { u: 'extensionLaunch', v: 'crossProcessPost' },
             { u: 'extensionLaunch', v: 'netStack' },
             { u: 'extensionLaunch', v: 'taskManagerOrder' },
             { u: 'extensionLaunch', v: 'consolidateProcesses' },
-            { u: 'extensionLaunch', v: 'crossProcessPost' },
             { u: 'extensionLaunch', v: 'dialogs' },
             { u: 'extensionLaunch', v: 'flashAnimation' },
             { u: 'extensionLaunch', v: 'beginFrame' },
@@ -129,7 +131,6 @@ loadData(
 
             { u: 'enableFNEs', v: 'locationReplace' },
             { u: 'enableFNEs', v: 'transferShortcut' },
-            { u: 'enableFNEs', v: 'determineSiteInstance' },
 
             { u: 'netStack', v: 'frameIOData' },
 
