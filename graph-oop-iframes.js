@@ -30,6 +30,10 @@ loadData(
             { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
             { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis', status: 'complete' } },
+            { id: 'subBackForward', value: { label: 'Fix subframe back/forward', bug: '586324', owner: 'creis', status: 'complete' } },
+            { id: 'updateTitleState', value: { label: 'Fix UpdateTitle/State', bug: '577449', owner: 'creis' } },
+            { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis' } },
+            { id: 'loadDataBaseURL', value: { label: 'Fix LoadDataWithBaseURL test', owner: 'creis' } },
 
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis' } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'creis' } },
@@ -131,6 +135,10 @@ loadData(
 
             { u: 'enableFNEs', v: 'locationReplace' },
             { u: 'enableFNEs', v: 'transferShortcut' },
+            { u: 'enableFNEs', v: 'subBackForward' },
+            { u: 'enableFNEs', v: 'updateTitleState' },
+            { u: 'enableFNEs', v: 'pendingDeleteFTNs' },
+            { u: 'enableFNEs', v: 'loadDataBaseURL' },
 
             { u: 'netStack', v: 'frameIOData' },
 
