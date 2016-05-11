@@ -70,6 +70,12 @@ loadData(
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236' } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926' } },
 
+            { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'lukasza' } },
+            { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', owner: 'groby' } },
+            { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544' } },
+            { id: 'domDistiller', value: { label: 'DOM Distiller' } },
+            { id: 'textAutosizing', value: { label: 'Text autosizing' } },
+
             // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
             { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'creis' } },
@@ -85,11 +91,6 @@ loadData(
             { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
             { id: 'ntp', value: { label: 'OOPIF NTP support', bug: '566091' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
-            { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'lukasza' } },
-            { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', owner: 'groby' } },
-            { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544' } },
-            { id: 'domDistiller', value: { label: 'DOM Distiller' } },
-            { id: 'textAutosizing', value: { label: 'Text autosizing' } },
 
             // miscCleanup
             { id: 'renderWidgetSplit', value: { label: 'Split RenderView/RenderWidget', bug: '419087', owner: 'avi' } },
@@ -158,6 +159,11 @@ loadData(
             { u: 'tdiLaunch', v: 'tdiTests' },
             { u: 'tdiLaunch', v: 'noTDIWebUI' },
             { u: 'tdiLaunch', v: 'allInputEvents' },
+            { u: 'tdiLaunch', v: 'editStack' },
+            { u: 'tdiLaunch', v: 'spellcheck' },
+            { u: 'tdiLaunch', v: 'prerendering' },
+            { u: 'tdiLaunch', v: 'domDistiller' },
+            { u: 'tdiLaunch', v: 'textAutosizing' },
 
             { u: 'printing', v: 'pdfUtility' },
 
@@ -171,11 +177,6 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'enableProcessReuse' },
             { u: 'siteSubsetLaunch', v: 'ntp' },
             { u: 'siteSubsetLaunch', v: 'chromeUrls' },
-            { u: 'siteSubsetLaunch', v: 'editStack' },
-            { u: 'siteSubsetLaunch', v: 'spellcheck' },
-            { u: 'siteSubsetLaunch', v: 'prerendering' },
-            { u: 'siteSubsetLaunch', v: 'domDistiller' },
-            { u: 'siteSubsetLaunch', v: 'textAutosizing' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
