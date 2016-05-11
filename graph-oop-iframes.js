@@ -40,7 +40,7 @@ loadData(
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza', weeksLeft: 2 } },
             
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick', weeksLeft: 1 } },
-            { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg', weeksLeft: 1 } },
+            { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg', status: 'complete' } },
             { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
             { id: 'beginFrame', value: { label: 'Unified BeginFrame', bug: '471411', owner: 'enne', status: 'complete' } },
 
