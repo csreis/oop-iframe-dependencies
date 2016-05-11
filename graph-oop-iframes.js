@@ -64,12 +64,13 @@ loadData(
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
             { id: 'tdiTests', value: { label: 'TDI test coverage', owner: 'nick' } },
+            { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', owner: 'nick' } },
 
-            // siteSubsetLaunch
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236' } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926' } },
 
+            // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
             { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'creis' } },
             { id: 'isolateSiteSubset', value: { label: 'Isolate subset of sites', owner: 'creis' } },
@@ -155,12 +156,16 @@ loadData(
             { u: 'tdiLaunch', v: 'screenOrientation' },
             { u: 'tdiLaunch', v: 'printing' },
             { u: 'tdiLaunch', v: 'tdiTests' },
+            { u: 'tdiLaunch', v: 'noTDIWebUI' },
+            { u: 'tdiLaunch', v: 'allInputEvents' },
 
             { u: 'printing', v: 'pdfUtility' },
 
+            { u: 'allInputEvents', v: 'dragNDrop' },
+            { u: 'allInputEvents', v: 'pointerLock' },
+
 
             { u: 'siteSubsetLaunch', v: 'tdiLaunch' },
-            { u: 'siteSubsetLaunch', v: 'allInputEvents' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec' },
             { u: 'siteSubsetLaunch', v: 'enableProcessReuse' },
@@ -171,9 +176,6 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'prerendering' },
             { u: 'siteSubsetLaunch', v: 'domDistiller' },
             { u: 'siteSubsetLaunch', v: 'textAutosizing' },
-
-            { u: 'allInputEvents', v: 'dragNDrop' },
-            { u: 'allInputEvents', v: 'pointerLock' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
