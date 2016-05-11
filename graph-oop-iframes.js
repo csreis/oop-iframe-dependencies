@@ -185,6 +185,7 @@ loadData(
             { u: 'enforceSiteSec', v: 'blockCrossSiteDocs' },
             { u: 'enforceSiteSec', v: 'xfo' },
             { u: 'enforceSiteSec', v: 'devToolsWebIframes' },
+            { u: 'enforceSiteSec', v: 'frameIOData' },
 
             { u: 'miscCleanup', v: 'renderWidgetSplit' },
             { u: 'miscCleanup', v: 'webFrameWidget' },
