@@ -18,13 +18,12 @@ loadData(
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark', status: 'complete' } },
+            { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean', status: 'complete' } },
             { id: 'cspBug', value: { label: 'Fix CSP regression', bug: '585501', owner: 'lukasza' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'alexmos' } },
-            { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean', status: 'complete' } },
+            { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb' } },
-            { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
-            { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad' } },
             { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'ekaramad' } },
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng' } },
 
@@ -32,7 +31,6 @@ loadData(
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
             { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis', status: 'complete' } },
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis' } },
-            { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
             
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison' } },
             { id: 'frameIOData', value: { label: 'FrameIOData', owner: 'nick' } },
@@ -59,6 +57,7 @@ loadData(
             // tdiLaunch
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig' } },
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
+            { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287' } },
 
             // siteSubsetLaunch
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
@@ -92,6 +91,7 @@ loadData(
             { id: 'shareFNEs', value: { label: 'Share FrameNavigationEntries', bug: '373041', owner: 'creis' } },
             { id: 'shareFNEsUnlessCloning', value: { label: 'Share FNEs unless cloning', bug: '373041', owner: 'creis' } },
             { id: 'restoreWithSharing', value: { label: 'Session restore with shared FNEs', owner: 'avi' } },
+            { id: 'initialNavEntry', value: { label: 'NavEntry for initial blank page', bug: '524208', owner: 'creis' } },
             { id: 'auditGetRPH', value: { label: 'Audit GetRenderProcessHosts calls', bug: '585839', owner: 'creis' } },
             { id: 'removeRVH', value: { label: 'Remove RenderViewHost' } },
         ],
@@ -118,20 +118,18 @@ loadData(
 
             { u: 'blinkSupport', v: 'pageSerialization' },
             { u: 'blinkSupport', v: 'mixedContent' },
+            { u: 'blinkSupport', v: 'zoom' },
             { u: 'blinkSupport', v: 'cspBug' },
             { u: 'blinkSupport', v: 'fullscreen' },
-            { u: 'blinkSupport', v: 'zoom' },
+            { u: 'blinkSupport', v: 'ime' },
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'userGesture' },
-            { u: 'blinkSupport', v: 'screenOrientation' },
-            { u: 'blinkSupport', v: 'ime' },
             { u: 'blinkSupport', v: 'visibility' },
             { u: 'blinkSupport', v: 'pushMessaging' },
 
             { u: 'enableFNEs', v: 'locationReplace' },
             { u: 'enableFNEs', v: 'transferShortcut' },
             { u: 'enableFNEs', v: 'determineSiteInstance' },
-            { u: 'enableFNEs', v: 'initialNavEntry' },
 
             { u: 'netStack', v: 'frameIOData' },
 
@@ -146,6 +144,7 @@ loadData(
 
             { u: 'tdiLaunch', v: 'extensionDevLaunch' },
             { u: 'tdiLaunch', v: 'printing' },
+            { u: 'tdiLaunch', v: 'screenOrientation' },
 
             { u: 'printing', v: 'pdfUtility' },
 
@@ -181,6 +180,7 @@ loadData(
             { u: 'miscCleanup', v: 'shareFNEs' },
             { u: 'shareFNEs', v: 'shareFNEsUnlessCloning' },
             { u: 'shareFNEs', v: 'restoreWithSharing' },
+            { u: 'miscCleanup', v: 'initialNavEntry' },
             { u: 'miscCleanup', v: 'auditGetRPH' },
             { u: 'miscCleanup', v: 'removeRVH' },
         ]
