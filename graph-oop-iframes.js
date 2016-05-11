@@ -7,7 +7,7 @@ loadData(
             { id: 'siteSubsetLaunch', value: { label: 'Isolate subset of sites launch', milestone: true } },
             { id: 'miscCleanup', value: { label: 'Ongoing Cleanup', milestone: true } },
 
-            // extensionDevLaunch
+            // extensionLaunch
             { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting', status: 'complete' } },
             { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '225940', owner: 'alexmos', status: 'complete' } },
             { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions', bug: '522302', owner: 'nasko', status: 'complete' } },
@@ -142,14 +142,14 @@ loadData(
             { u: 'disableSwappedout', v: 'webviewSwappedOut' },
 
 
-            { u: 'tdiLaunch', v: 'extensionDevLaunch' },
+            { u: 'tdiLaunch', v: 'extensionLaunch' },
             { u: 'tdiLaunch', v: 'printing' },
             { u: 'tdiLaunch', v: 'screenOrientation' },
 
             { u: 'printing', v: 'pdfUtility' },
 
 
-            { u: 'siteSubsetLaunch', v: 'extensionBetaLaunch' },
+            { u: 'siteSubsetLaunch', v: 'tdiLaunch' },
             { u: 'siteSubsetLaunch', v: 'allInputEvents' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec' },
