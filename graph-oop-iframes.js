@@ -69,7 +69,7 @@ loadData(
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236', weeksLeft: 6 } },
-            { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926', weeksLeft: 2 } },
+            { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926', owner: 'lfg', weeksLeft: 2 } },
 
             { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'lukasza', weeksLeft: 4 } },
             { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', owner: 'groby', weeksLeft: 10 } },
