@@ -82,3 +82,15 @@ body {
     fill: #bbb;
     font-size: 8pt;
 }
+
+#schedule {
+    display: none;
+    position: fixed;
+    top: 75px;
+    left: 15px;
+    width: 250px;
+    padding: 3px;
+    border: solid 1px;
+    background-color: #acf;
+    opacity: 0.9;
+}
