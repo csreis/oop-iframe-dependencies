@@ -22,7 +22,7 @@ loadData(
             { id: 'cspBug', value: { label: 'Fix CSP regression', bug: '585501', owner: 'lukasza', weeksLeft: 1 } },
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'alexmos', weeksLeft: 1 } },
             { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad', weeksLeft: 4 } },
-            { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', weeksLeft: 4 } },
+            { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', weeksLeft: 3 } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb', weeksLeft: 2 } },
             { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', weeksLeft: 2 } },
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
@@ -50,7 +50,7 @@ loadData(
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos' } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
-            { id: 'layoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 8 } },
+            { id: 'basiclayoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 2 } },
             { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default', bug: '579704', owner: 'nasko', status: 'complete' } },
             
             { id: 'disableSwappedout', value: { label: 'Disable swappedout://', bug: '357747', owner: 'nasko', status: 'complete' } },
@@ -64,6 +64,7 @@ loadData(
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig', weeksLeft: 8 } },
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
             { id: 'tdiTests', value: { label: 'TDI test coverage', owner: 'nick', weeksLeft: 2 } },
+            { id: 'moreLayoutTests', value: { label: 'Run more layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 8 } },
             { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', owner: 'nick', weeksLeft: 2 } },
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
@@ -144,7 +145,7 @@ loadData(
 
             { u: 'testsOnWaterfall', v: 'extensionTests' },
             { u: 'testsOnWaterfall', v: 'fyiBotTests' },
-            { u: 'testsOnWaterfall', v: 'layoutTests' },
+            { u: 'testsOnWaterfall', v: 'basicLayoutTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
 
             { u: 'disableSwappedout', v: 'messagePorts' },
@@ -164,6 +165,8 @@ loadData(
             { u: 'tdiLaunch', v: 'prerendering' },
             { u: 'tdiLaunch', v: 'domDistiller' },
             { u: 'tdiLaunch', v: 'textAutosizing' },
+
+            { u: 'tdiTests', v: 'moreLayoutTests' },
 
             { u: 'printing', v: 'pdfUtility' },
 
