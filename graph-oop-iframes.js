@@ -59,6 +59,7 @@ loadData(
 
             // tdiLaunch
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison', weeksLeft: 4 } },
+            { id: 'androidPaintBug', value: { label: 'Android rendering glitch', bug: '607224', weeksLeft: 2 } },
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick', weeksLeft: 2 } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', weeksLeft: 4 } },
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig', weeksLeft: 8 } },
@@ -154,6 +155,7 @@ loadData(
 
             { u: 'tdiLaunch', v: 'extensionLaunch' },
             { u: 'tdiLaunch', v: 'netStack' },
+            { u: 'tdiLaunch', v: 'androidPaintBug' },
             { u: 'tdiLaunch', v: 'consolidateProcesses' },
             { u: 'tdiLaunch', v: 'screenOrientation' },
             { u: 'tdiLaunch', v: 'printing' },
