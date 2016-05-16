@@ -34,7 +34,7 @@ loadData(
             { id: 'subBackForward', value: { label: 'Fix subframe back/forward', bug: '586324', owner: 'creis', status: 'complete' } },
             { id: 'updateTitleState', value: { label: 'Fix UpdateTitle/State', bug: '577449', owner: 'creis', weeksLeft: 1 } },
             { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis', weeksLeft: 3 } },
-            { id: 'loadDataBaseURL', value: { label: 'Fix LoadDataWithBaseURL test', bug: '612196', owner: 'creis', weeksLeft: 1 } },
+            { id: 'loadDataBaseURL', value: { label: 'Fix LoadDataWithBaseURL test', bug: '612196', owner: 'creis', weeksLeft: 0 } },
 
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza', weeksLeft: 2 } },
