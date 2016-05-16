@@ -26,7 +26,7 @@ loadData(
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb', weeksLeft: 2 } },
             { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', weeksLeft: 2 } },
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
-            { id: 'gestures', value: { label: 'Gesture support', owner: 'kenrb', weeksLeft: 2 } },
+            { id: 'gestures', value: { label: 'Gesture support', bug: '587023', owner: 'kenrb', weeksLeft: 1 } },
 
             { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
