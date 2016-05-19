@@ -25,7 +25,6 @@ loadData(
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', weeksLeft: 3 } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb', weeksLeft: 2 } },
             { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'lfg', weeksLeft: 1 } },
-            { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'gestures', value: { label: 'Gesture support', bug: '587023', owner: 'kenrb', status: 'complete' } },
 
             { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
@@ -74,6 +73,7 @@ loadData(
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236', weeksLeft: 6 } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926', owner: 'lfg', weeksLeft: 2 } },
 
+            { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'lukasza', weeksLeft: 4 } },
             { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', owner: 'groby', weeksLeft: 10 } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544', weeksLeft: 10 } },
@@ -137,7 +137,6 @@ loadData(
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'userGesture' },
             { u: 'blinkSupport', v: 'visibility' },
-            { u: 'blinkSupport', v: 'pushMessaging' },
             { u: 'blinkSupport', v: 'gestures' },
 
             { u: 'enableFNEs', v: 'locationReplace' },
@@ -166,6 +165,7 @@ loadData(
             { u: 'tdiLaunch', v: 'noTDIWebUI' },
             { u: 'tdiLaunch', v: 'cspReporting' },
             { u: 'tdiLaunch', v: 'allInputEvents' },
+            { u: 'tdiLaunch', v: 'pushMessaging' },
             { u: 'tdiLaunch', v: 'editStack' },
             { u: 'tdiLaunch', v: 'spellcheck' },
             { u: 'tdiLaunch', v: 'prerendering' },
