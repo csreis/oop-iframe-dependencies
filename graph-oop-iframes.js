@@ -71,7 +71,8 @@ loadData(
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236', weeksLeft: 6 } },
-            { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926', owner: 'lfg', weeksLeft: 2 } },
+            { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926', owner: 'lfg', weeksLeft: 1 } },
+            { id: 'touchSelection', value: { label: 'TouchSelectionController', bug: '470662', owner: 'wjmaclean', weeksLeft: 2 } },
 
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'lukasza', weeksLeft: 4 } },
@@ -178,6 +179,7 @@ loadData(
 
             { u: 'allInputEvents', v: 'dragNDrop' },
             { u: 'allInputEvents', v: 'pointerLock' },
+            { u: 'allInputEvents', v: 'touchSelection' },
 
 
             { u: 'siteSubsetLaunch', v: 'tdiLaunch' },
