@@ -41,6 +41,7 @@ loadData(
             
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick', weeksLeft: 1 } },
             { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg', status: 'complete' } },
+            { id: 'pluginDetection', value: { label: 'Plugin detection', bug: '612200', owner: 'alexmos', weeksLeft: 1 } },
             { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
             { id: 'beginFrame', value: { label: 'Unified BeginFrame', bug: '471411', owner: 'enne', status: 'complete' } },
 
@@ -67,6 +68,7 @@ loadData(
             { id: 'tdiTests', value: { label: 'TDI test coverage', owner: 'nick', weeksLeft: 2 } },
             { id: 'moreLayoutTests', value: { label: 'Run more layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 8 } },
             { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', owner: 'nick', weeksLeft: 2 } },
+            { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236', weeksLeft: 6 } },
@@ -114,6 +116,7 @@ loadData(
             { u: 'extensionLaunch', v: 'crossProcessPost' },
             { u: 'extensionLaunch', v: 'taskManagerOrder' },
             { u: 'extensionLaunch', v: 'flashAnimation' },
+            { u: 'extensionLaunch', v: 'pluginDetection' },
             { u: 'extensionLaunch', v: 'dialogs' },
             { u: 'extensionLaunch', v: 'beginFrame' },
             { u: 'extensionLaunch', v: 'accessibility' },
@@ -161,6 +164,7 @@ loadData(
             { u: 'tdiLaunch', v: 'printing' },
             { u: 'tdiLaunch', v: 'tdiTests' },
             { u: 'tdiLaunch', v: 'noTDIWebUI' },
+            { u: 'tdiLaunch', v: 'cspReporting' },
             { u: 'tdiLaunch', v: 'allInputEvents' },
             { u: 'tdiLaunch', v: 'editStack' },
             { u: 'tdiLaunch', v: 'spellcheck' },
