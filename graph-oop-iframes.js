@@ -66,6 +66,7 @@ loadData(
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
             { id: 'tdiTests', value: { label: 'TDI test coverage', owner: 'nick', weeksLeft: 2 } },
             { id: 'moreLayoutTests', value: { label: 'Run more layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 8 } },
+            { id: 'noNavUnload', value: { label: 'No navigation during unload', bug: '613244', owner: 'lfg', weeksLeft: 4 } },
             { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', owner: 'nick', weeksLeft: 2 } },
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
 
@@ -163,6 +164,7 @@ loadData(
             { u: 'tdiLaunch', v: 'screenOrientation' },
             { u: 'tdiLaunch', v: 'printing' },
             { u: 'tdiLaunch', v: 'tdiTests' },
+            { u: 'tdiLaunch', v: 'noNavUnload' },
             { u: 'tdiLaunch', v: 'noTDIWebUI' },
             { u: 'tdiLaunch', v: 'cspReporting' },
             { u: 'tdiLaunch', v: 'allInputEvents' },
