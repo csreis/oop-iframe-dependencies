@@ -79,7 +79,7 @@ loadData(
             { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'lukasza', weeksLeft: 4 } },
             { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', owner: 'groby', weeksLeft: 10 } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544', weeksLeft: 10 } },
-            { id: 'domDistiller', value: { label: 'DOM Distiller', weeksLeft: 10 } },
+            { id: 'domDistiller', value: { label: 'DOM Distiller', status: 'complete' } },
             { id: 'textAutosizing', value: { label: 'Text autosizing', weeksLeft: 6 } },
 
             // siteSubsetLaunch
