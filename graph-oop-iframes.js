@@ -24,7 +24,7 @@ loadData(
             { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad', weeksLeft: 4 } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', weeksLeft: 3 } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb', weeksLeft: 2 } },
-            { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', weeksLeft: 2 } },
+            { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'lfg', weeksLeft: 1 } },
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'gestures', value: { label: 'Gesture support', bug: '587023', owner: 'kenrb', status: 'complete' } },
 
