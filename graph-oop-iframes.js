@@ -19,7 +19,7 @@ loadData(
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark', status: 'complete' } },
             { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean', status: 'complete' } },
-            { id: 'cspBug', value: { label: 'Fix CSP regression', bug: '585501', owner: 'lukasza', weeksLeft: 1 } },
+            { id: 'cspBug', value: { label: 'Fix CSP regression', bug: '585501', owner: 'lukasza', status: 'complete' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'alexmos', weeksLeft: 1 } },
             { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad', weeksLeft: 4 } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', weeksLeft: 3 } },
