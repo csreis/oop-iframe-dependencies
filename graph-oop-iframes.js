@@ -40,7 +40,7 @@ loadData(
             
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick', weeksLeft: 1 } },
             { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg', status: 'complete' } },
-            { id: 'pluginDetection', value: { label: 'Plugin detection', bug: '612200', owner: 'alexmos', weeksLeft: 1 } },
+            { id: 'pluginDetection', value: { label: 'Plugin detection', bug: '612200', owner: 'alexmos', status: 'complete' } },
             { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
             { id: 'beginFrame', value: { label: 'Unified BeginFrame', bug: '471411', owner: 'enne', status: 'complete' } },
 
