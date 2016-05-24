@@ -91,7 +91,7 @@ loadData(
             { id: 'blockPermissions', value: { label: 'Block unauthorized site permissions', bug: '467150' } },
             { id: 'blockHTML5Storage', value: { label: 'Block unauthorized HTML5 storage', bug: '467150' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
-            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst', status: 'complete' } },
+            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst', weeksLeft: '2' } },
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
             { id: 'frameIOData', value: { label: 'FrameIOData', owner: 'nick' } },
 
