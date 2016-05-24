@@ -15,6 +15,7 @@ loadData(
             
             { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu', status: 'complete' } },
             { id: 'extensionKeepalive', value: { label: 'Extension keepalive count', bug: '612668', owner: 'nasko', weeksLeft: '2' } },
+            { id: 'appRendererKills', value: { label: 'App renderer kills', bug: '612711', owner: 'lazyboy', weeksLeft: '2' } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
@@ -40,6 +41,7 @@ loadData(
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza', weeksLeft: 2 } },
             
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick', weeksLeft: 1 } },
+            { id: 'secondDisplay', value: { label: 'OOPIF scale on 2nd display', owner: 'wjmaclean', weeksLeft: 1 } },
             { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg', status: 'complete' } },
             { id: 'pluginDetection', value: { label: 'Plugin detection', bug: '612200', owner: 'alexmos', status: 'complete' } },
             { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
@@ -115,11 +117,13 @@ loadData(
             { u: 'extensionLaunch', v: 'crossFrameScripting' },
             { u: 'extensionLaunch', v: 'extensionFTNIds' },
             { u: 'extensionLaunch', v: 'extensionKeepalive' },
+            { u: 'extensionLaunch', v: 'appRendererKills' },
             { u: 'extensionLaunch', v: 'blinkSupport' },
             { u: 'extensionLaunch', v: 'enableFNEs' },
             { u: 'extensionLaunch', v: 'determineSiteInstance' },
             { u: 'extensionLaunch', v: 'crossProcessPost' },
             { u: 'extensionLaunch', v: 'taskManagerOrder' },
+            { u: 'extensionLaunch', v: 'secondDisplay' },
             { u: 'extensionLaunch', v: 'flashAnimation' },
             { u: 'extensionLaunch', v: 'pluginDetection' },
             { u: 'extensionLaunch', v: 'dialogs' },
