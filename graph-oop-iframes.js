@@ -14,8 +14,8 @@ loadData(
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768', status: 'complete' } },
             
             { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu', status: 'complete' } },
-            { id: 'extensionKeepalive', value: { label: 'Extension keepalive count', bug: '612668', owner: 'nasko', weeksLeft: 2 } },
-            { id: 'appRendererKills', value: { label: 'App renderer kills', bug: '612711', owner: 'lazyboy', weeksLeft: 2 } },
+            { id: 'extensionKeepalive', value: { label: 'Extension keepalive count', bug: '612668', owner: 'nasko', weeksLeft: 1 } },
+            { id: 'appRendererKills', value: { label: 'App renderer kills', bug: '612711', owner: 'lazyboy', weeksLeft: 1 } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
