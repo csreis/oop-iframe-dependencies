@@ -25,7 +25,6 @@ loadData(
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'alexmos', status: 'complete' } },
             { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad', weeksLeft: 3 } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', status: 'complete' } },
-            { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb', weeksLeft: 2 } },
             { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'lfg', weeksLeft: 1 } },
             { id: 'gestures', value: { label: 'Gesture support', bug: '587023', owner: 'kenrb', status: 'complete' } },
 
@@ -76,6 +75,7 @@ loadData(
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
+            { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb', weeksLeft: 2 } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236', owner: 'paulmeyer', weeksLeft: 6 } },
             { id: 'tooltips', value: { label: 'Tooltips', bug: '609932', owner: 'paulmeyer', weeksLeft: 1 } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926', owner: 'lfg', weeksLeft: 1 } },
@@ -148,7 +148,6 @@ loadData(
             { u: 'blinkSupport', v: 'fullscreen' },
             { u: 'blinkSupport', v: 'ime' },
             { u: 'blinkSupport', v: 'find' },
-            { u: 'blinkSupport', v: 'userGesture' },
             { u: 'blinkSupport', v: 'visibility' },
             { u: 'blinkSupport', v: 'gestures' },
 
@@ -191,6 +190,7 @@ loadData(
 
             { u: 'printing', v: 'pdfUtility' },
 
+            { u: 'allInputEvents', v: 'userGesture' },
             { u: 'allInputEvents', v: 'dragNDrop' },
             { u: 'allInputEvents', v: 'tooltips' },
             { u: 'allInputEvents', v: 'pointerLock' },
