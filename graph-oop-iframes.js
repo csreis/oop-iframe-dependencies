@@ -27,6 +27,7 @@ loadData(
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', status: 'complete' } },
             { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'lfg', weeksLeft: 1 } },
             { id: 'gestures', value: { label: 'Gesture support', bug: '587023', owner: 'kenrb', status: 'complete' } },
+            { id: 'webviewFocus', value: { label: 'Focus in webview', bug: '600395', owner: 'avallee', weeksLeft: 2 } },
 
             { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
@@ -156,6 +157,7 @@ loadData(
             { u: 'blinkSupport', v: 'find' },
             { u: 'blinkSupport', v: 'visibility' },
             { u: 'blinkSupport', v: 'gestures' },
+            { u: 'blinkSupport', v: 'webviewFocus' },
 
             { u: 'enableFNEs', v: 'locationReplace' },
             { u: 'enableFNEs', v: 'transferShortcut' },
