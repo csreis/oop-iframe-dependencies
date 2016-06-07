@@ -72,6 +72,7 @@ loadData(
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick', weeksLeft: 2 } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', weeksLeft: 4 } },
+            { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'szager', weeksLeft: 6 } },
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig', weeksLeft: 8 } },
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
             { id: 'tdiTests', value: { label: 'TDI test coverage', owner: 'nick', weeksLeft: 2 } },
