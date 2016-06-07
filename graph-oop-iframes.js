@@ -78,6 +78,7 @@ loadData(
             { id: 'tdiTests', value: { label: 'TDI test coverage', owner: 'nick', weeksLeft: 2 } },
             { id: 'moreLayoutTests', value: { label: 'Run more layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 8 } },
             { id: 'noNavUnload', value: { label: 'No navigation during unload', bug: '613244', owner: 'lfg', weeksLeft: 4 } },
+            { id: 'uniqueNameBrowser', value: { label: 'Compute unique name in browser', bug: '616820', weeksLeft: 2 } },
             { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', owner: 'nick', weeksLeft: 2 } },
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
 
@@ -189,6 +190,7 @@ loadData(
             { u: 'tdiLaunch', v: 'printing' },
             { u: 'tdiLaunch', v: 'tdiTests' },
             { u: 'tdiLaunch', v: 'noNavUnload' },
+            { u: 'tdiLaunch', v: 'uniqueNameBrowser' },
             { u: 'tdiLaunch', v: 'noTDIWebUI' },
             { u: 'tdiLaunch', v: 'cspReporting' },
             { u: 'tdiLaunch', v: 'allInputEvents' },
