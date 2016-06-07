@@ -187,6 +187,7 @@ loadData(
             { u: 'tdiLaunch', v: 'v8RemoteContext' },
             { u: 'tdiLaunch', v: 'consolidateProcesses' },
             { u: 'tdiLaunch', v: 'screenOrientation' },
+            { u: 'tdiLaunch', v: 'intersectionObserver' },
             { u: 'tdiLaunch', v: 'printing' },
             { u: 'tdiLaunch', v: 'tdiTests' },
             { u: 'tdiLaunch', v: 'noNavUnload' },
