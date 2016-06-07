@@ -39,7 +39,7 @@ loadData(
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza' } },
 
-            { id: 'postTransfers', value: { label: 'POST via transfer', bug: '582211', owner: 'lukasza', status: 'complete' } },
+            { id: 'postTransfer', value: { label: 'POST via transfer', bug: '582211', owner: 'lukasza', status: 'complete' } },
             { id: 'postOpenURL', value: { label: 'POST via OpenURL', bug: '344348', owner: 'lukasza', weeksLeft: 2 } },
             { id: 'postRemoteFrame', value: { label: 'POST via RemoteFrame', bug: '585284', owner: 'lukasza', weeksLeft: 2 } },
             
