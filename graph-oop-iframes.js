@@ -37,7 +37,11 @@ loadData(
             { id: 'loadDataBaseURL', value: { label: 'Fix LoadDataWithBaseURL test', bug: '612196', owner: 'creis', weeksLeft: 0 } },
 
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
-            { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza', weeksLeft: 2 } },
+            { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza' } },
+
+            { id: 'postTransfers', value: { label: 'POST via transfer', bug: '582211', owner: 'lukasza', status: 'complete' } },
+            { id: 'postOpenURL', value: { label: 'POST via OpenURL', bug: '344348', owner: 'lukasza', weeksLeft: 2 } },
+            { id: 'postRemoteFrame', value: { label: 'POST via RemoteFrame', bug: '585284', owner: 'lukasza', weeksLeft: 2 } },
             
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', bug: '616897', owner: 'nick', weeksLeft: 1 } },
             { id: 'secondDisplay', value: { label: 'OOPIF scale on 2nd display', owner: 'wjmaclean', weeksLeft: 2 } },
@@ -53,7 +57,7 @@ loadData(
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos' } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
-            { id: 'basicLayoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 2 } },
+            { id: 'basicLayoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 1 } },
             { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default', bug: '579704', owner: 'nasko', status: 'complete' } },
             
             { id: 'disableSwappedout', value: { label: 'Disable swappedout://', bug: '357747', owner: 'nasko', status: 'complete' } },
@@ -157,6 +161,10 @@ loadData(
             { u: 'enableFNEs', v: 'updateTitleState' },
             { u: 'enableFNEs', v: 'pendingDeleteFTNs' },
             { u: 'enableFNEs', v: 'loadDataBaseURL' },
+
+            { u: 'crossProcessPost', v: 'postTransfer' },
+            { u: 'crossProcessPost', v: 'postOpenURL' },
+            { u: 'crossProcessPost', v: 'postRemoteFrame' },
 
             { u: 'testsOnWaterfall', v: 'extensionTests' },
             { u: 'testsOnWaterfall', v: 'fyiBotTests' },
