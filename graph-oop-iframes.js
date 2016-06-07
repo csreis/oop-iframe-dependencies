@@ -75,7 +75,8 @@ loadData(
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
-            { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236', weeksLeft: 6 } },
+            { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '609236', owner: 'paulmeyer' weeksLeft: 6 } },
+            { id: 'tooltips', value: { label: 'Tooltips', bug: '609932', owner: 'paulmeyer' weeksLeft: 1 } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926', owner: 'lfg', weeksLeft: 1 } },
             { id: 'touchSelection', value: { label: 'TouchSelectionController', bug: '470662', owner: 'wjmaclean', weeksLeft: 2 } },
             { id: 'win8Tablet', value: { label: 'Win8 Touch Keyboard', bug: '613326', weeksLeft: 2 } },
@@ -189,6 +190,7 @@ loadData(
             { u: 'printing', v: 'pdfUtility' },
 
             { u: 'allInputEvents', v: 'dragNDrop' },
+            { u: 'allInputEvents', v: 'tooltips' },
             { u: 'allInputEvents', v: 'pointerLock' },
             { u: 'allInputEvents', v: 'touchSelection' },
             { u: 'allInputEvents', v: 'win8Tablet' },
