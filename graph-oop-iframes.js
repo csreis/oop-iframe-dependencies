@@ -14,7 +14,7 @@ loadData(
             { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768', status: 'complete' } },
             
             { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu', status: 'complete' } },
-            { id: 'extensionKeepalive', value: { label: 'Extension keepalive count', bug: '612668', owner: 'nasko', complete: 'true' } },
+            { id: 'extensionKeepalive', value: { label: 'Extension keepalive count', bug: '612668', owner: 'nasko', status: 'complete' } },
             { id: 'appRendererKills', value: { label: 'App renderer kills', bug: '612711', owner: 'lazyboy', weeksLeft: 1 } },
 
             { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
@@ -42,6 +42,7 @@ loadData(
             
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick', weeksLeft: 1 } },
             { id: 'secondDisplay', value: { label: 'OOPIF scale on 2nd display', owner: 'wjmaclean', weeksLeft: 2 } },
+            { id: 'fileDialogs', value: { label: 'File dialogs in OOPIFs', weeksLeft: 2 } },
             { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg', status: 'complete' } },
             { id: 'pluginDetection', value: { label: 'Plugin detection', bug: '612200', owner: 'alexmos', status: 'complete' } },
             { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
@@ -126,6 +127,7 @@ loadData(
             { u: 'extensionLaunch', v: 'crossProcessPost' },
             { u: 'extensionLaunch', v: 'taskManagerOrder' },
             { u: 'extensionLaunch', v: 'secondDisplay' },
+            { u: 'extensionLaunch', v: 'fileDialogs' },
             { u: 'extensionLaunch', v: 'flashAnimation' },
             { u: 'extensionLaunch', v: 'pluginDetection' },
             { u: 'extensionLaunch', v: 'dialogs' },
