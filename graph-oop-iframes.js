@@ -40,7 +40,7 @@ loadData(
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza', weeksLeft: 2 } },
             
-            { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', owner: 'nick', weeksLeft: 1 } },
+            { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', bug: '616897', owner: 'nick', weeksLeft: 1 } },
             { id: 'secondDisplay', value: { label: 'OOPIF scale on 2nd display', owner: 'wjmaclean', weeksLeft: 2 } },
             { id: 'fileDialogs', value: { label: 'File dialogs in OOPIFs', weeksLeft: 2 } },
             { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg', status: 'complete' } },
