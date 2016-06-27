@@ -92,7 +92,7 @@ loadData(
             { id: 'win8Tablet', value: { label: 'Win8 Touch Keyboard', bug: '613326', weeksLeft: 2 } },
 
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
-            { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'lukasza', weeksLeft: 4 } },
+            { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'yosin', weeksLeft: 3 } },
             { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', owner: 'groby', weeksLeft: 10 } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544', weeksLeft: 10 } },
             { id: 'domDistiller', value: { label: 'DOM Distiller', status: 'complete' } },
