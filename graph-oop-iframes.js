@@ -46,7 +46,7 @@ loadData(
             
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', bug: '616897', owner: 'nick', weeksLeft: 1 } },
             { id: 'secondDisplay', value: { label: 'OOPIF scale on 2nd display', bug: '614215', owner: 'wjmaclean', weeksLeft: 2 } },
-            { id: 'fileDialogs', value: { label: 'File dialogs in OOPIFs', bug: '615575', owner: 'nasko', weeksLeft: 1 } },
+            { id: 'fileDialogs', value: { label: 'File dialogs in OOPIFs', bug: '615575', owner: 'nasko', status: 'complete' } },
             { id: 'downloadLinks', value: { label: 'Links that download', bug: '596283', owner: 'brettw', status: 'complete' } },
             { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg', status: 'complete' } },
             { id: 'pluginDetection', value: { label: 'Plugin detection', bug: '612200', owner: 'alexmos', status: 'complete' } },
