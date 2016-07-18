@@ -43,7 +43,7 @@ loadData(
             { id: 'postOpenURL', value: { label: 'POST via OpenURL', bug: '344348', owner: 'lukasza', status: 'complete' } },
             { id: 'postRemoteFrame', value: { label: 'POST via RemoteFrame', bug: '585284', owner: 'lukasza', status: 'complete' } },
             
-            { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', bug: '616897', owner: 'nick', weeksLeft: 1 } },
+            { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', bug: '616897', owner: 'nick', status: 'complete' } },
             { id: 'secondDisplay', value: { label: 'OOPIF scale on 2nd display', bug: '614215', owner: 'wjmaclean', weeksLeft: 2 } },
             { id: 'fileDialogs', value: { label: 'File dialogs in OOPIFs', bug: '615575', owner: 'nasko', status: 'complete' } },
             { id: 'downloadLinks', value: { label: 'Links that download', bug: '596283', owner: 'brettw', status: 'complete' } },
@@ -56,8 +56,7 @@ loadData(
             
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko', status: 'complete' } },
             { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
-            { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos' } },
-            { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
+            { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos', status: 'complete' } },
             { id: 'basicLayoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'lukasza', status: 'complete' } },
             { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default', bug: '579704', owner: 'nasko', status: 'complete' } },
             
@@ -77,6 +76,7 @@ loadData(
             { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig', weeksLeft: 8 } },
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
             { id: 'tdiTests', value: { label: 'TDI test coverage', owner: 'nick', weeksLeft: 2 } },
+            { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
             { id: 'moreLayoutTests', value: { label: 'Run more layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 8 } },
             { id: 'noNavUnload', value: { label: 'No navigation during unload', bug: '613244', owner: 'lfg', weeksLeft: 4 } },
             { id: 'uniqueNameBrowser', value: { label: 'Compute unique name in browser', bug: '616820', weeksLeft: 2 } },
@@ -173,7 +173,6 @@ loadData(
             { u: 'crossProcessPost', v: 'postRemoteFrame' },
 
             { u: 'testsOnWaterfall', v: 'extensionTests' },
-            { u: 'testsOnWaterfall', v: 'fyiBotTests' },
             { u: 'testsOnWaterfall', v: 'basicLayoutTests' },
             { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
 
@@ -204,6 +203,7 @@ loadData(
             { u: 'tdiLaunch', v: 'domDistiller' },
             { u: 'tdiLaunch', v: 'textAutosizing' },
 
+            { u: 'tdiTests', v: 'fyiBotTests' },
             { u: 'tdiTests', v: 'moreLayoutTests' },
 
             { u: 'printing', v: 'pdfUtility' },
