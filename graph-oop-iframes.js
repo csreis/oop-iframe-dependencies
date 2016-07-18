@@ -25,7 +25,7 @@ loadData(
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'alexmos', status: 'complete' } },
             { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad', weeksLeft: 3 } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', status: 'complete' } },
-            { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'lfg', weeksLeft: 1 } },
+            { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'lfg', status: 'complete' } },
             { id: 'gestures', value: { label: 'Gesture support', bug: '587023', owner: 'kenrb', status: 'complete' } },
             { id: 'webviewFocus', value: { label: 'Focus in webview', bug: '600395', owner: 'avallee', weeksLeft: 2 } },
 
@@ -35,9 +35,8 @@ loadData(
             { id: 'subBackForward', value: { label: 'Fix subframe back/forward', bug: '586324', owner: 'creis', status: 'complete' } },
             { id: 'updateTitleState', value: { label: 'Fix UpdateTitle/State', bug: '577449', owner: 'creis', weeksLeft: 1 } },
             { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis', weeksLeft: 2 } },
-            { id: 'loadDataBaseURL', value: { label: 'Fix LoadDataWithBaseURL test', bug: '612196', owner: 'creis', weeksLeft: 0 } },
+            { id: 'loadDataBaseURL', value: { label: 'Fix LoadDataWithBaseURL test', bug: '612196', owner: 'creis', status: 'complete' } },
 
-            { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza', status: 'complete' } },
 
             { id: 'postTransfer', value: { label: 'POST via transfer', bug: '582211', owner: 'lukasza', status: 'complete' } },
@@ -71,6 +70,7 @@ loadData(
             { id: 'androidPaintBug', value: { label: 'Android rendering glitch', bug: '607224', weeksLeft: 2 } },
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick', weeksLeft: 2 } },
+            { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', weeksLeft: 4 } },
             { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'szager', weeksLeft: 6 } },
             { id: 'transferrables', value: { label: 'Transferrables in postMessage', bug: '334408', weeksLeft: 4 } },
@@ -132,7 +132,6 @@ loadData(
             { u: 'extensionLaunch', v: 'appRendererKills' },
             { u: 'extensionLaunch', v: 'blinkSupport' },
             { u: 'extensionLaunch', v: 'enableFNEs' },
-            { u: 'extensionLaunch', v: 'determineSiteInstance' },
             { u: 'extensionLaunch', v: 'crossProcessPost' },
             { u: 'extensionLaunch', v: 'taskManagerOrder' },
             { u: 'extensionLaunch', v: 'secondDisplay' },
@@ -187,6 +186,7 @@ loadData(
             { u: 'tdiLaunch', v: 'androidPaintBug' },
             { u: 'tdiLaunch', v: 'v8RemoteContext' },
             { u: 'tdiLaunch', v: 'consolidateProcesses' },
+            { u: 'tdiLaunch', v: 'determineSiteInstance' },
             { u: 'tdiLaunch', v: 'screenOrientation' },
             { u: 'tdiLaunch', v: 'intersectionObserver' },
             { u: 'tdiLaunch', v: 'transferrables' },
