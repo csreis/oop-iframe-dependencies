@@ -34,8 +34,9 @@ loadData(
             { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis', status: 'complete' } },
             { id: 'subBackForward', value: { label: 'Fix subframe back/forward', bug: '586324', owner: 'creis', status: 'complete' } },
             { id: 'updateTitleState', value: { label: 'Fix UpdateTitle/State', bug: '577449', owner: 'creis', weeksLeft: 1 } },
-            { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis', weeksLeft: 2 } },
+            { id: 'navLayoutTests', value: { label: 'Fix navigation layout tests', bug: '623681', owner: 'creis', weeksLeft: 1 } },
             { id: 'loadDataBaseURL', value: { label: 'Fix LoadDataWithBaseURL test', bug: '612196', owner: 'creis', status: 'complete' } },
+            { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis', weeksLeft: 2 } },
 
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza', status: 'complete' } },
 
@@ -132,6 +133,7 @@ loadData(
             { u: 'extensionLaunch', v: 'appRendererKills' },
             { u: 'extensionLaunch', v: 'blinkSupport' },
             { u: 'extensionLaunch', v: 'enableFNEs' },
+            { u: 'extensionLaunch', v: 'pendingDeleteFTNs' },
             { u: 'extensionLaunch', v: 'crossProcessPost' },
             { u: 'extensionLaunch', v: 'taskManagerOrder' },
             { u: 'extensionLaunch', v: 'secondDisplay' },
@@ -165,7 +167,7 @@ loadData(
             { u: 'enableFNEs', v: 'transferShortcut' },
             { u: 'enableFNEs', v: 'subBackForward' },
             { u: 'enableFNEs', v: 'updateTitleState' },
-            { u: 'enableFNEs', v: 'pendingDeleteFTNs' },
+            { u: 'enableFNEs', v: 'navLayoutTests' },
             { u: 'enableFNEs', v: 'loadDataBaseURL' },
 
             { u: 'crossProcessPost', v: 'postTransfer' },
