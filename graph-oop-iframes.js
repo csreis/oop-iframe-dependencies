@@ -27,16 +27,14 @@ loadData(
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', status: 'complete' } },
             { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'lfg', status: 'complete' } },
             { id: 'gestures', value: { label: 'Gesture support', bug: '587023', owner: 'kenrb', status: 'complete' } },
-            { id: 'webviewFocus', value: { label: 'Focus in webview', bug: '600395', owner: 'avallee', weeksLeft: 2 } },
+            { id: 'webviewFocus', value: { label: 'Focus in webview', bug: '600395', owner: 'avallee', status: 'complete' } },
 
-            { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis' } },
+            { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis', status: 'complete' } },
             { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
             { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis', status: 'complete' } },
             { id: 'subBackForward', value: { label: 'Fix subframe back/forward', bug: '586324', owner: 'creis', status: 'complete' } },
-            { id: 'updateTitleState', value: { label: 'Fix UpdateTitle/State', bug: '577449', owner: 'creis', weeksLeft: 1 } },
-            { id: 'navLayoutTests', value: { label: 'Fix navigation layout tests', bug: '623681', owner: 'creis', weeksLeft: 1 } },
+            { id: 'navLayoutTests', value: { label: 'Fix navigation layout tests', bug: '623681', owner: 'creis', status: 'complete' } },
             { id: 'loadDataBaseURL', value: { label: 'Fix LoadDataWithBaseURL test', bug: '612196', owner: 'creis', status: 'complete' } },
-            { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis', weeksLeft: 2 } },
 
             { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza', status: 'complete' } },
 
@@ -81,6 +79,8 @@ loadData(
             { id: 'moreLayoutTests', value: { label: 'Run more layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 8 } },
             { id: 'noNavUnload', value: { label: 'No navigation during unload', bug: '613244', owner: 'lfg', weeksLeft: 4 } },
             { id: 'uniqueNameBrowser', value: { label: 'Compute unique name in browser', bug: '616820', weeksLeft: 2 } },
+            { id: 'updateTitleState', value: { label: 'Fix UpdateTitle/State', bug: '577449', owner: 'creis', weeksLeft: 1 } },
+            { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis', weeksLeft: 2 } },
             { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', owner: 'nick', weeksLeft: 2 } },
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
 
@@ -133,7 +133,6 @@ loadData(
             { u: 'extensionLaunch', v: 'appRendererKills' },
             { u: 'extensionLaunch', v: 'blinkSupport' },
             { u: 'extensionLaunch', v: 'enableFNEs' },
-            { u: 'extensionLaunch', v: 'pendingDeleteFTNs' },
             { u: 'extensionLaunch', v: 'crossProcessPost' },
             { u: 'extensionLaunch', v: 'taskManagerOrder' },
             { u: 'extensionLaunch', v: 'secondDisplay' },
@@ -166,7 +165,6 @@ loadData(
             { u: 'enableFNEs', v: 'locationReplace' },
             { u: 'enableFNEs', v: 'transferShortcut' },
             { u: 'enableFNEs', v: 'subBackForward' },
-            { u: 'enableFNEs', v: 'updateTitleState' },
             { u: 'enableFNEs', v: 'navLayoutTests' },
             { u: 'enableFNEs', v: 'loadDataBaseURL' },
 
@@ -195,6 +193,8 @@ loadData(
             { u: 'tdiLaunch', v: 'tdiTests' },
             { u: 'tdiLaunch', v: 'noNavUnload' },
             { u: 'tdiLaunch', v: 'uniqueNameBrowser' },
+            { u: 'tdiLaunch', v: 'updateTitleState' },
+            { u: 'tdiLaunch', v: 'pendingDeleteFTNs' },
             { u: 'tdiLaunch', v: 'noTDIWebUI' },
             { u: 'tdiLaunch', v: 'cspReporting' },
             { u: 'tdiLaunch', v: 'allInputEvents' },
