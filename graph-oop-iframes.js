@@ -23,7 +23,7 @@ loadData(
             { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean', status: 'complete' } },
             { id: 'cspBug', value: { label: 'Fix CSP regression', bug: '585501', owner: 'lukasza', status: 'complete' } },
             { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'alexmos', status: 'complete' } },
-            { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad', weeksLeft: 1 } },
+            { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad', status: 'complete' } },
             { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', status: 'complete' } },
             { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'lfg', status: 'complete' } },
             { id: 'gestures', value: { label: 'Gesture support', bug: '587023', owner: 'kenrb', status: 'complete' } },
@@ -43,7 +43,7 @@ loadData(
             { id: 'postRemoteFrame', value: { label: 'POST via RemoteFrame', bug: '585284', owner: 'lukasza', status: 'complete' } },
             
             { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', bug: '616897', owner: 'nick', status: 'complete' } },
-            { id: 'secondDisplay', value: { label: 'OOPIF scale on 2nd display', bug: '614215', owner: 'wjmaclean', weeksLeft: 1 } },
+            { id: 'secondDisplay', value: { label: 'OOPIF scale on 2nd display', bug: '614215', owner: 'wjmaclean', status: 'complete' } },
             { id: 'fileDialogs', value: { label: 'File dialogs in OOPIFs', bug: '615575', owner: 'nasko', status: 'complete' } },
             { id: 'downloadLinks', value: { label: 'Links that download', bug: '596283', owner: 'brettw', status: 'complete' } },
             { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg', status: 'complete' } },
