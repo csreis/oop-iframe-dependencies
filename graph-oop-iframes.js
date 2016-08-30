@@ -17,7 +17,7 @@ loadData(
             { id: 'extensionKeepalive', value: { label: 'Extension keepalive count', bug: '612668', owner: 'nasko', status: 'complete' } },
             { id: 'appRendererKills', value: { label: 'App renderer kills', bug: '612711', owner: 'lazyboy', status: 'complete' } },
 
-            { id: 'blinkSupport', value: { label: 'Blink OOPIF support' } },
+            { id: 'blinkSupport', value: { label: 'Blink OOPIF support', status: 'complete' } },
             { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
             { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark', status: 'complete' } },
             { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean', status: 'complete' } },
@@ -54,7 +54,7 @@ loadData(
             { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni', status: 'complete' } },
             
             { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko', status: 'complete' } },
-            { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall' } },
+            { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall', status: 'complete' } },
             { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos', status: 'complete' } },
             { id: 'basicLayoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'lukasza', status: 'complete' } },
             { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default', bug: '579704', owner: 'nasko', status: 'complete' } },
