@@ -2,66 +2,9 @@ loadData(
     {
         name: 'Chromium OOP iframes dependency graph',
         nodes: [
-            { id: 'extensionLaunch', value: { label: '--isolate-extensions launch', milestone: true, bug: '545200' } },
             { id: 'tdiLaunch', value: { label: '--top-document-isolation launch', milestone: true } },
             { id: 'siteSubsetLaunch', value: { label: 'Isolate subset of sites launch', milestone: true } },
             { id: 'miscCleanup', value: { label: 'Ongoing Cleanup', milestone: true } },
-
-            // extensionLaunch
-            { id: 'crossFrameScripting', value: { label: 'Cross-process frame scripting', status: 'complete' } },
-            { id: 'frameOpeners', value: { label: 'Updatable frame openers', bug: '225940', owner: 'alexmos', status: 'complete' } },
-            { id: 'extBrowsingInstance', value: { label: 'Fix BrowsingInstance for extensions', bug: '522302', owner: 'nasko', status: 'complete' } },
-            { id: 'crossProcessJS', value: { label: 'Remaining cross-process JS calls', bug: '128768', status: 'complete' } },
-            
-            { id: 'extensionFTNIds', value: { label: 'Use FTN IDs in extension APIs', bug: '432875', owner: 'robwu', status: 'complete' } },
-            { id: 'extensionKeepalive', value: { label: 'Extension keepalive count', bug: '612668', owner: 'nasko', status: 'complete' } },
-            { id: 'appRendererKills', value: { label: 'App renderer kills', bug: '612711', owner: 'lazyboy', status: 'complete' } },
-
-            { id: 'blinkSupport', value: { label: 'Blink OOPIF support', status: 'complete' } },
-            { id: 'pageSerialization', value: { label: 'Page serialization (saving)', bug: '526786', owner: 'lukasza', status: 'complete' } },
-            { id: 'mixedContent', value: { label: 'Mixed content checks', bug: '486936', owner: 'estark', status: 'complete' } },
-            { id: 'zoom', value: { label: 'Zoom level', bug: '528407', owner: 'wjmaclean', status: 'complete' } },
-            { id: 'cspBug', value: { label: 'Fix CSP regression', bug: '585501', owner: 'lukasza', status: 'complete' } },
-            { id: 'fullscreen', value: { label: 'Fullscreen', bug: '550497', owner: 'alexmos', status: 'complete' } },
-            { id: 'ime', value: { label: 'Input Method support', bug: '578168', owner: 'ekaramad', status: 'complete' } },
-            { id: 'find', value: { label: 'Find-in-page', bug: '457440', owner: 'paulmeyer', status: 'complete' } },
-            { id: 'visibility', value: { label: 'Page Visibility API', bug: '550967', owner: 'lfg', status: 'complete' } },
-            { id: 'gestures', value: { label: 'Gesture support', bug: '587023', owner: 'kenrb', status: 'complete' } },
-            { id: 'webviewFocus', value: { label: 'Focus in webview', bug: '600395', owner: 'avallee', status: 'complete' } },
-
-            { id: 'enableFNEs', value: { label: 'Enable FrameNavigationEntries', bug: '236848', owner: 'creis', status: 'complete' } },
-            { id: 'locationReplace', value: { label: 'Update location.replace', bug: '317872', owner: 'creis', status: 'complete' } },
-            { id: 'transferShortcut', value: { label: 'Shortcut the transfer logic', bug: '495161', owner: 'creis', status: 'complete' } },
-            { id: 'subBackForward', value: { label: 'Fix subframe back/forward', bug: '586324', owner: 'creis', status: 'complete' } },
-            { id: 'navLayoutTests', value: { label: 'Fix navigation layout tests', bug: '623681', owner: 'creis', status: 'complete' } },
-            { id: 'loadDataBaseURL', value: { label: 'Fix LoadDataWithBaseURL test', bug: '612196', owner: 'creis', status: 'complete' } },
-
-            { id: 'crossProcessPost', value: { label: 'Cross-process POST submissions', bug: '101395', owner: 'lukasza', status: 'complete' } },
-
-            { id: 'postTransfer', value: { label: 'POST via transfer', bug: '582211', owner: 'lukasza', status: 'complete' } },
-            { id: 'postOpenURL', value: { label: 'POST via OpenURL', bug: '344348', owner: 'lukasza', status: 'complete' } },
-            { id: 'postRemoteFrame', value: { label: 'POST via RemoteFrame', bug: '585284', owner: 'lukasza', status: 'complete' } },
-            
-            { id: 'taskManagerOrder', value: { label: 'Improve task manager sort order', bug: '616897', owner: 'nick', status: 'complete' } },
-            { id: 'secondDisplay', value: { label: 'OOPIF scale on 2nd display', bug: '614215', owner: 'wjmaclean', status: 'complete' } },
-            { id: 'fileDialogs', value: { label: 'File dialogs in OOPIFs', bug: '615575', owner: 'nasko', status: 'complete' } },
-            { id: 'downloadLinks', value: { label: 'Links that download', bug: '596283', owner: 'brettw', status: 'complete' } },
-            { id: 'flashAnimation', value: { label: 'Flash animation', bug: '593520', owner: 'lfg', status: 'complete' } },
-            { id: 'pluginDetection', value: { label: 'Plugin detection', bug: '612200', owner: 'alexmos', status: 'complete' } },
-            { id: 'dialogs', value: { label: 'Modal dialogs in OOPIFs', bug: '453893', owner: 'avi', status: 'complete' } },
-            { id: 'beginFrame', value: { label: 'Unified BeginFrame', bug: '471411', owner: 'enne', status: 'complete' } },
-
-            { id: 'accessibility', value: { label: 'OOPIF accessibility', bug: '475127', owner: 'dmazzoni', status: 'complete' } },
-            
-            { id: 'telemetry', value: { label: 'Telemetry (memory, plt, scroll)', bug: '462323', owner: 'nasko', status: 'complete' } },
-            { id: 'testsOnWaterfall', value: { label: 'Site Isolation tests on main waterfall', status: 'complete' } },
-            { id: 'extensionTests', value: { label: 'All tests pass with --isolate-extensions', bug: '532666', owner: 'alexmos', status: 'complete' } },
-            { id: 'basicLayoutTests', value: { label: 'Run layout tests with OOPIFs', bug: '477150', owner: 'lukasza', status: 'complete' } },
-            { id: 'tryJobsDefault', value: { label: 'Site Isolation try jobs by default', bug: '579704', owner: 'nasko', status: 'complete' } },
-            
-            { id: 'disableSwappedout', value: { label: 'Disable swappedout://', bug: '357747', owner: 'nasko', status: 'complete' } },
-            { id: 'messagePorts', value: { label: 'Update MessagePorts', bug: '473258', owner: 'sgurun', status: 'complete' } },
-            { id: 'webviewSwappedOut', value: { label: 'No swappedout in webview', owner: 'nasko', status: 'complete' } },
 
             // tdiLaunch
             { id: 'androidPaintBug', value: { label: 'Android rendering', bug: '607224', weeksLeft: 2 } },
@@ -129,60 +72,6 @@ loadData(
             { id: 'removeRVH', value: { label: 'Remove RenderViewHost' } },
         ],
         links: [
-            { u: 'extensionLaunch', v: 'crossFrameScripting' },
-            { u: 'extensionLaunch', v: 'extensionFTNIds' },
-            { u: 'extensionLaunch', v: 'extensionKeepalive' },
-            { u: 'extensionLaunch', v: 'appRendererKills' },
-            { u: 'extensionLaunch', v: 'blinkSupport' },
-            { u: 'extensionLaunch', v: 'enableFNEs' },
-            { u: 'extensionLaunch', v: 'crossProcessPost' },
-            { u: 'extensionLaunch', v: 'taskManagerOrder' },
-            { u: 'extensionLaunch', v: 'secondDisplay' },
-            { u: 'extensionLaunch', v: 'fileDialogs' },
-            { u: 'extensionLaunch', v: 'downloadLinks' },
-            { u: 'extensionLaunch', v: 'flashAnimation' },
-            { u: 'extensionLaunch', v: 'pluginDetection' },
-            { u: 'extensionLaunch', v: 'dialogs' },
-            { u: 'extensionLaunch', v: 'beginFrame' },
-            { u: 'extensionLaunch', v: 'accessibility' },
-            { u: 'extensionLaunch', v: 'telemetry' },
-            { u: 'extensionLaunch', v: 'testsOnWaterfall' },
-            { u: 'extensionLaunch', v: 'disableSwappedout' },
-
-            { u: 'crossFrameScripting', v: 'frameOpeners' },
-            { u: 'crossFrameScripting', v: 'crossProcessJS' },
-            { u: 'crossFrameScripting', v: 'extBrowsingInstance' },
-
-            { u: 'blinkSupport', v: 'pageSerialization' },
-            { u: 'blinkSupport', v: 'mixedContent' },
-            { u: 'blinkSupport', v: 'zoom' },
-            { u: 'blinkSupport', v: 'cspBug' },
-            { u: 'blinkSupport', v: 'fullscreen' },
-            { u: 'blinkSupport', v: 'ime' },
-            { u: 'blinkSupport', v: 'find' },
-            { u: 'blinkSupport', v: 'visibility' },
-            { u: 'blinkSupport', v: 'gestures' },
-            { u: 'blinkSupport', v: 'webviewFocus' },
-
-            { u: 'enableFNEs', v: 'locationReplace' },
-            { u: 'enableFNEs', v: 'transferShortcut' },
-            { u: 'enableFNEs', v: 'subBackForward' },
-            { u: 'enableFNEs', v: 'navLayoutTests' },
-            { u: 'enableFNEs', v: 'loadDataBaseURL' },
-
-            { u: 'crossProcessPost', v: 'postTransfer' },
-            { u: 'crossProcessPost', v: 'postOpenURL' },
-            { u: 'crossProcessPost', v: 'postRemoteFrame' },
-
-            { u: 'testsOnWaterfall', v: 'extensionTests' },
-            { u: 'testsOnWaterfall', v: 'basicLayoutTests' },
-            { u: 'testsOnWaterfall', v: 'tryJobsDefault' },
-
-            { u: 'disableSwappedout', v: 'messagePorts' },
-            { u: 'disableSwappedout', v: 'webviewSwappedOut' },
-
-
-            { u: 'tdiLaunch', v: 'extensionLaunch' },
             { u: 'tdiLaunch', v: 'androidPaintBug' },
             { u: 'tdiLaunch', v: 'consolidateProcesses' },
             { u: 'tdiLaunch', v: 'tdiTaskManager' },
