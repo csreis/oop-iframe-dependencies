@@ -65,11 +65,12 @@ loadData(
 
             // tdiLaunch
             { id: 'androidPaintBug', value: { label: 'Android rendering', bug: '607224', weeksLeft: 2 } },
-            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick', weeksLeft: 2 } },
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick', weeksLeft: 4 } },
+            { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'nick', weeksLeft: 2 } },
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
             { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'szager', weeksLeft: 6 } },
             { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', owner: 'nick', weeksLeft: 2 } },
-            { id: 'devToolsPhase2', value: { label: 'Single DevTools frontend for OOPIFs', owner: 'alph', weeksLeft: 10 } },
+            { id: 'devToolsPhase2', value: { label: 'Single DevTools frontend for OOPIFs', bug: '641777', owner: 'alph', weeksLeft: 10 } },
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison', weeksLeft: 4 } },
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', weeksLeft: 4 } },
@@ -184,6 +185,7 @@ loadData(
             { u: 'tdiLaunch', v: 'extensionLaunch' },
             { u: 'tdiLaunch', v: 'androidPaintBug' },
             { u: 'tdiLaunch', v: 'consolidateProcesses' },
+            { u: 'tdiLaunch', v: 'tdiTaskManager' },
             { u: 'tdiLaunch', v: 'v8RemoteContext' },
             { u: 'tdiLaunch', v: 'intersectionObserver' },
             { u: 'tdiLaunch', v: 'noTDIWebUI' },
