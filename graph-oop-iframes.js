@@ -12,7 +12,7 @@ loadData(
             { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'nick', weeksLeft: 2 } },
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
             { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'kenrb', weeksLeft: 3 } },
-            { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', owner: 'nick', weeksLeft: 2 } },
+            { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', bug: '665109', owner: 'avi', weeksLeft: 2 } },
             { id: 'devToolsPhase2', value: { label: 'Single DevTools frontend for OOPIFs', bug: '652783', owner: 'dgozman', weeksLeft: 10 } },
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison', weeksLeft: 4 } },
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
