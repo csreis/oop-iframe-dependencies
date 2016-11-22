@@ -9,7 +9,7 @@ loadData(
             // tdiLaunch
             { id: 'androidPaintBug', value: { label: 'Android rendering', bug: '607224', weeksLeft: 2 } },
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick', weeksLeft: 4 } },
-            { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'nick', weeksLeft: 2 } },
+            { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'avi', status: 'complete' } },
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
             { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'kenrb', weeksLeft: 3 } },
             { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', bug: '665109', owner: 'avi', weeksLeft: 2 } },
