@@ -26,7 +26,7 @@ loadData(
             { id: 'moreLayoutTests', value: { label: 'Run more layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 8 } },
             { id: 'noNavUnload', value: { label: 'No navigation during unload', bug: '613244', owner: 'lfg', weeksLeft: 4 } },
             { id: 'uniqueNameBrowser', value: { label: 'Compute unique name in browser', bug: '616820', weeksLeft: 2 } },
-            { id: 'updateTitleState', value: { label: 'Fix UpdateTitle/State', bug: '577449', owner: 'creis', weeksLeft: 1 } },
+            { id: 'updateTitleState', value: { label: 'Fix UpdateTitle/State', bug: '577449', owner: 'creis', status: 'complete' } },
             { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis', weeksLeft: 2 } },
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
 
