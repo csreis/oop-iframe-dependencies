@@ -18,7 +18,8 @@ loadData(
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', weeksLeft: 4 } },
             { id: 'transferrables', value: { label: 'Transferrables in postMessage', bug: '334408', weeksLeft: 4 } },
-            { id: 'printing', value: { label: 'OOPIF printing', bug: '455764', owner: 'thestig', weeksLeft: 8 } },
+            { id: 'printing', value: { label: 'Print pages with OOPIFs', bug: '455764', owner: 'weili', weeksLeft: 8 } },
+            { id: 'printAnOOPIF', value: { label: 'Print just an OOPIF', owner: 'thestig', bug: '631513', status: 'complete' } },
             { id: 'pdfUtility', value: { label: 'PDF in utility process', owner: 'thestig' } },
             { id: 'tdiTests', value: { label: 'TDI test coverage', owner: 'nick', weeksLeft: 2 } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
@@ -101,6 +102,7 @@ loadData(
             { u: 'tdiTests', v: 'fyiBotTests' },
             { u: 'tdiTests', v: 'moreLayoutTests' },
 
+            { u: 'printing', v: 'printAnOOPIF' },
             { u: 'printing', v: 'pdfUtility' },
 
             { u: 'allInputEvents', v: 'userGesture' },
