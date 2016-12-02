@@ -33,7 +33,7 @@ loadData(
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb', weeksLeft: 2 } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '647249', owner: 'paulmeyer', status: 'complete' } },
-            { id: 'tooltips', value: { label: 'Tooltips', bug: '609932', owner: 'paulmeyer', weeksLeft: 1 } },
+            { id: 'tooltips', value: { label: 'Tooltips', bug: '609932', owner: 'paulmeyer', status: 'complete' } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926', owner: 'lfg', status: 'complete' } },
             { id: 'touchSelection', value: { label: 'TouchSelectionController', bug: '470662', owner: 'wjmaclean', weeksLeft: 2 } },
             { id: 'win8Tablet', value: { label: 'Win8 Touch Keyboard', bug: '613326', weeksLeft: 2 } },
