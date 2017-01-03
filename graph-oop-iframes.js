@@ -53,7 +53,7 @@ loadData(
             { id: 'blockPasswords', value: { label: 'Block unauthorized passwords', bug: '467150', owner: 'lfg', status: 'complete' } },
             { id: 'blockPermissions', value: { label: 'Block unauthorized site permissions', bug: '467150' } },
             { id: 'blockHTML5Storage', value: { label: 'Block unauthorized HTML5 storage', bug: '467150' } },
-            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst', weeksLeft: '2' } },
+            { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst', weeksLeft: 2 } },
 
             { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
 
