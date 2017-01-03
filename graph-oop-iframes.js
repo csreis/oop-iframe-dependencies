@@ -36,7 +36,8 @@ loadData(
             { id: 'tooltips', value: { label: 'Tooltips', bug: '609932', owner: 'paulmeyer', status: 'complete' } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926', owner: 'lfg', status: 'complete' } },
             { id: 'touchSelection', value: { label: 'TouchSelectionController', bug: '470662', owner: 'wjmaclean', weeksLeft: 2 } },
-            { id: 'win8Tablet', value: { label: 'Win8 Touch Keyboard', bug: '613326', weeksLeft: 2 } },
+            { id: 'win8Tablet', value: { label: 'Win8 Touch Keyboard', bug: '613326', owner: 'ekaramad', status: 'complete' } },
+            { id: 'siblingScroll', value: { label: 'Scroll sibling iframes', bug: '675695', owner: 'kenrb', weeksLeft: 2 } },
 
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'yosin', status: 'complete' } },
@@ -111,6 +112,7 @@ loadData(
             { u: 'allInputEvents', v: 'pointerLock' },
             { u: 'allInputEvents', v: 'touchSelection' },
             { u: 'allInputEvents', v: 'win8Tablet' },
+            { u: 'allInputEvents', v: 'siblingScroll' },
 
 
             { u: 'siteSubsetLaunch', v: 'tdiLaunch' },
