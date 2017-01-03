@@ -48,7 +48,7 @@ loadData(
             { id: 'textAutosizing', value: { label: 'Text autosizing', weeksLeft: 6 } },
 
             // safeBrowsingLaunch
-            { id: 'enforceSiteSec2', value: { label: 'Enforce site isolation', owner: 'creis' } },
+            { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'creis' } },
             { id: 'isolateSiteSubset', value: { label: 'Isolate subset of sites', owner: 'creis' } },
             { id: 'blockPasswords', value: { label: 'Block unauthorized passwords', bug: '467150', owner: 'lfg', status: 'complete' } },
             { id: 'blockPermissions', value: { label: 'Block unauthorized site permissions', bug: '467150' } },
