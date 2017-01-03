@@ -120,7 +120,7 @@ loadData(
 
 
             { u: 'safeBrowsingLaunch', v: 'enforceSiteSec' },
-            { u: 'siteSubsetLaunch', v: 'enableProcessReuse' },
+            { u: 'safeBrowsingLaunch', v: 'enableProcessReuse' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
