@@ -55,13 +55,14 @@ loadData(
             { id: 'blockHTML5Storage', value: { label: 'Block unauthorized HTML5 storage', bug: '467150' } },
             { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst', weeksLeft: '2' } },
 
+            { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
+
             // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
             { id: 'enforceSiteSec2', value: { label: 'Enforce site isolation', owner: 'creis' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
             { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
 
-            { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
             { id: 'ntp', value: { label: 'OOPIF NTP support', bug: '566091' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
 
@@ -119,6 +120,7 @@ loadData(
 
 
             { u: 'safeBrowsingLaunch', v: 'enforceSiteSec' },
+            { u: 'siteSubsetLaunch', v: 'enableProcessReuse' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
@@ -131,7 +133,6 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'safeBrowsingLaunch' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec2' },
-            { u: 'siteSubsetLaunch', v: 'enableProcessReuse' },
             { u: 'siteSubsetLaunch', v: 'ntp' },
             { u: 'siteSubsetLaunch', v: 'chromeUrls' },
 
