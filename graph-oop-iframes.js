@@ -9,7 +9,7 @@ loadData(
 
             // tdiLaunch
             { id: 'androidPaintBug', value: { label: 'Android rendering', bug: '607224', weeksLeft: 2 } },
-            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick', weeksLeft: 4 } },
+            { id: 'consolidateTDIProcesses', value: { label: 'Consolidate TDI subframe processes', bug: '674215', owner: 'avi', weeksLeft: 1 } },
             { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'avi', status: 'complete' } },
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
             { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'kenrb', weeksLeft: 3 } },
@@ -56,6 +56,7 @@ loadData(
             { id: 'xfo', value: { label: 'X-Frame-Options', bug: '555418', owner: 'mkwst', weeksLeft: 2 } },
 
             { id: 'enableProcessReuse', value: { label: 'Don\'t disable process reuse', bug: '513036', owner: 'nick' } },
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', owner: 'nick', weeksLeft: 4 } },
 
             // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
@@ -79,7 +80,7 @@ loadData(
         ],
         links: [
             { u: 'tdiLaunch', v: 'androidPaintBug' },
-            { u: 'tdiLaunch', v: 'consolidateProcesses' },
+            { u: 'tdiLaunch', v: 'consolidateTDIProcesses' },
             { u: 'tdiLaunch', v: 'tdiTaskManager' },
             { u: 'tdiLaunch', v: 'v8RemoteContext' },
             { u: 'tdiLaunch', v: 'intersectionObserver' },
@@ -121,6 +122,7 @@ loadData(
 
             { u: 'safeBrowsingLaunch', v: 'enforceSiteSec' },
             { u: 'safeBrowsingLaunch', v: 'enableProcessReuse' },
+            { u: 'safeBrowsingLaunch', v: 'consolidateProcesses' },
 
             { u: 'enforceSiteSec', v: 'isolateSiteSubset' },
             { u: 'enforceSiteSec', v: 'blockPasswords' },
