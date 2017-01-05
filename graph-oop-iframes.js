@@ -51,6 +51,7 @@ loadData(
             { id: 'win8Tablet', value: { label: 'Win8 Touch Keyboard', bug: '613326', owner: 'ekaramad', status: 'complete' } },
             { id: 'siblingScroll', value: { label: 'Scroll sibling iframes', bug: '675695', owner: 'kenrb', weeksLeft: 2 } },
             { id: 'scrollToFocusedNode', value: { label: 'Scroll to focused node', bug: '676037', owner: 'ekaramad', weeksLeft: 2 } },
+            { id: 'macRubberBand', value: { label: 'Rubberband scrolling on Mac', bug: '628742', owner: 'wjmaclean', weeksLeft: 4 } },
 
             // safeBrowsingLaunch
             { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'creis' } },
