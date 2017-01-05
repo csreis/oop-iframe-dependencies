@@ -130,6 +130,7 @@ loadData(
             { u: 'allInputEvents', v: 'win8Tablet' },
             { u: 'allInputEvents', v: 'siblingScroll' },
             { u: 'allInputEvents', v: 'scrollToFocusedNode' },
+            { u: 'allInputEvents', v: 'macRubberBand' },
 
 
             { u: 'safeBrowsingLaunch', v: 'enforceSiteSec' },
