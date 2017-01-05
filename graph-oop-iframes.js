@@ -8,7 +8,6 @@ loadData(
             { id: 'miscCleanup', value: { label: 'Ongoing Cleanup', milestone: true } },
 
             // tdiLaunch
-            { id: 'androidPaintBug', value: { label: 'Android rendering', bug: '607224', weeksLeft: 2 } },
             { id: 'consolidateTDIProcesses', value: { label: 'Consolidate TDI subframe processes', bug: '674215', owner: 'avi', weeksLeft: 1 } },
             { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'avi', status: 'complete' } },
             { id: 'taskManagerAfterCrash', value: { label: 'Task Manager skips recreated OOPIFs', bug: '642958', owner: 'nick', weeksLeft: 1 } },
@@ -32,6 +31,8 @@ loadData(
             { id: 'updateTitleState', value: { label: 'Fix UpdateTitle/State', bug: '577449', owner: 'creis', status: 'complete' } },
             { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis', weeksLeft: 2 } },
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
+            { id: 'androidPaintBug', value: { label: 'Android rendering', bug: '607224', status: 'complete' } },
+            { id: 'androidHitTesting', value: { label: 'Android Hit Testing', bug: '491334', owner: 'kenrb', weeksLeft: 4 } },
             { id: 'androidIME', value: { label: 'Finish IME on Android', bug: '578168', owner: 'ekaramad' } },
 
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
@@ -84,7 +85,6 @@ loadData(
             { id: 'removeRVH', value: { label: 'Remove RenderViewHost' } },
         ],
         links: [
-            { u: 'tdiLaunch', v: 'androidPaintBug' },
             { u: 'tdiLaunch', v: 'consolidateTDIProcesses' },
             { u: 'tdiLaunch', v: 'tdiTaskManager' },
             { u: 'tdiLaunch', v: 'taskManagerAfterCrash' },
@@ -104,6 +104,8 @@ loadData(
             { u: 'tdiLaunch', v: 'updateTitleState' },
             { u: 'tdiLaunch', v: 'pendingDeleteFTNs' },
             { u: 'tdiLaunch', v: 'cspReporting' },
+            { u: 'tdiLaunch', v: 'androidPaintBug' },
+            { u: 'tdiLaunch', v: 'androidHitTesting' },
             { u: 'tdiLaunch', v: 'androidIME' },
             { u: 'tdiLaunch', v: 'allInputEvents' },
             { u: 'tdiLaunch', v: 'pushMessaging' },
