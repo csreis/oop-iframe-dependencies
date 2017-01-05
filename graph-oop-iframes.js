@@ -11,7 +11,7 @@ loadData(
             { id: 'androidPaintBug', value: { label: 'Android rendering', bug: '607224', weeksLeft: 2 } },
             { id: 'consolidateTDIProcesses', value: { label: 'Consolidate TDI subframe processes', bug: '674215', owner: 'avi', weeksLeft: 1 } },
             { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'avi', status: 'complete' } },
-            { id: 'taskManagerAfterCrash', value: { label: 'Task Manager shows recreated OOPIFs', bug: '642958', owner: 'nick', weeksLeft: 1 } },
+            { id: 'taskManagerAfterCrash', value: { label: 'Task Manager skips recreated OOPIFs', bug: '642958', owner: 'nick', weeksLeft: 1 } },
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
             { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'kenrb', weeksLeft: 3 } },
             { id: 'remoteToLocal', value: { label: 'Remote to local after OOPIF crash', bug: '487872', owner: 'alexmos', weeksLeft: 2 } },
