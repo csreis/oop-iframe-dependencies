@@ -8,7 +8,8 @@ loadData(
             { id: 'miscCleanup', value: { label: 'Ongoing Cleanup', milestone: true } },
 
             // tdiLaunch
-            { id: 'consolidateTDIProcesses', value: { label: 'Consolidate TDI subframe processes', bug: '674215', owner: 'avi', weeksLeft: 1 } },
+            { id: 'consolidateTDIProcesses', value: { label: 'Consolidate TDI subframe processes', bug: '674215', owner: 'avi', status: 'complete' } },
+            { id: 'tdiHostedAppSubframes', value: { label: 'No TDI OOPIFs for hosted apps', bug: '679011', weeksLeft: 1 } },
             { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'avi', status: 'complete' } },
             { id: 'taskManagerAfterCrash', value: { label: 'Task Manager skips recreated OOPIFs', bug: '642958', owner: 'nick', weeksLeft: 1 } },
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
@@ -86,6 +87,7 @@ loadData(
         ],
         links: [
             { u: 'tdiLaunch', v: 'consolidateTDIProcesses' },
+            { u: 'tdiLaunch', v: 'tdiHostedAppSubframes' },
             { u: 'tdiLaunch', v: 'tdiTaskManager' },
             { u: 'tdiLaunch', v: 'taskManagerAfterCrash' },
             { u: 'tdiLaunch', v: 'v8RemoteContext' },
