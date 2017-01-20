@@ -19,7 +19,7 @@ loadData(
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
             { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'kenrb', status: 'complete' } },
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
-            { id: 'remoteToLocal', value: { label: 'Remote to local after OOPIF crash', bug: '487872', owner: 'alexmos', weeksLeft: 2 } },
+            { id: 'remoteToLocal', value: { label: 'Remote to local after OOPIF crash', bug: '487872', owner: 'alexmos', status: 'complete' } },
             { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', bug: '665109', owner: 'avi', status: 'complete' } },
             { id: 'devToolsPhase2', value: { label: 'Single DevTools frontend for OOPIFs', bug: '652783', owner: 'dgozman', weeksLeft: 10 } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', weeksLeft: 4 } },
@@ -54,7 +54,7 @@ loadData(
             { id: 'touchSelection', value: { label: 'TouchSelectionController', bug: '470662', owner: 'wjmaclean', weeksLeft: 2 } },
             { id: 'pinchZoom', value: { label: 'Pinch zoom page scale', bug: '654917', owner: 'wjmaclean', weeksLeft: 2 } },
             { id: 'win8Tablet', value: { label: 'Win8 Touch Keyboard', bug: '613326', owner: 'ekaramad', status: 'complete' } },
-            { id: 'siblingScroll', value: { label: 'Scroll sibling iframes', bug: '675695', owner: 'kenrb', weeksLeft: 2 } },
+            { id: 'siblingScroll', value: { label: 'Scroll sibling iframes', bug: '675695', owner: 'kenrb', weeksLeft: 1 } },
             { id: 'scrollToFocusedNode', value: { label: 'Scroll to focused node', bug: '676037', owner: 'ekaramad', weeksLeft: 2 } },
             { id: 'macRubberBand', value: { label: 'Rubberband scrolling on Mac', bug: '628742', owner: 'wjmaclean', weeksLeft: 4 } },
 
