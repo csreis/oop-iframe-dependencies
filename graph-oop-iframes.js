@@ -9,11 +9,15 @@ loadData(
 
             // tdiLaunch
             { id: 'consolidateTDIProcesses', value: { label: 'Consolidate TDI subframe processes', bug: '674215', owner: 'avi', status: 'complete' } },
-            { id: 'tdiHostedAppSubframes', value: { label: 'No TDI OOPIFs for hosted apps', bug: '679011', weeksLeft: 1 } },
             { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'avi', status: 'complete' } },
+            { id: 'tdiDesktopTrial', value: { label: '64-bit Desktop Trial', owner: 'nick' } },
+            { id: 'tdiMetrics', value: { label: 'Select metrics', owner: 'nick' } },
+            { id: 'mediaLoading', value: { label: 'Media loading issues in OOPIFs', bug: '678206', owner: 'hubbe', weeksLeft: 3 } },
+            { id: 'tdiHostedAppSubframes', value: { label: 'No TDI OOPIFs for hosted apps', bug: '679011', weeksLeft: 1 } },
+            
             { id: 'taskManagerAfterCrash', value: { label: 'Task Manager skips recreated OOPIFs', bug: '642958', owner: 'nick', weeksLeft: 1 } },
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
-            { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'kenrb', weeksLeft: 3 } },
+            { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'kenrb', status: 'complete' } },
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'remoteToLocal', value: { label: 'Remote to local after OOPIF crash', bug: '487872', owner: 'alexmos', weeksLeft: 2 } },
             { id: 'noTDIWebUI', value: { label: 'No TDI OOPIFs on NTP/chrome://', bug: '665109', owner: 'avi', status: 'complete' } },
@@ -87,8 +91,8 @@ loadData(
         ],
         links: [
             { u: 'tdiLaunch', v: 'consolidateTDIProcesses' },
-            { u: 'tdiLaunch', v: 'tdiHostedAppSubframes' },
             { u: 'tdiLaunch', v: 'tdiTaskManager' },
+            { u: 'tdiLaunch', v: 'tdiDesktopTrial' },
             { u: 'tdiLaunch', v: 'taskManagerAfterCrash' },
             { u: 'tdiLaunch', v: 'v8RemoteContext' },
             { u: 'tdiLaunch', v: 'intersectionObserver' },
@@ -116,6 +120,10 @@ loadData(
             { u: 'tdiLaunch', v: 'netStack' },
             { u: 'tdiLaunch', v: 'determineSiteInstance' },
             { u: 'tdiLaunch', v: 'pendingDeleteFTNs' },
+
+            { u: 'tdiDesktopTrial', v: 'tdiMetrics' },
+            { u: 'tdiDesktopTrial', v: 'mediaLoading' },
+            { u: 'tdiDesktopTrial', v: 'tdiHostedAppSubframes' },
 
             { u: 'tdiTests', v: 'fyiBotTests' },
             { u: 'tdiTests', v: 'moreLayoutTests' },
