@@ -33,9 +33,13 @@ loadData(
             { id: 'noNavUnload', value: { label: 'No navigation during unload', bug: '613244', owner: 'lfg', status: 'complete' } },
             { id: 'updateTitleState', value: { label: 'Fix UpdateTitle/State', bug: '577449', owner: 'creis', status: 'complete' } },
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
+            
+            { id: 'tdiAndroid', value: { label: 'Android TDI Trial' } },
             { id: 'androidPaintBug', value: { label: 'Android rendering', bug: '607224', status: 'complete' } },
             { id: 'androidHitTesting', value: { label: 'Android Hit Testing', bug: '491334', owner: 'kenrb', weeksLeft: 4 } },
             { id: 'androidIME', value: { label: 'Finish IME on Android', bug: '578168', owner: 'ekaramad' } },
+            { id: 'androidSystem', value: { label: 'Android process model', owner: 'agrieve', weeksLeft: 10 } },
+            
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'yosin', status: 'complete' } },
             { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', bug: '638351', weeksLeft: 10 } },
@@ -107,9 +111,8 @@ loadData(
             { u: 'tdiLaunch', v: 'noNavUnload' },
             { u: 'tdiLaunch', v: 'updateTitleState' },
             { u: 'tdiLaunch', v: 'cspReporting' },
-            { u: 'tdiLaunch', v: 'androidPaintBug' },
-            { u: 'tdiLaunch', v: 'androidHitTesting' },
-            { u: 'tdiLaunch', v: 'androidIME' },
+            { u: 'tdiLaunch', v: 'tdiAndroid' },
+            { u: 'tdiLaunch', v: 'androidSystem' },
             { u: 'tdiLaunch', v: 'pushMessaging' },
             { u: 'tdiLaunch', v: 'editStack' },
             { u: 'tdiLaunch', v: 'spellcheck' },
@@ -124,6 +127,10 @@ loadData(
             { u: 'tdiDesktopTrial', v: 'tdiMetrics' },
             { u: 'tdiDesktopTrial', v: 'mediaLoading' },
             { u: 'tdiDesktopTrial', v: 'tdiHostedAppSubframes' },
+
+            { u: 'tdiAndroid', v: 'androidPaintBug' },
+            { u: 'tdiAndroid', v: 'androidHitTesting' },
+            { u: 'tdiAndroid', v: 'androidIME' },
 
             { u: 'tdiTests', v: 'fyiBotTests' },
             { u: 'tdiTests', v: 'moreLayoutTests' },
