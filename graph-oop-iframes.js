@@ -12,7 +12,7 @@ loadData(
             { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'avi', status: 'complete' } },
             { id: 'tdiDesktopTrial', value: { label: '64-bit Desktop Trial', owner: 'nick' } },
             { id: 'tdiMetrics', value: { label: 'Select metrics', owner: 'nick' } },
-            { id: 'mediaLoading', value: { label: 'Media loading issues in OOPIFs', bug: '678206', owner: 'hubbe', weeksLeft: 3 } },
+            { id: 'mediaLoading', value: { label: 'Media loading issues in OOPIFs', bug: '678206', owner: 'csharrison', status: 'complete' } },
             { id: 'tdiHostedAppSubframes', value: { label: 'No TDI OOPIFs for hosted apps', bug: '679011', weeksLeft: 1 } },
             
             { id: 'taskManagerAfterCrash', value: { label: 'Task Manager skips recreated OOPIFs', bug: '642958', owner: 'nick', weeksLeft: 1 } },
