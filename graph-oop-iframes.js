@@ -59,7 +59,7 @@ loadData(
             { id: 'touchSelection', value: { label: 'TouchSelectionController', bug: '470662', owner: 'wjmaclean', weeksLeft: 2 } },
             { id: 'pinchZoom', value: { label: 'Pinch zoom page scale', bug: '654917', owner: 'wjmaclean', weeksLeft: 2 } },
             { id: 'win8Tablet', value: { label: 'Win8 Touch Keyboard', bug: '613326', owner: 'ekaramad', status: 'complete' } },
-            { id: 'siblingScroll', value: { label: 'Scroll sibling iframes', bug: '675695', owner: 'kenrb', weeksLeft: 1 } },
+            { id: 'siblingScroll', value: { label: 'Scroll sibling iframes', bug: '675695', owner: 'kenrb', status: 'complete' } },
             { id: 'scrollCoordinator', value: { label: 'Update ScrollingCoordinator', bug: '680606', owner: 'kenrb', weeksLeft: 4 } },
             { id: 'scrollToFocusedNode', value: { label: 'Scroll to focused node', bug: '676037', owner: 'ekaramad', weeksLeft: 2 } },
             { id: 'macRubberBand', value: { label: 'Rubberband scrolling on Mac', bug: '628742', owner: 'wjmaclean', weeksLeft: 4 } },
