@@ -52,7 +52,7 @@ loadData(
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
             { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis', weeksLeft: 2 } },
 
-            { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'kenrb', weeksLeft: 2 } },
+            { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'alexmos', weeksLeft: 4 } },
             { id: 'dragNDrop', value: { label: 'Drag n Drop', bug: '647249', owner: 'paulmeyer', status: 'complete' } },
             { id: 'tooltips', value: { label: 'Tooltips', bug: '609932', owner: 'paulmeyer', status: 'complete' } },
             { id: 'pointerLock', value: { label: 'Pointer lock API', bug: '601926', owner: 'lfg', status: 'complete' } },
