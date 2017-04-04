@@ -43,7 +43,7 @@ loadData(
             
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'yosin', status: 'complete' } },
-            { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', bug: '638351', weeksLeft: 10 } },
+            { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', bug: '638351', owner: 'xiaocheng', weeksLeft: 4 } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544', weeksLeft: 10 } },
             { id: 'domDistiller', value: { label: 'DOM Distiller', status: 'complete' } },
             { id: 'textAutosizing', value: { label: 'Text autosizing', weeksLeft: 6 } },
