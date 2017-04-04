@@ -16,7 +16,7 @@ loadData(
             { id: 'tdiHostedAppSubframes', value: { label: 'No TDI OOPIFs for hosted apps', bug: '679011', weeksLeft: 1 } },
             
             { id: 'taskManagerAfterCrash', value: { label: 'Task Manager skips recreated OOPIFs', bug: '642958', owner: 'nick', weeksLeft: 1 } },
-            { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', weeksLeft: 4 } },
+            { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', status: 'complete' } },
             { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'kenrb', status: 'complete' } },
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'kenrb' } },
             { id: 'remoteToLocal', value: { label: 'Remote to local after OOPIF crash', bug: '487872', owner: 'alexmos', status: 'complete' } },
@@ -36,8 +36,8 @@ loadData(
             
             { id: 'tdiAndroid', value: { label: 'Android TDI Trial' } },
             { id: 'androidPaintBug', value: { label: 'Android rendering', bug: '607224', status: 'complete' } },
-            { id: 'androidHitTesting', value: { label: 'Android Hit Testing', bug: '491334', owner: 'kenrb', weeksLeft: 4 } },
-            { id: 'androidIME', value: { label: 'Finish IME on Android', bug: '578168', owner: 'ekaramad' } },
+            { id: 'androidHitTesting', value: { label: 'Android Hit Testing', bug: '491334', owner: 'kenrb', status: 'complete' } },
+            { id: 'androidIME', value: { label: 'Finish IME on Android', bug: '578168', owner: 'ekaramad', status: 'complete' } },
             { id: 'androidKills', value: { label: 'Update Android process killing', bug: '683377', owner: 'agrieve', weeksLeft: 4 } },
             { id: 'androidMemory', value: { label: 'Reduce memory on Android', bug: '512357', owner: 'agrieve', weeksLeft: 4 } },
             
@@ -79,7 +79,8 @@ loadData(
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
             { id: 'enforceSiteSec2', value: { label: 'Enforce site isolation', owner: 'creis' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
-            { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483' } },
+            { id: 'devToolsWebIframes', value: { label: 'Isolate web iframes in DevTools', bug: '570483', owner: 'davidsac', status: 'complete' } },
+            { id: 'devToolsExtensions', value: { label: 'DevTools extensions out of DevTools', bug: '706169' } },
 
             { id: 'ntp', value: { label: 'OOPIF NTP support', bug: '566091' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
@@ -174,6 +175,7 @@ loadData(
 
             { u: 'enforceSiteSec2', v: 'blockCrossSiteDocs' },
             { u: 'enforceSiteSec2', v: 'devToolsWebIframes' },
+            { u: 'enforceSiteSec2', v: 'devToolsExtesions' },
 
             { u: 'miscCleanup', v: 'renderWidgetSplit' },
             { u: 'miscCleanup', v: 'webFrameWidget' },
