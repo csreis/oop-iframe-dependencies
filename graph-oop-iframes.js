@@ -175,7 +175,7 @@ loadData(
 
             { u: 'enforceSiteSec2', v: 'blockCrossSiteDocs' },
             { u: 'enforceSiteSec2', v: 'devToolsWebIframes' },
-            { u: 'enforceSiteSec2', v: 'devToolsExtesions' },
+            { u: 'enforceSiteSec2', v: 'devToolsExtensions' },
 
             { u: 'miscCleanup', v: 'renderWidgetSplit' },
             { u: 'miscCleanup', v: 'webFrameWidget' },
