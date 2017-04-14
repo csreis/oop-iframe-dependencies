@@ -45,7 +45,8 @@ loadData(
             
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'editStack', value: { label: 'Edit stack', bug: '549334', owner: 'yosin', status: 'complete' } },
-            { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', bug: '638351', owner: 'xiaocheng', weeksLeft: 4 } },
+            { id: 'spellcheck', value: { label: 'OOPIF spellcheck support', bug: '638351', owner: 'xiaocheng', status: 'complete' } },
+            { id: 'windowPerformance', value: { label: 'window.performance API', bug: '608780', weeksLeft: 4 } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544', weeksLeft: 10 } },
             { id: 'domDistiller', value: { label: 'DOM Distiller', status: 'complete' } },
             { id: 'uniqueNameBrowser', value: { label: 'Compute unique name in browser', bug: '616820', weeksLeft: 2 } },
@@ -122,6 +123,7 @@ loadData(
             { u: 'tdiLaunch', v: 'pushMessaging' },
             { u: 'tdiLaunch', v: 'editStack' },
             { u: 'tdiLaunch', v: 'spellcheck' },
+            { u: 'tdiLaunch', v: 'windowPerformance' },
             { u: 'tdiLaunch', v: 'prerendering' },
             { u: 'tdiLaunch', v: 'domDistiller' },
             { u: 'tdiLaunch', v: 'uniqueNameBrowser' },
