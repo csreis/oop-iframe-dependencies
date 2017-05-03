@@ -10,10 +10,10 @@ loadData(
             // tdiLaunch
             { id: 'consolidateTDIProcesses', value: { label: 'Consolidate TDI subframe processes', bug: '674215', owner: 'avi', status: 'complete' } },
             { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'avi', status: 'complete' } },
-            { id: 'tdiDesktopTrial', value: { label: '64-bit Desktop Trial', owner: 'nick' } },
-            { id: 'tdiMetrics', value: { label: 'Select metrics', owner: 'nick' } },
+            { id: 'tdiDesktopTrial', value: { label: '64-bit Desktop Trial', owner: 'lukasza' } },
+            { id: 'tdiMetrics', value: { label: 'Select metrics', owner: 'lukasza' } },
             { id: 'mediaLoading', value: { label: 'Media loading issues in OOPIFs', bug: '678206', owner: 'csharrison', status: 'complete' } },
-            { id: 'tdiHostedAppSubframes', value: { label: 'No TDI OOPIFs for hosted apps', bug: '679011', weeksLeft: 1 } },
+            { id: 'tdiHostedAppSubframes', value: { label: 'No TDI OOPIFs for hosted apps', bug: '679011', owner: 'lukasza', weeksLeft: 2 } },
             
             { id: 'taskManagerAfterCrash', value: { label: 'Task Manager skips recreated OOPIFs', bug: '642958', owner: 'nick', weeksLeft: 1 } },
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', status: 'complete' } },
@@ -40,7 +40,7 @@ loadData(
             { id: 'androidIME', value: { label: 'Finish IME on Android', bug: '578168', owner: 'ekaramad', status: 'complete' } },
             { id: 'androidKills', value: { label: 'Update Android process killing', bug: '683377', owner: 'agrieve', weeksLeft: 4 } },
             { id: 'androidMemory', value: { label: 'Reduce memory on Android', bug: '512357', owner: 'agrieve', weeksLeft: 4 } },
-            { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', weeksLeft: 4 } },
+            { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'lfg', status: 'complete' } },
             { id: 'textAutosizing', value: { label: 'Text autosizing', weeksLeft: 6 } },
             
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
@@ -49,7 +49,7 @@ loadData(
             { id: 'windowPerformance', value: { label: 'window.performance API', bug: '608780', weeksLeft: 4 } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544', weeksLeft: 10 } },
             { id: 'domDistiller', value: { label: 'DOM Distiller', status: 'complete' } },
-            { id: 'uniqueNameBrowser', value: { label: 'Compute unique name in browser', bug: '616820', weeksLeft: 2 } },
+            { id: 'uniqueNameBrowser', value: { label: 'Compute unique name in browser', bug: '616820', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison', weeksLeft: 4 } },
             { id: 'determineSiteInstance', value: { label: 'Use proper RFHM check in CSRH', bug: '536906', owner: 'creis', weeksLeft: 2 } },
             { id: 'pendingDeleteFTNs', value: { label: 'Pending delete FTNs', bug: '609963', owner: 'creis', weeksLeft: 2 } },
