@@ -13,9 +13,9 @@ loadData(
             { id: 'tdiDesktopTrial', value: { label: '64-bit Desktop Trial', owner: 'lukasza' } },
             { id: 'tdiMetrics', value: { label: 'Select metrics', owner: 'lukasza' } },
             { id: 'mediaLoading', value: { label: 'Media loading issues in OOPIFs', bug: '678206', owner: 'csharrison', status: 'complete' } },
-            { id: 'tdiHostedAppSubframes', value: { label: 'No TDI OOPIFs for hosted apps', bug: '679011', owner: 'lukasza', weeksLeft: 2 } },
+            { id: 'tdiHostedAppSubframes', value: { label: 'No TDI OOPIFs for hosted apps', bug: '679011', owner: 'lukasza', status: 'complete' } },
             
-            { id: 'taskManagerAfterCrash', value: { label: 'Task Manager skips recreated OOPIFs', bug: '642958', owner: 'nick', weeksLeft: 1 } },
+            { id: 'taskManagerAfterCrash', value: { label: 'Task Manager skips recreated OOPIFs', bug: '642958', owner: 'lukasza', weeksLeft: 1 } },
             { id: 'v8RemoteContext', value: { label: 'V8 RemoteContext', bug: '527190', owner: 'dcheng', status: 'complete' } },
             { id: 'intersectionObserver', value: { label: 'IntersectionObserver', bug: '615156', owner: 'kenrb', status: 'complete' } },
             { id: 'gpuMemory', value: { label: 'Reduce OOPIF GPU memory', bug: '690605', weeksLeft: 4 } },
