@@ -10,7 +10,7 @@ loadData(
             // tdiLaunch
             { id: 'consolidateTDIProcesses', value: { label: 'Consolidate TDI subframe processes', bug: '674215', owner: 'avi', status: 'complete' } },
             { id: 'tdiTaskManager', value: { label: 'Task Manager shows TDI process', bug: '641776', owner: 'avi', status: 'complete' } },
-            { id: 'tdiDesktopTrial', value: { label: 'Desktop Trial', owner: 'lukasza' } },
+            { id: 'tdiDesktopTrial', value: { label: 'TDI Desktop Trial', owner: 'lukasza' } },
             { id: 'tdiMetrics', value: { label: 'Select metrics', owner: 'lukasza', status: 'complete' } },
             { id: 'mediaLoading', value: { label: 'Media loading issues in OOPIFs', bug: '678206', owner: 'csharrison', status: 'complete' } },
             { id: 'tdiHostedAppSubframes', value: { label: 'No TDI OOPIFs for hosted apps', bug: '679011', owner: 'lukasza', status: 'complete' } },
