@@ -41,6 +41,7 @@ loadData(
             { id: 'androidKills', value: { label: 'Update Android process killing', bug: '683377', owner: 'agrieve', weeksLeft: 4 } },
             { id: 'androidMemory', value: { label: 'Reduce memory on Android', bug: '512357', owner: 'agrieve', weeksLeft: 4 } },
             { id: 'screenOrientation', value: { label: 'Screen orientation', bug: '498287', owner: 'lfg', status: 'complete' } },
+            { id: 'tdiAwareAndroidOomMetrics', value: { label: 'TDI-aware OOM metrics', bug: '733383', weeksLeft: 2 } },
             { id: 'textAutosizing', value: { label: 'Text autosizing', weeksLeft: 6 } },
             
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
@@ -139,6 +140,7 @@ loadData(
             { u: 'tdiAndroid', v: 'androidHitTesting' },
             { u: 'tdiAndroid', v: 'androidIME' },
             { u: 'tdiAndroid', v: 'screenOrientation' },
+            { u: 'tdiAndroid', v: 'tdiAwareAndroidOomMetrics' },
             { u: 'tdiAndroid', v: 'textAutosizing' },
 
             { u: 'tdiTests', v: 'fyiBotTests' },
