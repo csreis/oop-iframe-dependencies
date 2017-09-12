@@ -49,6 +49,7 @@ loadData(
             { id: 'devToolsCookies', value: { label: 'Missing cookie panel for OOPIF requests', bug: '750898', owner: 'allada' } },
             { id: 'devToolsBindingsZero', value: { label: 'DevTools SetBindings Zero bug', bug: '733767', owner: 'alexmos' } },
 
+            { id: 'ntpIsolatedOrigin', value: { label: 'Isolated origins vs NTP', bug: '755595', weeksLeft: 4 } },
             { id: 'hostedAppModel', value: { label: 'Hosted app process model', bug: '718516', weeksLeft: 2 } },
             { id: 'gpuMemory', value: { label: 'Reduce OOPIF GPU memory', bug: '690605', owner: 'kenrb', weeksLeft: 4 } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'alexmos', weeksLeft: 4 } },
@@ -119,6 +120,7 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'printing' },
             { u: 'siteSubsetLaunch', v: 'netStack' },
             { u: 'siteSubsetLaunch', v: 'devToolsBugs' },
+            { u: 'siteSubsetLaunch', v: 'ntpIsolatedOrigin' },
             { u: 'siteSubsetLaunch', v: 'hostedAppModel' },
             { u: 'siteSubsetLaunch', v: 'gpuMemory' },
             { u: 'siteSubsetLaunch', v: 'userGesture' },
