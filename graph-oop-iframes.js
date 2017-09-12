@@ -11,7 +11,7 @@ loadData(
             
             // signinLaunch
             { id: 'createFrameCrash', value: { label: 'Fix CreateFrame crash', bug: '', owner: 'alexmos', weeksLeft: 1 } },
-            { id: 'passwordKill', value: { label: 'Fix passwords kill', bug: '', owner: 'alexmos', weeksLeft: 1 } },
+            { id: 'passwordKills', value: { label: 'Fix passwords kill', bug: '', owner: 'alexmos', weeksLeft: 1 } },
 
             
             // safeBrowsingLaunch
