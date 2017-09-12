@@ -34,6 +34,7 @@ loadData(
 
             // siteSubsetLaunch
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
+            { id: 'fullIsolationTrial', value: { label: 'Full site-per-process trial', bug: '760778', owner: 'lukasz' } },
             { id: 'enforceSiteSec2', value: { label: 'Enforce site isolation', owner: 'creis' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
             { id: 'contentScriptFetch', value: { label: 'Limit content script fetches', bug: '726951', owner: 'nick' } },
@@ -42,6 +43,10 @@ loadData(
             { id: 'gpuMemory', value: { label: 'Reduce OOPIF GPU memory', bug: '690605', owner: 'kenrb', weeksLeft: 4 } },
             { id: 'printing', value: { label: 'Print pages with OOPIFs', bug: '455764', owner: 'weili', weeksLeft: 8 } },
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison', weeksLeft: 4 } },
+            { id: 'devToolsBugs', value: { label: 'Fix DevTools OOPIF bugs' } },
+            { id: 'devToolsOopifPlzNav', value: { label: 'Missing OOPIF requests in PlzNav', bug: '750901', owner: 'caseq' } },
+            { id: 'devToolsCookies', value: { label: 'Missing cookie panel for OOPIF requests', bug: '750898', owner: 'allada' } },
+            { id: 'devToolsBindingsZero', value: { label: 'DevTools SetBindings Zero bug', bug: '733767', owner: 'alexmos' } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'alexmos', weeksLeft: 4 } },
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
@@ -102,11 +107,13 @@ loadData(
             
             { u: 'siteSubsetLaunch', v: 'safeBrowsingLaunch' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
+            { u: 'selectSiteSubset', v: 'fullIsolationTrial' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec2' },
             
             { u: 'siteSubsetLaunch', v: 'gpuMemory' },
             { u: 'siteSubsetLaunch', v: 'printing' },
             { u: 'siteSubsetLaunch', v: 'netStack' },
+            { u: 'siteSubsetLaunch', v: 'devTools' },
             { u: 'siteSubsetLaunch', v: 'userGesture' },
             { u: 'siteSubsetLaunch', v: 'cspReporting' },
             { u: 'siteSubsetLaunch', v: 'fyiBotTests' },
@@ -114,6 +121,10 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'uniqueNameBrowser' },
             { u: 'siteSubsetLaunch', v: 'pushMessaging' },
             { u: 'siteSubsetLaunch', v: 'prerendering' },
+
+            { u: 'devTools', v: 'devToolsOopifPlzNav' },
+            { u: 'devTools', v: 'devToolsCookies' },
+            { u: 'devTools', v: 'devToolsBindingsZero' },
 
             { u: 'enforceSiteSec2', v: 'blockCrossSiteDocs' },
             { u: 'enforceSiteSec2', v: 'contentScriptFetch' },
