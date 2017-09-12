@@ -29,6 +29,7 @@ loadData(
             { id: 'scrollBoundary', value: { label: 'Scroll boundary bug', bug: '760209', owner: 'sunyunjia', weeksLeft: 4 } },
 
             { id: 'windowPerformance', value: { label: 'window.performance API', bug: '608780', weeksLeft: 4 } },
+            { id: 'useCounter', value: { label: 'UseCounter with OOPIFs', bug: '716565', owner: 'loonybear', weeksLeft: 4 } },
             { id: 'browsingInstanceNamespaces', value: { label: 'BrowsingInstance namespaces', bug: '718489', owner: 'lukasza', weeksLeft: 4 } },
             { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', weeksLeft: 4 } },
             
@@ -55,6 +56,8 @@ loadData(
             { id: 'gpuMemory', value: { label: 'Reduce OOPIF GPU memory', bug: '690605', owner: 'kenrb', weeksLeft: 4 } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'alexmos', weeksLeft: 4 } },
             { id: 'localStorageDispatch', value: { label: 'localStorage event dispatch', bug: '753130', owner: '', weeksLeft: 4 } },
+            { id: 'headless', value: { label: 'Headless OOPIF support', bug: '715924', weeksLeft: 4 } },
+            { id: 'chromeDriver', value: { label: 'ChromeDriver OOPIF support', bug: '746266', weeksLeft: 4 } },
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
             { id: 'moreLayoutTests', value: { label: 'Run more layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 8 } },
@@ -77,6 +80,7 @@ loadData(
             // miscCleanup
             { id: 'ntp', value: { label: 'OOPIF NTP support', bug: '566091' } },
             { id: 'chromeUrls', value: { label: 'OOPIF chrome:// support' } },
+            { id: 'topDocument', value: { label: 'Remove top->document calls', bug: '466297' } },
             { id: 'renderWidgetSplit', value: { label: 'Split RenderView/RenderWidget', bug: '419087', owner: 'avi' } },
             { id: 'webFrameWidget', value: { label: 'Use WebFrameWidget in main frame', bug: '419087', owner: 'dcheng' } },
             { id: 'removeSwappedoutFilter', value: { label: 'Remove swapped out IPC filter', owner: 'lukasza', weeksLeft: 4 } },
@@ -99,6 +103,7 @@ loadData(
             { u: 'safeBrowsingLaunch', v: 'clickthroughIsolation' },
             { u: 'safeBrowsingLaunch', v: 'enforceSiteSec' },
             { u: 'safeBrowsingLaunch', v: 'windowPerformance' },
+            { u: 'safeBrowsingLaunch', v: 'useCounter' },
             { u: 'safeBrowsingLaunch', v: 'consolidateProcesses' },
             { u: 'consolidateProcesses', v: 'browsingInstanceNamespaces' },
 
@@ -128,6 +133,8 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'gpuMemory' },
             { u: 'siteSubsetLaunch', v: 'userGesture' },
             { u: 'siteSubsetLaunch', v: 'localStorageDispatch' },
+            { u: 'siteSubsetLaunch', v: 'headless' },
+            { u: 'siteSubsetLaunch', v: 'chromeDriver' },
             { u: 'siteSubsetLaunch', v: 'cspReporting' },
             { u: 'siteSubsetLaunch', v: 'fyiBotTests' },
             { u: 'siteSubsetLaunch', v: 'moreLayoutTests' },
@@ -157,6 +164,7 @@ loadData(
             
             { u: 'miscCleanup', v: 'ntp' },
             { u: 'miscCleanup', v: 'chromeUrls' },
+            { u: 'miscCleanup', v: 'topDocument' },
             { u: 'miscCleanup', v: 'renderWidgetSplit' },
             { u: 'miscCleanup', v: 'webFrameWidget' },
             { u: 'miscCleanup', v: 'removeSwappedoutFilter' },
