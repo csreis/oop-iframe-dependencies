@@ -18,7 +18,7 @@ loadData(
             { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'wjmaclean' } },
             { id: 'clickthroughIsolation', value: { label: 'Implement clickthrough isolation', owner: 'alexmos' } },
             { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'nasko' } },
-            { id: 'blockPermissions', value: { label: 'Block unauthorized site permissions', bug: '467150' } },
+            { id: 'blockPermissions', value: { label: 'Block unauthorized site permissions', bug: '' } },
             { id: 'blockHTML5Storage', value: { label: 'Block unauthorized HTML5 storage', bug: '467150' } },
 
             { id: 'pointerEvents', value: { label: 'Pointer Events', bug: '680714', owner: 'wjmaclean' } },
@@ -43,7 +43,7 @@ loadData(
             { id: 'contentScriptFetchMetrics', value: { label: 'Collect content script metrics', bug: '', owner: 'nick' } },
 
             { id: 'printing', value: { label: 'Print pages with OOPIFs', bug: '455764', owner: 'weili', weeksLeft: 8 } },
-            { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: 'csharrison', weeksLeft: 4 } },
+            { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: '', weeksLeft: 4 } },
             { id: 'devToolsBugs', value: { label: 'Fix DevTools OOPIF bugs' } },
             { id: 'devToolsOopifPlzNav', value: { label: 'Missing OOPIF requests in PlzNav', bug: '750901', owner: 'caseq' } },
             { id: 'devToolsCookies', value: { label: 'Missing cookie panel for OOPIF requests', bug: '750898', owner: 'allada' } },
