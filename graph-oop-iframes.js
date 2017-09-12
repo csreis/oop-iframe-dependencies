@@ -113,7 +113,7 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'gpuMemory' },
             { u: 'siteSubsetLaunch', v: 'printing' },
             { u: 'siteSubsetLaunch', v: 'netStack' },
-            { u: 'siteSubsetLaunch', v: 'devTools' },
+            { u: 'siteSubsetLaunch', v: 'devToolsBugs' },
             { u: 'siteSubsetLaunch', v: 'userGesture' },
             { u: 'siteSubsetLaunch', v: 'cspReporting' },
             { u: 'siteSubsetLaunch', v: 'fyiBotTests' },
@@ -122,9 +122,9 @@ loadData(
             { u: 'siteSubsetLaunch', v: 'pushMessaging' },
             { u: 'siteSubsetLaunch', v: 'prerendering' },
 
-            { u: 'devTools', v: 'devToolsOopifPlzNav' },
-            { u: 'devTools', v: 'devToolsCookies' },
-            { u: 'devTools', v: 'devToolsBindingsZero' },
+            { u: 'devToolsBugs', v: 'devToolsOopifPlzNav' },
+            { u: 'devToolsBugs', v: 'devToolsCookies' },
+            { u: 'devToolsBugs', v: 'devToolsBindingsZero' },
 
             { u: 'enforceSiteSec2', v: 'blockCrossSiteDocs' },
             { u: 'enforceSiteSec2', v: 'contentScriptFetch' },
