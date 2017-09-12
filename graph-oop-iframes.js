@@ -26,6 +26,7 @@ loadData(
             { id: 'pinchZoom', value: { label: 'Pinch zoom page scale', bug: '654917', owner: 'wjmaclean', weeksLeft: 2 } },
             { id: 'scrollToFocusedNode', value: { label: 'Scroll to focused node', bug: '676037', owner: 'ekaramad', weeksLeft: 2 } },
             { id: 'macRubberBand', value: { label: 'Rubberband scrolling on Mac', bug: '628742', owner: 'wjmaclean', weeksLeft: 4 } },
+            { id: 'scrollBoundary', value: { label: 'Scroll boundary bug', bug: '760209', owner: 'sunyunjia', weeksLeft: 4 } },
 
             { id: 'windowPerformance', value: { label: 'window.performance API', bug: '608780', weeksLeft: 4 } },
             { id: 'browsingInstanceNamespaces', value: { label: 'BrowsingInstance namespaces', bug: '718489', owner: 'lukasza', weeksLeft: 4 } },
@@ -105,6 +106,7 @@ loadData(
             { u: 'allInputEvents', v: 'pinchZoom' },
             { u: 'allInputEvents', v: 'scrollToFocusedNode' },
             { u: 'allInputEvents', v: 'macRubberBand' },
+            { u: 'allInputEvents', v: 'scrollBoundary' },
             
             { u: 'enforceSiteSec', v: 'blockPermissions' },
             { u: 'enforceSiteSec', v: 'blockHTML5Storage' },
