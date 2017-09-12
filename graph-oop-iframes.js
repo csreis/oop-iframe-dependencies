@@ -10,8 +10,8 @@ loadData(
 
             
             // signinLaunch
-            { id: 'createFrameCrash', value: { label: 'Fix CreateFrame crash', bug: '', owner: 'alexmos', weeksLeft: 1 } },
-            { id: 'passwordKills', value: { label: 'Fix passwords kill', bug: '', owner: 'alexmos', weeksLeft: 1 } },
+            { id: 'createFrameCrash', value: { label: 'Fix CreateFrame crash', bug: '756790', owner: 'alexmos', weeksLeft: 1 } },
+            { id: 'passwordKills', value: { label: 'Fix passwords kill', bug: '756587', owner: 'alexmos', weeksLeft: 1 } },
 
             
             // safeBrowsingLaunch
@@ -36,7 +36,7 @@ loadData(
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
             { id: 'enforceSiteSec2', value: { label: 'Enforce site isolation', owner: 'creis' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
-            { id: 'contentScriptFetch', value: { label: 'Limit content script fetches', bug: '', owner: 'nick' } },
+            { id: 'contentScriptFetch', value: { label: 'Limit content script fetches', bug: '726951', owner: 'nick' } },
             { id: 'contentScriptFetchMetrics', value: { label: 'Collect content script metrics', bug: '', owner: 'nick' } },
             
             { id: 'gpuMemory', value: { label: 'Reduce OOPIF GPU memory', bug: '690605', owner: 'kenrb', weeksLeft: 4 } },
