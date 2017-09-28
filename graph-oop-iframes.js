@@ -22,18 +22,22 @@ loadData(
 
 
             // siteSubsetLaunch
-            { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'wjmaclean' } },
-            { id: 'browsingInstanceNamespaces', value: { label: 'BrowsingInstance namespaces', bug: '718489', owner: 'lukasza', weeksLeft: 4 } },
-            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', weeksLeft: 4 } },
+            { id: 'oopifSupport', value: { label: 'General OOPIF support', owner: 'creis' } },
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
             { id: 'fullIsolationTrial', value: { label: 'Full site-per-process trial', bug: '760778', owner: 'lukasz' } },
             { id: 'enterprise', value: { label: 'Enterprise isolation policy', bug: '760761', owner: 'creis' } },
             { id: 'groupsOfSites', value: { label: 'Isolate groups of sites', bug: '760757', owner: 'creis' } },
+            { id: 'hostedAppModel', value: { label: 'Hosted app process model', bug: '718516', weeksLeft: 2 } },
+            { id: 'uniqueNameBrowser', value: { label: 'Compute unique name in browser', bug: '616820', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'enforceSiteSec2', value: { label: 'Enforce site isolation', owner: 'creis' } },
             { id: 'blockCrossSiteDocs', value: { label: 'Block cross-site documents', bug: '268640', owner: 'alexmos' } },
             { id: 'contentScriptFetch', value: { label: 'Limit content script fetches', bug: '726951', owner: 'nick' } },
             { id: 'contentScriptFetchMetrics', value: { label: 'Collect content script metrics', bug: '', owner: 'nick' } },
 
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', weeksLeft: 4 } },
+            { id: 'browsingInstanceNamespaces', value: { label: 'BrowsingInstance namespaces', bug: '718489', owner: 'lukasza', weeksLeft: 4 } },
+            
+            { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'wjmaclean' } },
             { id: 'hitTesting', value: { label: 'Hit testing corner cases', bug: '680714', owner: 'kenrb' } },
             { id: 'pointerEvents', value: { label: 'Pointer Events', bug: '680714', owner: 'wjmaclean' } },
             { id: 'touchSelection', value: { label: 'TouchSelectionController', bug: '470662', owner: 'wjmaclean', status: 'complete' } },
@@ -51,7 +55,6 @@ loadData(
             { id: 'devToolsBindingsZero', value: { label: 'DevTools SetBindings Zero bug', bug: '733767', owner: 'alexmos' } },
 
             { id: 'ntpIsolatedOrigin', value: { label: 'Isolated origins vs NTP', bug: '755595', weeksLeft: 4 } },
-            { id: 'hostedAppModel', value: { label: 'Hosted app process model', bug: '718516', weeksLeft: 2 } },
             { id: 'gpuMemory', value: { label: 'Reduce OOPIF GPU memory', bug: '690605', owner: 'kenrb', weeksLeft: 4 } },
             { id: 'userGesture', value: { label: 'UserGestureIndicator', bug: '589894', owner: 'alexmos', weeksLeft: 4 } },
             { id: 'localStorageDispatch', value: { label: 'localStorage event dispatch', bug: '753130', owner: '', weeksLeft: 4 } },
@@ -60,8 +63,6 @@ loadData(
             { id: 'cspReporting', value: { label: 'Report CSP violations', bug: '611232', weeksLeft: 1 } },
             { id: 'fyiBotTests', value: { label: 'All tests running on FYI bots', bug: '417518', owner: 'alexmos' } },
             { id: 'moreLayoutTests', value: { label: 'Run more layout tests with OOPIFs', bug: '477150', owner: 'lukasza', weeksLeft: 8 } },
-            
-            { id: 'uniqueNameBrowser', value: { label: 'Compute unique name in browser', bug: '616820', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'pushMessaging', value: { label: 'Push Messaging', owner: 'dcheng', weeksLeft: 2 } },
             { id: 'prerendering', value: { label: 'Prerendering support', bug: '440544', weeksLeft: 10 } },
 
@@ -105,15 +106,17 @@ loadData(
 
             
             { u: 'siteSubsetLaunch', v: 'safeBrowsingLaunch' },
-            { u: 'siteSubsetLaunch', v: 'allInputEvents' },
-            { u: 'siteSubsetLaunch', v: 'consolidateProcesses' },
-            { u: 'consolidateProcesses', v: 'browsingInstanceNamespaces' },
+            { u: 'siteSubsetLaunch', v: 'oopifSupport' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'selectSiteSubset', v: 'fullIsolationTrial' },
             { u: 'siteSubsetLaunch', v: 'enterprise' },
             { u: 'enterprise', v: 'groupsOfSites' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec2' },
-            
+
+            { u: 'oopifSupport', v: 'consolidateProcesses' },
+            { u: 'consolidateProcesses', v: 'browsingInstanceNamespaces' },
+
+            { u: 'oopifSupport', v: 'allInputEvents' },
             { u: 'allInputEvents', v: 'hitTesting' },
             { u: 'allInputEvents', v: 'pointerEvents' },
             { u: 'allInputEvents', v: 'touchSelection' },
@@ -121,28 +124,29 @@ loadData(
             { u: 'allInputEvents', v: 'scrollToFocusedNode' },
             { u: 'allInputEvents', v: 'scrollBoundary' },
 
-            { u: 'siteSubsetLaunch', v: 'printing' },
-            { u: 'siteSubsetLaunch', v: 'windowPerformance' },
-            { u: 'siteSubsetLaunch', v: 'useCounter' },
-            { u: 'siteSubsetLaunch', v: 'netStack' },
-            { u: 'siteSubsetLaunch', v: 'devToolsBugs' },
-            { u: 'siteSubsetLaunch', v: 'ntpIsolatedOrigin' },
-            { u: 'siteSubsetLaunch', v: 'hostedAppModel' },
-            { u: 'siteSubsetLaunch', v: 'gpuMemory' },
-            { u: 'siteSubsetLaunch', v: 'userGesture' },
-            { u: 'siteSubsetLaunch', v: 'localStorageDispatch' },
-            { u: 'siteSubsetLaunch', v: 'headless' },
-            { u: 'siteSubsetLaunch', v: 'chromeDriver' },
-            { u: 'siteSubsetLaunch', v: 'cspReporting' },
-            { u: 'siteSubsetLaunch', v: 'fyiBotTests' },
-            { u: 'siteSubsetLaunch', v: 'moreLayoutTests' },
-            { u: 'siteSubsetLaunch', v: 'uniqueNameBrowser' },
-            { u: 'siteSubsetLaunch', v: 'pushMessaging' },
-            { u: 'siteSubsetLaunch', v: 'prerendering' },
+            { u: 'oopifSupport', v: 'printing' },
+            { u: 'oopifSupport', v: 'windowPerformance' },
+            { u: 'oopifSupport', v: 'useCounter' },
+            { u: 'oopifSupport', v: 'netStack' },
+            { u: 'oopifSupport', v: 'devToolsBugs' },
+            { u: 'oopifSupport', v: 'ntpIsolatedOrigin' },
+            { u: 'oopifSupport', v: 'gpuMemory' },
+            { u: 'oopifSupport', v: 'userGesture' },
+            { u: 'oopifSupport', v: 'localStorageDispatch' },
+            { u: 'oopifSupport', v: 'headless' },
+            { u: 'oopifSupport', v: 'chromeDriver' },
+            { u: 'oopifSupport', v: 'cspReporting' },
+            { u: 'oopifSupport', v: 'fyiBotTests' },
+            { u: 'oopifSupport', v: 'moreLayoutTests' },
+            { u: 'oopifSupport', v: 'pushMessaging' },
+            { u: 'oopifSupport', v: 'prerendering' },
 
             { u: 'devToolsBugs', v: 'devToolsOopifPlzNav' },
             { u: 'devToolsBugs', v: 'devToolsCookies' },
             { u: 'devToolsBugs', v: 'devToolsBindingsZero' },
+
+            { u: 'siteSubsetLaunch', v: 'hostedAppModel' },
+            { u: 'siteSubsetLaunch', v: 'uniqueNameBrowser' },
 
             { u: 'enforceSiteSec2', v: 'blockCrossSiteDocs' },
             { u: 'enforceSiteSec2', v: 'contentScriptFetch' },
