@@ -10,31 +10,21 @@ loadData(
 
             
             // signinLaunch
-            { id: 'createFrameCrash', value: { label: 'Fix CreateFrame crash', bug: '756790', owner: 'alexmos', weeksLeft: 1 } },
-            { id: 'passwordKills', value: { label: 'Fix passwords kill', bug: '756587', owner: 'alexmos', weeksLeft: 1 } },
+            { id: 'createFrameCrash', value: { label: 'Fix CreateFrame crash/followup', bug: '756790', owner: 'alexmos', weeksLeft: 2 } },
+            { id: 'passwordKills', value: { label: 'Fix passwords kill', bug: '756587', owner: 'alexmos', status: 'complete' } },
 
             
             // safeBrowsingLaunch
-            { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'wjmaclean' } },
-            { id: 'clickthroughIsolation', value: { label: 'Implement clickthrough isolation', owner: 'alexmos' } },
+            { id: 'clickthroughIsolation', value: { label: 'Implement clickthrough isolation', owner: 'alexmos', weeksLeft: 4 } },
             { id: 'enforceSiteSec', value: { label: 'Enforce site isolation', owner: 'nasko' } },
             { id: 'blockPermissions', value: { label: 'Block unauthorized site permissions', bug: '' } },
             { id: 'blockHTML5Storage', value: { label: 'Block unauthorized HTML5 storage', bug: '467150' } },
 
-            { id: 'pointerEvents', value: { label: 'Pointer Events', bug: '680714', owner: 'wjmaclean' } },
-            { id: 'touchSelection', value: { label: 'TouchSelectionController', bug: '470662', owner: 'wjmaclean', weeksLeft: 2 } },
-            { id: 'pinchZoom', value: { label: 'Pinch zoom page scale', bug: '654917', owner: 'wjmaclean', weeksLeft: 2 } },
-            { id: 'scrollToFocusedNode', value: { label: 'Scroll to focused node', bug: '676037', owner: 'ekaramad', weeksLeft: 2 } },
-            { id: 'macRubberBand', value: { label: 'Rubberband scrolling on Mac', bug: '628742', owner: 'wjmaclean', weeksLeft: 4 } },
-            { id: 'scrollBoundary', value: { label: 'Scroll boundary bug', bug: '760209', owner: 'sunyunjia', weeksLeft: 4 } },
-
-            { id: 'windowPerformance', value: { label: 'window.performance API', bug: '608780', weeksLeft: 4 } },
-            { id: 'useCounter', value: { label: 'UseCounter with OOPIFs', bug: '716565', owner: 'loonybear', weeksLeft: 4 } },
-            { id: 'browsingInstanceNamespaces', value: { label: 'BrowsingInstance namespaces', bug: '718489', owner: 'lukasza', weeksLeft: 4 } },
-            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', weeksLeft: 4 } },
-            
 
             // siteSubsetLaunch
+            { id: 'allInputEvents', value: { label: 'All OOPIF input events work', owner: 'wjmaclean' } },
+            { id: 'browsingInstanceNamespaces', value: { label: 'BrowsingInstance namespaces', bug: '718489', owner: 'lukasza', weeksLeft: 4 } },
+            { id: 'consolidateProcesses', value: { label: 'Consolidate subframe processes', bug: '512560', weeksLeft: 4 } },
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
             { id: 'fullIsolationTrial', value: { label: 'Full site-per-process trial', bug: '760778', owner: 'lukasz' } },
             { id: 'enterprise', value: { label: 'Enterprise isolation policy', bug: '760761', owner: 'creis' } },
@@ -44,7 +34,16 @@ loadData(
             { id: 'contentScriptFetch', value: { label: 'Limit content script fetches', bug: '726951', owner: 'nick' } },
             { id: 'contentScriptFetchMetrics', value: { label: 'Collect content script metrics', bug: '', owner: 'nick' } },
 
+            { id: 'hitTesting', value: { label: 'Hit testing corner cases', bug: '680714', owner: 'kenrb' } },
+            { id: 'pointerEvents', value: { label: 'Pointer Events', bug: '680714', owner: 'wjmaclean' } },
+            { id: 'touchSelection', value: { label: 'TouchSelectionController', bug: '470662', owner: 'wjmaclean', status: 'complete' } },
+            { id: 'pinchZoom', value: { label: 'Pinch zoom page scale', bug: '654917', owner: 'wjmaclean', weeksLeft: 2 } },
+            { id: 'scrollToFocusedNode', value: { label: 'Scroll to focused node', bug: '676037', owner: 'ekaramad', weeksLeft: 2 } },
+            { id: 'scrollBoundary', value: { label: 'Scroll boundary bug', bug: '760209', owner: 'sunyunjia', weeksLeft: 4 } },
+
             { id: 'printing', value: { label: 'Print pages with OOPIFs', bug: '455764', owner: 'weili', weeksLeft: 8 } },
+            { id: 'windowPerformance', value: { label: 'window.performance API', bug: '608780', weeksLeft: 4 } },
+            { id: 'useCounter', value: { label: 'UseCounter with OOPIFs', bug: '716565', owner: 'loonybear', weeksLeft: 4 } },
             { id: 'netStack', value: { label: 'Downloads and net stack', bug: '472869', owner: '', weeksLeft: 4 } },
             { id: 'devToolsBugs', value: { label: 'Fix DevTools OOPIF bugs' } },
             { id: 'devToolsOopifPlzNav', value: { label: 'Missing OOPIF requests in PlzNav', bug: '750901', owner: 'caseq' } },
@@ -97,35 +96,34 @@ loadData(
             { u: 'signinLaunch', v: 'createFrameCrash' },
             { u: 'signinLaunch', v: 'passwordKills' },
             
-            
             { u: 'safeBrowsingLaunch', v: 'signinLaunch' },
-            { u: 'safeBrowsingLaunch', v: 'allInputEvents' },
             { u: 'safeBrowsingLaunch', v: 'clickthroughIsolation' },
             { u: 'safeBrowsingLaunch', v: 'enforceSiteSec' },
-            { u: 'safeBrowsingLaunch', v: 'windowPerformance' },
-            { u: 'safeBrowsingLaunch', v: 'useCounter' },
-            { u: 'safeBrowsingLaunch', v: 'consolidateProcesses' },
-            { u: 'consolidateProcesses', v: 'browsingInstanceNamespaces' },
-
-            { u: 'allInputEvents', v: 'pointerEvents' },
-            { u: 'allInputEvents', v: 'touchSelection' },
-            { u: 'allInputEvents', v: 'pinchZoom' },
-            { u: 'allInputEvents', v: 'scrollToFocusedNode' },
-            { u: 'allInputEvents', v: 'macRubberBand' },
-            { u: 'allInputEvents', v: 'scrollBoundary' },
             
             { u: 'enforceSiteSec', v: 'blockPermissions' },
             { u: 'enforceSiteSec', v: 'blockHTML5Storage' },
 
             
             { u: 'siteSubsetLaunch', v: 'safeBrowsingLaunch' },
+            { u: 'siteSubsetLaunch', v: 'allInputEvents' },
+            { u: 'siteSubsetLaunch', v: 'consolidateProcesses' },
+            { u: 'consolidateProcesses', v: 'browsingInstanceNamespaces' },
             { u: 'siteSubsetLaunch', v: 'selectSiteSubset' },
             { u: 'selectSiteSubset', v: 'fullIsolationTrial' },
             { u: 'siteSubsetLaunch', v: 'enterprise' },
             { u: 'enterprise', v: 'groupsOfSites' },
             { u: 'siteSubsetLaunch', v: 'enforceSiteSec2' },
             
+            { u: 'allInputEvents', v: 'hitTesting' },
+            { u: 'allInputEvents', v: 'pointerEvents' },
+            { u: 'allInputEvents', v: 'touchSelection' },
+            { u: 'allInputEvents', v: 'pinchZoom' },
+            { u: 'allInputEvents', v: 'scrollToFocusedNode' },
+            { u: 'allInputEvents', v: 'scrollBoundary' },
+
             { u: 'siteSubsetLaunch', v: 'printing' },
+            { u: 'siteSubsetLaunch', v: 'windowPerformance' },
+            { u: 'siteSubsetLaunch', v: 'useCounter' },
             { u: 'siteSubsetLaunch', v: 'netStack' },
             { u: 'siteSubsetLaunch', v: 'devToolsBugs' },
             { u: 'siteSubsetLaunch', v: 'ntpIsolatedOrigin' },
