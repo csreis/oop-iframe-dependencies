@@ -10,7 +10,7 @@ loadData(
 
             
             // signinLaunch
-            { id: 'createFrameCrash', value: { label: 'Fix CreateFrame crash/followup', bug: '756790', owner: 'alexmos', weeksLeft: 2 } },
+            { id: 'createFrameCrash', value: { label: 'Fix CreateFrame crash/followup', bug: '756790', owner: 'alexmos', status: 'complete' } },
             { id: 'passwordKills', value: { label: 'Fix passwords kill', bug: '756587', owner: 'alexmos', status: 'complete' } },
 
             
