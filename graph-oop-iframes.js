@@ -2,7 +2,7 @@ loadData(
     {
         name: 'Chromium OOP iframes dependency graph',
         nodes: [
-            { id: 'signinLaunch', value: { label: 'Sign-in Isolation launch', milestone: true } },
+            { id: 'signinLaunch', value: { label: 'Sign-in Isolation launch', milestone: true, bug: '739418' } },
             { id: 'safeBrowsingLaunch', value: { label: '--isolate-unsafe-sites launch', milestone: true, bug: '776870' } },
             { id: 'siteSubsetLaunch', value: { label: 'Isolate subset of sites launch', milestone: true } },
             { id: 'tdiLaunch', value: { label: '--top-document-isolation launch', milestone: true } },
