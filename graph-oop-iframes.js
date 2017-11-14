@@ -24,7 +24,7 @@ loadData(
             // siteSubsetLaunch
             { id: 'oopifSupport', value: { label: 'General OOPIF support', owner: 'creis' } },
             { id: 'selectSiteSubset', value: { label: 'Select sites to isolate', owner: 'creis' } },
-            { id: 'fullIsolationTrial', value: { label: 'Full site-per-process trial', bug: '760778', owner: 'lukasz' } },
+            { id: 'fullIsolationTrial', value: { label: 'Full site-per-process trial', bug: '760778', owner: 'lukasz', status: 'complete' } },
             { id: 'enterprise', value: { label: 'Enterprise isolation policy', bug: '760761', owner: 'creis' } },
             { id: 'groupsOfSites', value: { label: 'Isolate groups of sites', bug: '760757', owner: 'creis' } },
             { id: 'hostedAppModel', value: { label: 'Hosted app process model', bug: '718516', weeksLeft: 2 } },
